@@ -50,30 +50,30 @@
 * `current` [AWS DynamoDB Encryption SDK for Python](https://github.com/aws/aws-dynamodb-encryption-python) `GitHub` ![#90EE90](https://via.placeholder.com/15/90EE90/000000?text=+)
   * This client-side SDK helps you encrypt your sensitive data before sending it to DynamoDB.
 
-## Learn About Chalice (![#ADD8E6](https://via.placeholder.com/15/ADD8E6/000000?text=+) must read)
-* `02-2021` [Amplify Flutter is Now Generally Available: Build Beautiful Cross-Platform Apps](https://aws.amazon.com/blogs/aws/amplify-flutter-is-now-generally-available-build-beautiful-cross-platform-apps/) ![#ADD8E6](https://via.placeholder.com/15/ADD8E6/000000?text=+)
+## Learn About Chalice (![#2BBA9C](https://via.placeholder.com/15/2BBA9C/000000?text=+) must read)
+* `02-2021` [Amplify Flutter is Now Generally Available: Build Beautiful Cross-Platform Apps](https://aws.amazon.com/blogs/aws/amplify-flutter-is-now-generally-available-build-beautiful-cross-platform-apps/) ![#2BBA9C](https://via.placeholder.com/15/2BBA9C/000000?text=+)
 * `02-2021` [Using container images to run PyTorch models in AWS Lambda](https://aws.amazon.com/blogs/machine-learning/using-container-images-to-run-pytorch-models-in-aws-lambda/) `AWS Blog`
-* `01-2021` [AWS Chalice adds support for the AWS CDK](https://aws.amazon.com/blogs/developer/aws-chalice-adds-support-for-the-aws-cdk/) `AWS Blog`  ![#ADD8E6](https://via.placeholder.com/15/ADD8E6/000000?text=+)
-* `12-2020` [Packaging AWS Lambda functions as container images](https://acloudguru.com/blog/engineering/packaging-aws-lambda-functions-as-container-images) `A Cloud Guru` ![#ADD8E6](https://via.placeholder.com/15/ADD8E6/000000?text=+)
-* `12-2020` [New for AWS Lambda – 1ms Billing Granularity Adds Cost Savings](https://aws.amazon.com/blogs/aws/new-for-aws-lambda-1ms-billing-granularity-adds-cost-savings/) `AWS Blog` ![#ADD8E6](https://via.placeholder.com/15/ADD8E6/000000?text=+)
+* `01-2021` [AWS Chalice adds support for the AWS CDK](https://aws.amazon.com/blogs/developer/aws-chalice-adds-support-for-the-aws-cdk/) `AWS Blog`  ![#2BBA9C](https://via.placeholder.com/15/2BBA9C/000000?text=+)
+* `12-2020` [Packaging AWS Lambda functions as container images](https://acloudguru.com/blog/engineering/packaging-aws-lambda-functions-as-container-images) `A Cloud Guru` ![#2BBA9C](https://via.placeholder.com/15/2BBA9C/000000?text=+)
+* `12-2020` [New for AWS Lambda – 1ms Billing Granularity Adds Cost Savings](https://aws.amazon.com/blogs/aws/new-for-aws-lambda-1ms-billing-granularity-adds-cost-savings/) `AWS Blog` ![#2BBA9C](https://via.placeholder.com/15/2BBA9C/000000?text=+)
 * `12-2020` [Implementing version control using Amazon DynamoDB](https://aws.amazon.com/blogs/database/implementing-version-control-using-amazon-dynamodb/)
   * Includes code on `GitHub`: [Amazon DynamoDB Design Patterns](https://github.com/aws-samples/amazon-dynamodb-design-patterns)
-* `10-2020` [AWS Lambda Extensions: What are they and why do they matter](https://lumigo.io/blog/aws-lambda-extensions-what-are-they-and-why-do-they-matter/) `Lumigo` ![#ADD8E6](https://via.placeholder.com/15/ADD8E6/000000?text=+)
+* `10-2020` [AWS Lambda Extensions: What are they and why do they matter](https://lumigo.io/blog/aws-lambda-extensions-what-are-they-and-why-do-they-matter/) `Lumigo` ![#2BBA9C](https://via.placeholder.com/15/2BBA9C/000000?text=+)
   * Extensions allow you to monitor your Lambda functions, such as CPU and network utilization.
-* `10-2020` [AWS Chalice now supports Amazon Kinesis and Amazon DynamoDB Streams](https://aws.amazon.com/blogs/developer/aws-chalice-now-supports-amazon-kinesis-and-amazon-dynamodb-streams/) `AWS Blog` ![#ADD8E6](https://via.placeholder.com/15/ADD8E6/000000?text=+)
+* `10-2020` [AWS Chalice now supports Amazon Kinesis and Amazon DynamoDB Streams](https://aws.amazon.com/blogs/developer/aws-chalice-now-supports-amazon-kinesis-and-amazon-dynamodb-streams/) `AWS Blog` ![#2BBA9C](https://via.placeholder.com/15/2BBA9C/000000?text=+)
   * By integrating Chalice with DynamoDB streams, you can create sophisticated business logic using DynamoDB's ablity to trigger lambda functions based on events.
-* `09-2020` [Using AWS Lambda Layers with AWS Chalice](https://aws.amazon.com/blogs/developer/using-aws-lambda-layers-with-aws-chalice/) `AWS Blog` ![#ADD8E6](https://via.placeholder.com/15/ADD8E6/000000?text=+)
+* `09-2020` [Using AWS Lambda Layers with AWS Chalice](https://aws.amazon.com/blogs/developer/using-aws-lambda-layers-with-aws-chalice/) `AWS Blog` ![#2BBA9C](https://via.placeholder.com/15/2BBA9C/000000?text=+)
   * With automatic lambda layers, you don't have to wait for your large lambda layer to upload every time you deploy your application.
-* `08-2020` [Following serverless best practices with AWS Chalice and Lambda Powertools](https://aws.amazon.com/blogs/developer/following-serverless-best-practices-with-aws-chalice-and-lambda-powertools/) `AWS Blog` ![#ADD8E6](https://via.placeholder.com/15/ADD8E6/000000?text=+)
+* `08-2020` [Following serverless best practices with AWS Chalice and Lambda Powertools](https://aws.amazon.com/blogs/developer/following-serverless-best-practices-with-aws-chalice-and-lambda-powertools/) `AWS Blog` ![#2BBA9C](https://via.placeholder.com/15/2BBA9C/000000?text=+)
   * Allows you to ie trace with AWS X-Ray, and to create middleware - code that is called before, during and after each lambda invocation.
 * `08-2020` [Automatically deploy a Serverless REST API from GitHub with AWS Chalice](https://aws.amazon.com/blogs/developer/automatically-deploy-a-serverless-rest-api-from-github-with-aws-chalice/) `AWS Blog`
-* `07-2020` [Configuring custom domain names with AWS Chalice](https://aws.amazon.com/blogs/developer/configuring-custom-domain-names-with-aws-chalice/) `AWS Blog` ![#ADD8E6](https://via.placeholder.com/15/ADD8E6/000000?text=+)
+* `07-2020` [Configuring custom domain names with AWS Chalice](https://aws.amazon.com/blogs/developer/configuring-custom-domain-names-with-aws-chalice/) `AWS Blog` ![#2BBA9C](https://via.placeholder.com/15/2BBA9C/000000?text=+)
 * `06-2020` [AWS Chalice Now Supports YAML Templates](https://aws.amazon.com/blogs/developer/aws-chalice-now-supports-yaml-templates/) `AWS Blog`
   * Allows you to deploy Chalice using the AWS Serverless Application model, for integration with CloudFormation.
-* `06-2020` [AWS Solutions Constructs – A Library of Architecture Patterns for the AWS CDK](https://aws.amazon.com/blogs/aws/aws-solutions-constructs-a-library-of-architecture-patterns-for-the-aws-cdk/) `AWS Blog` ![#ADD8E6](https://via.placeholder.com/15/ADD8E6/000000?text=+)
-* `06-2020` [Using Amazon EFS for AWS Lambda in your serverless applications](https://aws.amazon.com/blogs/compute/using-amazon-efs-for-aws-lambda-in-your-serverless-applications/) `AWS Blog` ![#ADD8E6](https://via.placeholder.com/15/ADD8E6/000000?text=+)
+* `06-2020` [AWS Solutions Constructs – A Library of Architecture Patterns for the AWS CDK](https://aws.amazon.com/blogs/aws/aws-solutions-constructs-a-library-of-architecture-patterns-for-the-aws-cdk/) `AWS Blog` ![#2BBA9C](https://via.placeholder.com/15/2BBA9C/000000?text=+)
+* `06-2020` [Using Amazon EFS for AWS Lambda in your serverless applications](https://aws.amazon.com/blogs/compute/using-amazon-efs-for-aws-lambda-in-your-serverless-applications/) `AWS Blog` ![#2BBA9C](https://via.placeholder.com/15/2BBA9C/000000?text=+)
   * A building block for mounting an Elastic File System with Chalice, which should be combined with CDK support.
-* `05-2020` [Introducing the AWS Chalice test client](https://aws.amazon.com/blogs/developer/introducing-the-new-test-client-for-aws-chalice/) `AWS Blog` ![#ADD8E6](https://via.placeholder.com/15/ADD8E6/000000?text=+)
+* `05-2020` [Introducing the AWS Chalice test client](https://aws.amazon.com/blogs/developer/introducing-the-new-test-client-for-aws-chalice/) `AWS Blog` ![#2BBA9C](https://via.placeholder.com/15/2BBA9C/000000?text=+)
 * `02-2020` [Painless AWS Chalice Application Debug](https://medium.com/cyberark-engineering/painless-aws-chalice-application-debug-90534e33cf76) `Medium`
 * `03-2019` [Modularizing a Chalice Application for Teams](https://medium.com/tensoriot/modularizing-a-chalice-application-for-teams-f716f496b94b) `Medium`
   * How to leverage the `chalicelib` directory to enable a team of developers to work on Chalice.
@@ -86,7 +86,7 @@
 * `current` [Agave: REST API for Chalice BluePrints](https://github.com/cuenca-mx/agave)
 * `current` [aws-chalice-swagger: AWS Chalice template project with Swagger UI](https://github.com/samuelkhtu/aws-chalice-swagger) `GitHub`
   * Chalice comes with Swagger support, this project shows you how to use it.
-* `01-2021` [Lambda Multi-threading in Chalice](https://github.com/vumdao/multithread-in-lambda) ![#ADD8E6](https://via.placeholder.com/15/ADD8E6/000000?text=+)
+* `01-2021` [Lambda Multi-threading in Chalice](https://github.com/vumdao/multithread-in-lambda) ![#2BBA9C](https://via.placeholder.com/15/2BBA9C/000000?text=+)
   * Lambda functions can have up to 6 vCPU cores and 10GB RAM, this simple example shows how to use a map/reduce across cores in Chalice.
 * `12-2020` [chalice-cicd-app: Deploy Chalice using AWS CodeStar via the AWS CDK](https://github.com/folksgl/chalice-cicd-app) `GitHub`
 * `11-2020` [aws-chalice-boilerplate](https://github.com/GabrielTavares99/aws-chalice-boilerplate) `GitHub`
@@ -96,7 +96,7 @@
 * `11-2020` ~~[Chalice + LocalStack (doesn't work yet)](https://github.com/localstack/chalice-local)~~
 * `08-2020` [chalice-extended-action: Automated deployment of your Chalice application via GitHub Actions](https://github.com/jayef0/chalice-extended-action) `GitHub`
 * `06-2020` [pytest-chalice: A set of py.test fixtures for AWS Chalice](https://github.com/studio3104/pytest-chalice)
-* `02-2020` [chalice-cognito-auth: A library for setting up login routes in a Chalice app](https://github.com/stealthycoin/chalice-cognito-auth)  ![#ADD8E6](https://via.placeholder.com/15/ADD8E6/000000?text=+)
+* `02-2020` [chalice-cognito-auth: A library for setting up login routes in a Chalice app](https://github.com/stealthycoin/chalice-cognito-auth)  ![#2BBA9C](https://via.placeholder.com/15/2BBA9C/000000?text=+)
   * Connect Chalice to a Cognito user pool for single-sign on (SSO).
 * `10-2019` [Domovoi - Extension to Chalice that supports Automatic Load Balancing](https://github.com/cloud-utils/domovoi) `GitHub`
 * `01-2019` [Damn Vulnerable Functions as a Service](https://github.com/we45/DVFaaS-Damn-Vulnerable-Functions-as-a-Service) `GitHub`
@@ -112,9 +112,9 @@
 ### Chalice Documentation
 
 * [How to create pure Lambda functions in Chalice](https://aws.github.io/chalice/topics/purelambda)
-* [Continuous Deployment with Chalice](https://aws.github.io/chalice/topics/cd) ![#ADD8E6](https://via.placeholder.com/15/ADD8E6/000000?text=+)
+* [Continuous Deployment with Chalice](https://aws.github.io/chalice/topics/cd) ![#2BBA9C](https://via.placeholder.com/15/2BBA9C/000000?text=+)
   * Chalice has support for dev/stage/prod out-of-the-box, in addition to CodeBuild, CodeDeploy and CodePipeline.
-* [Configuration File](https://aws.github.io/chalice/topics/configfile.html) ![#ADD8E6](https://via.placeholder.com/15/ADD8E6/000000?text=+)
+* [Configuration File](https://aws.github.io/chalice/topics/configfile.html) ![#2BBA9C](https://via.placeholder.com/15/2BBA9C/000000?text=+)
   * By setting `api_gateway_endpoint_type` you can deploy into a VPC. 
 
 ### Paid Tracing
@@ -130,8 +130,8 @@
 ### Misc
 * `current` [cdk.dev Slack channel](https://cdk.dev/) `cdk.dev`
   * There are thousands of people in this CDK Slack channel.
-* `current` [Steampipe](https://steampipe.io/) `steampipe.io` ![#ADD8E6](https://via.placeholder.com/15/ADD8E6/000000?text=+)
+* `current` [Steampipe](https://steampipe.io/) `steampipe.io` ![#2BBA9C](https://via.placeholder.com/15/2BBA9C/000000?text=+)
   * Steampipe allows you to query your AWS infrastructure, IAM policies, etc., using SQL. 
-* `current` [Click](https://click.palletsprojects.com/en/7.x/) `PalletsProjects` ![#ADD8E6](https://via.placeholder.com/15/ADD8E6/000000?text=+)
+* `current` [Click](https://click.palletsprojects.com/en/7.x/) `PalletsProjects` ![#2BBA9C](https://via.placeholder.com/15/2BBA9C/000000?text=+)
   * You can pair Flask's Click project to decorate your Chalice apps so as to have a CLI.
-* `current` [AWS CDK Patterns](https://github.com/cdk-patterns/serverless) `GitHub` ![#ADD8E6](https://via.placeholder.com/15/ADD8E6/000000?text=+)
+* `current` [AWS CDK Patterns](https://github.com/cdk-patterns/serverless) `GitHub` ![#2BBA9C](https://via.placeholder.com/15/2BBA9C/000000?text=+)
