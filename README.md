@@ -25,10 +25,10 @@
   * Amazon has thrown its weight behind the [PyCharm IDE](https://www.jetbrains.com/pycharm/) with this AWS Toolkit, which enables you to seamlessly switch between accounts, to use a proxy, and other features, from inside the PyCharm editor. In terms of deployment, this Toolkit supports AWS SAM, the [Serverless Access Model](https://aws.amazon.com/serverless/sam/).
   * There is also the [AWS Toolkit for VSCode](https://aws.amazon.com/visualstudiocode/), [IntelliJ IDEA](https://aws.amazon.com/intellij/), [Eclipse](https://aws.amazon.com/eclipse/) and [JetBrains](https://docs.aws.amazon.com/toolkit-for-jetbrains/).
 * `paid|free` [Lucidchart](https://lucid.app/) `lucid.app`
-  * Lucid is the premier tool for hand-crafting AWS Solutions Architecture diagrams. They have the 2017 and 2019 AWS icon packs by default, and you can also [download the latest AWS Architecture Icons from Amazon](https://aws.amazon.com/architecture/icons/) and upload them to Lucidchart.
-* `current` [Amazon Athena Federated Query](https://docs.aws.amazon.com/athena/latest/ug/connect-to-a-data-source.html) `docs.aws.amazon.com`
+  * Lucid is the premier tool for hand-crafting AWS Solutions Architecture diagrams. They have the 2017 and 2019 AWS icon packs by default, and you can also [download the latest AWS Architecture Icons from Amazon](https://aws.amazon.com/architecture/icons/) and upload them to Lucidchart. 
+* `current` [Amazon Athena Federated Query](https://docs.aws.amazon.com/athena/latest/ug/connect-to-a-data-source.html) `docs.aws.amazon.com` ![#90EE90](https://via.placeholder.com/15/90EE90/000000?text=+)
   * This allows you to write Athena *data source connector* Lambda functions that can be used to query across hybrid data sources achieving a mesh topology for your ad-hoc Data Lake. You can write these data source connectors with Chalice using its ability to create [pure Lambda functions](https://aws.github.io/chalice/topics/purelambda), and run your federated queries from Chalice in SQL using boto3.
-* `current` [JSii](https://github.com/aws/jsii) `GitHub`
+* `current` [JSii](https://github.com/aws/jsii) `GitHub` ![#90EE90](https://via.placeholder.com/15/90EE90/000000?text=+)
   * JSii is the library that enables the AWS CDK to generalize from Javascript to Python. You can use JSii to call CDK code that may not have been interfaced to Python yet from Chalice directly.
 
 ### AWS Python SDKs pair well with Chalice
