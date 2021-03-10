@@ -10,6 +10,18 @@
 Chalice's design is based on decorators. It is written by the AWS Chalice team. Think of Chalice as your primary entry point to whatever it is that you want to do on AWS, or in the cloud. To join the community-run Slack channel, visit https://chalice.dev
 
 ## Pairs well with Chalice (![#90EE90](https://via.placeholder.com/15/90EE90/000000?text=+) vetted for production use)
+* `paid|free` [Lucidchart](https://lucid.app/) `lucid.app` ![#90EE90](https://via.placeholder.com/15/90EE90/000000?text=+)
+  * Lucid is the premier tool for hand-crafting AWS Solutions Architecture diagrams. They have the 2017 and 2019 AWS icon packs by default, and you can also [download the latest AWS Architecture Icons from Amazon](https://aws.amazon.com/architecture/icons/) and upload them to Lucidchart.
+* `current` [AWS Toolkit for PyCharm](https://aws.amazon.com/pycharm/) `aws.amazon.com` ![#90EE90](https://via.placeholder.com/15/90EE90/000000?text=+)
+  * Amazon has thrown its weight behind the [PyCharm IDE](https://www.jetbrains.com/pycharm/) with this AWS Toolkit, which enables you to seamlessly switch between accounts, to use a proxy, and other features, from inside the PyCharm editor. There is also the [AWS Toolkit for VSCode](https://aws.amazon.com/visualstudiocode/), [IntelliJ IDEA](https://aws.amazon.com/intellij/), [Eclipse](https://aws.amazon.com/eclipse/) and [JetBrains](https://docs.aws.amazon.com/toolkit-for-jetbrains/).
+* `current` [Anaconda Python Distribution](https://www.anaconda.com/products/individual/download-success). `anaconda.com`
+  * Anaconda provides a consistent Python development environment. You can use Anaconda on AWS Lambda if you [mount an EFS filesystem](https://docs.aws.amazon.com/efs/latest/ug/mounting-fs.html) that has it, or if you [use a container image](https://aws.amazon.com/blogs/aws/new-for-aws-lambda-container-image-support/) for your Lambda functions. This is not yet tightly integrated with Chalice, however, it works very well for local development.
+* `current` [PynamoDB: A Pythonic wrapper for DynamoDB](https://github.com/pynamodb/PynamoDB) `GitHub` ![#90EE90](https://via.placeholder.com/15/90EE90/000000?text=+)
+  * PynamoDB is a pythonic interface to DynamoDB for data modelling. Example: [terraform-registry](https://github.com/zeroae/terraform-registry). `GitHub`
+* `current` [DynamoDB Global Tables](https://aws.amazon.com/dynamodb/global-tables/) `aws.amazon.com` ![#90EE90](https://via.placeholder.com/15/90EE90/000000?text=+)
+  * A fully managed extension to DynamoDB for global NoSQL scale-out of your Chalice application. 
+* `current` [Aurora Serverless 2](https://aws.amazon.com/rds/aurora/serverless/) `aws.amazon.com` ![#90EE90](https://via.placeholder.com/15/90EE90/000000?text=+)
+  * A serverless OLTP database for your Chalice application that scales out to hundreds of thousands of transactions per second. Rumor has it that it runs Amazon.com.
 * `current` [AWS Amplify](https://docs.amplify.aws/) `docs.amplify.aws` ![#90EE90](https://via.placeholder.com/15/90EE90/000000?text=+)
   * You can pair Chalice with AWS Amplify, in particular the [Amplify UI Components](https://docs.amplify.aws/ui), written in Javascript. Chalice makes it easy to create routing-based APIs that wrap the heavy lifting, while Amplify helps with the front-end Javascript, such as reactive programming based on React. You can use Chalice's [built-in support for authorization via Cognito user pools](https://aws.github.io/chalice/topics/authorizers.html), and you can pair Amplify's support for GraphQL with the [Chalice-GraphQL](https://github.com/jrbeilke/chalice-graphql) 3rd-party library. 
 * `current` [PySide6](https://www.qt.io/blog/qt-for-python-6-released) ![#90EE90](https://via.placeholder.com/15/90EE90/000000?text=+)
@@ -20,27 +32,14 @@ Chalice's design is based on decorators. It is written by the AWS Chalice team. 
   * These are vetted architectural patterns for the AWS CDK that allow you to easily chain together multiple products per solutions construct, and to also chain those patterns together. Many of the patterns are serverless in nature.
 * `current` [AWS Serverless Application Repository](https://serverlessrepo.aws.amazon.com/applications) `aws.amazon.com`
   * Weave these serverless applications into your Chalice application, such as the [AthenaDynamoDBConnector](https://serverlessrepo.aws.amazon.com/applications/us-east-1/292517598671/AthenaDynamoDBConnector) which allows you to query DynamoDB using SQL via Athena. Take note that while many are published by AWS teams, some of these applications are published by third parties and should be evaluated before being put into production.
-* `current` [PynamoDB: A Pythonic wrapper for DynamoDB](https://github.com/pynamodb/PynamoDB) `GitHub` ![#90EE90](https://via.placeholder.com/15/90EE90/000000?text=+)
-  * PynamoDB is a pythonic interface to DynamoDB for data modelling. Example: [terraform-registry](https://github.com/zeroae/terraform-registry). `GitHub`
-* `current` [DynamoDB Global Tables](https://aws.amazon.com/dynamodb/global-tables/) `aws.amazon.com` ![#90EE90](https://via.placeholder.com/15/90EE90/000000?text=+)
-  * A fully managed extension to DynamoDB for global NoSQL scale-out of your Chalice application. 
-* `current` [Aurora Serverless 2](https://aws.amazon.com/rds/aurora/serverless/) `aws.amazon.com` ![#90EE90](https://via.placeholder.com/15/90EE90/000000?text=+)
-  * A serverless OLTP database for your Chalice application that scales out to hundreds of thousands of transactions per second. Rumor has it that it runs Amazon.com.
 * `current` [Hy: A lisp written in Python](https://docs.hylang.org/en/master/tutorial.html) `hylang.org` ![#90EE90](https://via.placeholder.com/15/90EE90/000000?text=+)
   * Hy is a multi-paradigm general-purpose programming language in the Lisp family, inspired by Clojure and written in Python. You can use it to pipeline Chalice λ functions together (functional programming), achieving lambda-based programming that is as effortless as Bash pipelines on the Linux command line. You can mix Hy and Python in the same file.
 * `current` [Toolz: A set of utility functions for iterators, functions, and dictionaries](https://github.com/pytoolz/toolz) `GitHub` ![#90EE90](https://via.placeholder.com/15/90EE90/000000?text=+)
   * Toolz is a python module that allows you to import functional programming primitives, going beyond Python's built-in map-reduce-filter idioms.
-* `current` [AWS Toolkit for PyCharm](https://aws.amazon.com/pycharm/) `aws.amazon.com` ![#90EE90](https://via.placeholder.com/15/90EE90/000000?text=+)
-  * Amazon has thrown its weight behind the [PyCharm IDE](https://www.jetbrains.com/pycharm/) with this AWS Toolkit, which enables you to seamlessly switch between accounts, to use a proxy, and other features, from inside the PyCharm editor. In terms of deployment, this Toolkit supports AWS SAM, the [Serverless Access Model](https://aws.amazon.com/serverless/sam/).
-  * There is also the [AWS Toolkit for VSCode](https://aws.amazon.com/visualstudiocode/), [IntelliJ IDEA](https://aws.amazon.com/intellij/), [Eclipse](https://aws.amazon.com/eclipse/) and [JetBrains](https://docs.aws.amazon.com/toolkit-for-jetbrains/).
-* `paid|free` [Lucidchart](https://lucid.app/) `lucid.app`
-  * Lucid is the premier tool for hand-crafting AWS Solutions Architecture diagrams. They have the 2017 and 2019 AWS icon packs by default, and you can also [download the latest AWS Architecture Icons from Amazon](https://aws.amazon.com/architecture/icons/) and upload them to Lucidchart. 
 * `current` [Amazon Athena Federated Query](https://docs.aws.amazon.com/athena/latest/ug/connect-to-a-data-source.html) `docs.aws.amazon.com` ![#90EE90](https://via.placeholder.com/15/90EE90/000000?text=+)
   * This allows you to write Athena *data source connector* Lambda functions that can be used to query across hybrid data sources achieving a mesh topology for your ad-hoc Data Lake. You can write these data source connectors with Chalice using its ability to create [pure Lambda functions](https://aws.github.io/chalice/topics/purelambda), and run your federated queries from Chalice in SQL using boto3.
 * `current` [JSii](https://github.com/aws/jsii) `GitHub` ![#90EE90](https://via.placeholder.com/15/90EE90/000000?text=+)
   * JSii is the library that enables the AWS CDK to generalize from Javascript to Python. You can use JSii to call CDK code that may not have been interfaced to Python yet from Chalice directly.
-* `current` [Anaconda Python Distribution](https://www.anaconda.com/products/individual/download-success). `anaconda.com`
-  * Anaconda provides a consistent Python development environment. You can use Anaconda on AWS Lambda if you [mount an EFS filesystem](https://docs.aws.amazon.com/efs/latest/ug/mounting-fs.html) that has it, or if you [use a container image](https://aws.amazon.com/blogs/aws/new-for-aws-lambda-container-image-support/) for your Lambda functions. This is not yet tightly integrated with Chalice, however, it works for local development.
 
 ### AWS Python SDKs pair well with Chalice
 
