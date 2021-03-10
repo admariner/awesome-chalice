@@ -138,9 +138,11 @@ Chalice's design is based on decorators. It is written by the AWS Chalice team. 
 * `09-2020` [AWS Chalice Hands-On Walkthrough, a Python Serverless Microframework for AWS](https://www.youtube.com/watch?v=q3eayufwmMg) `YouTube`
 * `04-2019` [Udemy Online Course - AWS Chalice : Build Serverless REST APIs on AWS](https://www.udemy.com/course/aws-chalice-build-serverless-rest-apis-on-aws/?ranMID=39197&ranEAID=Gw%2FETjJoU9M&ranSiteID=Gw_ETjJoU9M-gPreRA73w_.wS1U96fuiKw&utm_source=aff-campaign&utm_medium=udemyads&LSNPUBID=Gw%2FETjJoU9M) `Udemy`
 
-### Misc
+### Support
+* `current` [chalice.dev Slack channel](https://chalice.dev/) `chalice.dev`
 * `current` [cdk.dev Slack channel](https://cdk.dev/) `cdk.dev`
-  * There are thousands of people in this CDK Slack channel.
+
+### Misc
 * `current` [Steampipe](https://steampipe.io/) `steampipe.io` ![#2BBA9C](https://via.placeholder.com/15/2BBA9C/000000?text=+)
   * Steampipe allows you to query your AWS infrastructure, IAM policies, etc., using SQL. 
 * `current` [Click](https://click.palletsprojects.com/en/7.x/) `PalletsProjects` ![#2BBA9C](https://via.placeholder.com/15/2BBA9C/000000?text=+)
