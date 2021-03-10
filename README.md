@@ -20,7 +20,7 @@ Chalice's design is based on decorators. It is written by the AWS Chalice team. 
   * These are vetted architectural patterns for the AWS CDK that allow you to easily chain together multiple products per solutions construct, and to also chain those patterns together. Many of the patterns are serverless in nature.
 * `current` [AWS Serverless Application Repository](https://serverlessrepo.aws.amazon.com/applications) `aws.amazon.com`
   * Weave these serverless applications into your Chalice application, such as the [AthenaDynamoDBConnector](https://serverlessrepo.aws.amazon.com/applications/us-east-1/292517598671/AthenaDynamoDBConnector) which allows you to query DynamoDB using SQL via Athena. Take note that while many are published by AWS teams, some of these applications are published by third parties and should be evaluated before being put into production.
-* `current` [PynamoDB: A Pythonic wrapper for DynamoDB](https://github.com/pynamodb/PynamoDB) `GitHub`
+* `current` [PynamoDB: A Pythonic wrapper for DynamoDB](https://github.com/pynamodb/PynamoDB) `GitHub` ![#90EE90](https://via.placeholder.com/15/90EE90/000000?text=+)
   * PynamoDB is a pythonic interface to DynamoDB for data modelling. Example: [terraform-registry](https://github.com/zeroae/terraform-registry). `GitHub`
 * `current` [DynamoDB Global Tables](https://aws.amazon.com/dynamodb/global-tables/) `aws.amazon.com` ![#90EE90](https://via.placeholder.com/15/90EE90/000000?text=+)
   * A fully managed extension to DynamoDB for global NoSQL scale-out of your Chalice application. 
