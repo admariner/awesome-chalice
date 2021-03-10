@@ -5,7 +5,7 @@
 - Building libraries of Ops functions (DevOps, DevSecOps, NetDevOps, NetOps, NetSecOps, CI/CD Pipeline, ChatOps, etc.).
 - Managing AWS accounts programatically.
 - Creating web applications with your favorite front-end toolkit (or AWS Amplify).
-- Providing the web API backend layer to cross-platform Win/Mac/Linux/Android/iOS desktop applications written in Qt for Python (PySide6).
+- Providing the web API backend layer to cross-platform Win/Mac/Linux/Android/iOS desktop and mobile applications written in Qt for Python (PySide6).
 
 Chalice's design is based on decorators. It is written by the AWS Chalice team. Think of Chalice as your primary entry point to whatever it is that you want to do on AWS, or in the cloud. To join the community-run Slack channel, visit https://chalice.dev
 
