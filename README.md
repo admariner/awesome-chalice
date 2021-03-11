@@ -50,7 +50,7 @@ Chalice's design is based on decorators. It is written by the AWS Chalice team. 
 ### 3rd Party Tools
 * `current` [PynamoDB: A Pythonic wrapper for DynamoDB](https://github.com/pynamodb/PynamoDB) `GitHub`
   * PynamoDB is a pythonic interface to DynamoDB for data modelling. Example: [terraform-registry](https://github.com/zeroae/terraform-registry). `GitHub`
-* `current` [PySide6](https://www.qt.io/blog/qt-for-python-6-released) ![#90EE90](https://via.placeholder.com/15/90EE90/000000?text=+)
+* `current` [PySide6](https://www.qt.io/blog/qt-for-python-6-released) `qt.io`
   * PySide6 is the official Qt module for Python, for writing cross-platform Win/Mac/Linux/Android/iOS applications. With PySide6 and [QtQuick](https://doc-snapshots.qt.io/qt6-dev/qtquick-index.html) you can very quickly write desktop Python applications that integrate with Chalice. You can use Chalice to authenticate via Cognito user pools, and to write an API layer for your application that is backed by any AWS service. You can use Chalice's extensible build system to create and publish cross-platform Qt executables.
 * `current` [Hy: A lisp written in Python](https://docs.hylang.org/en/master/tutorial.html) `hylang.org`
   * Hy is a multi-paradigm general-purpose programming language in the Lisp family, inspired by Clojure and written in Python. You can use it to pipeline Chalice λ functions together (functional programming), achieving lambda-based programming that is as effortless as Bash pipelines on the Linux command line. You can mix Hy and Python in the same file.
