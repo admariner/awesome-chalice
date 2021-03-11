@@ -10,59 +10,59 @@
 Chalice's design is based on decorators. It is written by the AWS Chalice team. Think of Chalice as your primary entry point to whatever it is that you want to do on AWS, or in the cloud. To join the community-run Slack channel, visit https://chalice.dev
 
 ## AWS Projects
-* `current` [AWS Cloud Development Kit (CDK)](https://aws.amazon.com/cdk/) `aws.amazon.com`
+* [AWS Cloud Development Kit (CDK)](https://aws.amazon.com/cdk/) `aws.amazon.com`
   * The AWS CDK is written in Javascript and, via JSii, is available to Python. With the <code>chalice-cdk</code> CDK Construct for Chalice you can deploy your Chalice application via `cdk deploy`. Alternately, with Chalice's <code>chalice generate-pipeline</code> extensible build process, you can deploy your CDK infrastructure when you deploy your Chalice application. In other words, you can either use the CDK to deploy your Chalice application, or use Chalice to deploy your CDK application. If you primarily write Chalice applications, you can use the CDK primarily for deploying your infrastructure layer. 
-* `current` [AWS Solutions Constructs Patterns](https://aws.amazon.com/solutions/constructs/patterns/) `aws.amazon.com`
+* [AWS Solutions Constructs Patterns](https://aws.amazon.com/solutions/constructs/patterns/) `aws.amazon.com`
   * These are vetted architectural patterns for the AWS CDK that allow you to easily chain together multiple products per solutions construct, and to also chain those patterns together. Many of the patterns are serverless in nature.
-* `current` [AWS Serverless Application Repository](https://serverlessrepo.aws.amazon.com/applications) `aws.amazon.com`
+* [AWS Serverless Application Repository](https://serverlessrepo.aws.amazon.com/applications) `aws.amazon.com`
   * Weave these serverless applications into your Chalice application, such as the [AthenaDynamoDBConnector](https://serverlessrepo.aws.amazon.com/applications/us-east-1/292517598671/AthenaDynamoDBConnector) which allows you to query DynamoDB using SQL via Athena. Take note that while many are published by AWS teams, some of these applications are published by third parties and should be evaluated before being put into production.
-* `current` [JSii](https://github.com/aws/jsii) `GitHub`
+* [JSii](https://github.com/aws/jsii) `GitHub`
   * JSii is the library that enables the AWS CDK to generalize from Javascript to Python. You can use JSii to call CDK code that may not have been interfaced to Python in a CDK Construct yet.
-* `current` [DynamoDB Global Tables](https://aws.amazon.com/dynamodb/global-tables/) `aws.amazon.com`
+* [DynamoDB Global Tables](https://aws.amazon.com/dynamodb/global-tables/) `aws.amazon.com`
   * A fully managed extension to DynamoDB for global NoSQL scale-out of your Chalice application. 
-* `current` [Aurora Serverless 2](https://aws.amazon.com/rds/aurora/serverless/) `aws.amazon.com`
+* [Aurora Serverless 2](https://aws.amazon.com/rds/aurora/serverless/) `aws.amazon.com`
   * A serverless OLTP database for your Chalice application that scales out to hundreds of thousands of transactions per second. Rumor has it that it runs Amazon.com.
-* `current` [AWS Amplify](https://docs.amplify.aws/) `docs.amplify.aws`
+* [AWS Amplify](https://docs.amplify.aws/) `docs.amplify.aws`
   * You can pair Chalice with AWS Amplify, in particular the [Amplify UI Components](https://docs.amplify.aws/ui), written in Javascript. Chalice makes it easy to create routing-based APIs that wrap the heavy lifting, while Amplify helps with the front-end Javascript, such as reactive programming based on React. You can use Chalice's [built-in support for authorization via Cognito user pools](https://aws.github.io/chalice/topics/authorizers.html), and you can pair Amplify's support for GraphQL with the [Chalice-GraphQL](https://github.com/jrbeilke/chalice-graphql) 3rd-party library. 
-* `current` [Amazon Athena Federated Query](https://docs.aws.amazon.com/athena/latest/ug/connect-to-a-data-source.html) `docs.aws.amazon.com`
+* [Amazon Athena Federated Query](https://docs.aws.amazon.com/athena/latest/ug/connect-to-a-data-source.html) `docs.aws.amazon.com`
   * This allows you to write Athena *data source connector* Lambda functions that can be used to query across hybrid data sources achieving a mesh topology for your ad-hoc Data Lake. You can write these data source connectors with Chalice using its ability to create [pure Lambda functions](https://aws.github.io/chalice/topics/purelambda), and run your federated queries from Chalice in SQL using boto3.
 
 ### AWS Python SDKs
-* `current` [AWS SDK for Python (boto3)](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html) `boto3.amazonaws.com`
+* [AWS SDK for Python (boto3)](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html) `boto3.amazonaws.com`
   * In addition to providing interfaces to most AWS services, Amazon will often release setup/teardown code for new services as boto3 scripts before they are available in CloudFormation or the CDK. There is also an *asynchronous* version of boto3 available, [aioboto3](https://github.com/terrycain/aioboto3), that is compatible with Python 3's built-in  <code>async</code> and <code>await</code> asynchronous programming keywords. With aioboto3 you can, for example, perform massively parallel writes and reads to S3 or DynamoDB.
-* `current` [AWS X-Ray SDK for Python](https://docs.aws.amazon.com/xray/latest/devguide/xray-sdk-python.html)  `docs.aws.amazon.com`
+* [AWS X-Ray SDK for Python](https://docs.aws.amazon.com/xray/latest/devguide/xray-sdk-python.html)  `docs.aws.amazon.com`
   * The X-Ray SDK for Python is a must have for using the X-Ray console to trace and visualize your Chalice-based microservices architecture. In addition, this SDK can dynamically instrument tracing into other libraries that are useful for Chalice, such as [boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html), [aioboto3](https://aioboto3.readthedocs.io/en/latest/usage.html), [pynamodb](https://github.com/pynamodb/PynamoDB), [sqlite3](https://docs.python.org/3/library/sqlite3.html), [psycopg2](https://www.psycopg.org/), [pymongo](https://pymongo.readthedocs.io/en/stable/) and [PyMySQL](https://github.com/PyMySQL/PyMySQL) using `from aws_xray_sdk.core import patch_all`
-* `current` [AWS IoT SDK for Python](https://github.com/aws/aws-iot-device-sdk-python-v2) `GitHub`
+* [AWS IoT SDK for Python](https://github.com/aws/aws-iot-device-sdk-python-v2) `GitHub`
   * Add Internet of Things support to your Chalice application. This pairs well with Chalice's [built-in support for events based on Kinesis Streams](https://aws.amazon.com/blogs/developer/aws-chalice-now-supports-amazon-kinesis-and-amazon-dynamodb-streams/). There is also a [Python SDK for Greengrass](https://aws.github.io/aws-greengrass-core-sdk-python/), which runs Lambda functions ON Greengrass IoT edge devices. These functions can trigger application logic in Chalice via IoT --> Kinesis Streams.
-* `current` [AWS C Common Runtime](https://github.com/awslabs/aws-c-common) `GitHub`
+* [AWS C Common Runtime](https://github.com/awslabs/aws-c-common) `GitHub`
   * The most high performance Python-on-AWS applications may make use of the AWS C Common Runtime, which is written in.. C! You'll need to use the [AWS CRT Python](https://github.com/awslabs/aws-crt-python) module to make the magic happen.
-* `current` [AWS Encryption SDK for Python](https://github.com/aws/aws-encryption-sdk-python/) `GitHub`
+* [AWS Encryption SDK for Python](https://github.com/aws/aws-encryption-sdk-python/) `GitHub`
   * This is a client-side encryption library, meaning a library for using hard encryption hosted by AWS, in your application logic.
-* `current` [AWS SageMaker SDK for Python](https://github.com/aws/sagemaker-python-sdk) `GitHub`
+* [AWS SageMaker SDK for Python](https://github.com/aws/sagemaker-python-sdk) `GitHub`
   * This SDK allows you to train and deploy machine learning models in Python, from Chalice, in frameworks such as TensorFlow, MXNet, or models that you created in SageMaker. It also supports hosting Apache SparkML models, allowing you to integrate with your AWS EMR cluster.
-* `current` [AWS Step Functions Data Science SDK for Python](https://github.com/aws/aws-step-functions-data-science-sdk-python) `GitHub`
+* [AWS Step Functions Data Science SDK for Python](https://github.com/aws/aws-step-functions-data-science-sdk-python) `GitHub`
   * This SDK is for data scientists who want to create workflows that train and publish machine learning models, as orchestrated by AWS Step Functions, without having to worry about provisioning infrastructure.
-* `current` [AWS Braket SDK for Python](https://github.com/aws/amazon-braket-sdk-python) `GitHub`
+* [AWS Braket SDK for Python](https://github.com/aws/amazon-braket-sdk-python) `GitHub`
   * This SDK allows you to interact with D-Wave quantum computing devices on AWS Braket from Chalice, enabling applications from quantum annealing to random number generation.
-* `current` [AWS DynamoDB Encryption SDK for Python](https://github.com/aws/aws-dynamodb-encryption-python) `GitHub`
+* [AWS DynamoDB Encryption SDK for Python](https://github.com/aws/aws-dynamodb-encryption-python) `GitHub`
   * This client-side SDK helps you encrypt your sensitive data before sending it to DynamoDB.
 
 ### 3rd Party Tools
-* `current` [PynamoDB: A Pythonic wrapper for DynamoDB](https://github.com/pynamodb/PynamoDB) `GitHub`
+* [PynamoDB: A Pythonic wrapper for DynamoDB](https://github.com/pynamodb/PynamoDB) `GitHub`
   * PynamoDB is a pythonic interface to DynamoDB for data modelling. Example: [terraform-registry](https://github.com/zeroae/terraform-registry). `GitHub`
-* `current` [PySide6](https://www.qt.io/blog/qt-for-python-6-released) `qt.io`
+* [PySide6](https://www.qt.io/blog/qt-for-python-6-released) `qt.io`
   * PySide6 is the official Qt module for Python, for writing cross-platform Win/Mac/Linux/Android/iOS applications. With PySide6 and [QtQuick](https://doc-snapshots.qt.io/qt6-dev/qtquick-index.html) you can very quickly write desktop Python applications that integrate with Chalice. You can use Chalice to authenticate via Cognito user pools, and to write an API layer for your application that is backed by any AWS service. You can use Chalice's extensible build system to create and publish cross-platform Qt executables.
-* `current` [Hy: A lisp written in Python](https://docs.hylang.org/en/master/tutorial.html) `hylang.org`
+* [Hy: A lisp written in Python](https://docs.hylang.org/en/master/tutorial.html) `hylang.org`
   * Hy is a multi-paradigm general-purpose programming language in the Lisp family, inspired by Clojure and written in Python. You can use it to pipeline Chalice λ functions together (functional programming), achieving lambda-based programming that is as effortless as Bash pipelines on the Linux command line. You can mix Hy and Python in the same file.
-* `current` [Toolz: A set of utility functions for iterators, functions, and dictionaries](https://github.com/pytoolz/toolz) `GitHub`
+* [Toolz: A set of utility functions for iterators, functions, and dictionaries](https://github.com/pytoolz/toolz) `GitHub`
   * Toolz is a python module that allows you to import functional programming primitives, going beyond Python's built-in map-reduce-filter idioms.
 
 ### Tooling for Writing Chalice Code
-* `paid|free` [Lucidchart](https://lucid.app/) `lucid.app`
+* [Lucidchart](https://lucid.app/) `lucid.app`
   * Lucid is the premier tool for hand-crafting AWS Solutions Architecture diagrams. They have the 2017 and 2019 AWS icon packs by default, and you can also [download the latest AWS Architecture Icons from Amazon](https://aws.amazon.com/architecture/icons/) and upload them to Lucidchart.
-* `current` [AWS Toolkit for PyCharm](https://aws.amazon.com/pycharm/) `aws.amazon.com`
+* [AWS Toolkit for PyCharm](https://aws.amazon.com/pycharm/) `aws.amazon.com`
   * Amazon has thrown its weight behind the [PyCharm IDE](https://www.jetbrains.com/pycharm/) with this AWS Toolkit, which enables you to seamlessly switch between accounts, to use a proxy, and other features, from inside the PyCharm editor. There is also the [AWS Toolkit for VSCode](https://aws.amazon.com/visualstudiocode/), [IntelliJ IDEA](https://aws.amazon.com/intellij/), [Eclipse](https://aws.amazon.com/eclipse/) and [JetBrains](https://docs.aws.amazon.com/toolkit-for-jetbrains/).
-* `current` [Anaconda Python Distribution](https://www.anaconda.com/products/individual/download-success). `anaconda.com`
+* [Anaconda Python Distribution](https://www.anaconda.com/products/individual/download-success). `anaconda.com`
   * Anaconda provides a consistent Python development environment. You can use Anaconda on AWS Lambda if you [mount an EFS filesystem](https://docs.aws.amazon.com/efs/latest/ug/mounting-fs.html) that has it, or if you [use a container image](https://aws.amazon.com/blogs/aws/new-for-aws-lambda-container-image-support/) for your Lambda functions. This is not yet tightly integrated with Chalice, however, it works very well for local development.
 
 ## Blog Posts and Feature Releases (![#2BBA9C](https://via.placeholder.com/15/2BBA9C/000000?text=+) must read)
@@ -133,9 +133,9 @@ Chalice's design is based on decorators. It is written by the AWS Chalice team. 
   * By setting `api_gateway_endpoint_type` you can deploy into a VPC. 
 
 ### Paid Tracing
-* `paid` [sentry-python: application monitoring platform to diagnose, fix, and optimize code performance](https://github.com/getsentry/sentry-python/blob/af163ff176b2c22952443dc5ec535aed98656fc2/tests/integrations/chalice/test_chalice.py) `GitHub`
-* `paid` [Lumigo Python agent for distributed tracing and performance monitoring](https://github.com/lumigo-io/python_tracer/blob/1ab55406befe494aa61384576339b49a1e681623/src/lumigo_tracer/examples/chalice.py) `GitHub`
-* `paid` [IOpipe Analytics & Distributed Tracing Agent for Python](https://github.com/iopipe/iopipe-python#chalice) `GitHub`
+* [sentry-python: application monitoring platform to diagnose, fix, and optimize code performance](https://github.com/getsentry/sentry-python/blob/af163ff176b2c22952443dc5ec535aed98656fc2/tests/integrations/chalice/test_chalice.py) `GitHub`
+* [Lumigo Python agent for distributed tracing and performance monitoring](https://github.com/lumigo-io/python_tracer/blob/1ab55406befe494aa61384576339b49a1e681623/src/lumigo_tracer/examples/chalice.py) `GitHub`
+* [IOpipe Analytics & Distributed Tracing Agent for Python](https://github.com/iopipe/iopipe-python#chalice) `GitHub`
 
 ### Videos
 * `10-2020` [Building your first REST API with AWS’s Open Data Sets and Chalice - Christian Weber](https://www.youtube.com/watch?v=VKUoL3IL3-w) `YouTube`
@@ -143,12 +143,12 @@ Chalice's design is based on decorators. It is written by the AWS Chalice team. 
 * `04-2019` [Udemy Online Course - AWS Chalice : Build Serverless REST APIs on AWS](https://www.udemy.com/course/aws-chalice-build-serverless-rest-apis-on-aws/?ranMID=39197&ranEAID=Gw%2FETjJoU9M&ranSiteID=Gw_ETjJoU9M-gPreRA73w_.wS1U96fuiKw&utm_source=aff-campaign&utm_medium=udemyads&LSNPUBID=Gw%2FETjJoU9M) `Udemy`
 
 ### Support
-* `current` [chalice.dev Slack channel](https://chalice.dev/) `chalice.dev`
-* `current` [cdk.dev Slack channel](https://cdk.dev/) `cdk.dev`
+* [chalice.dev Slack channel](https://chalice.dev/) `chalice.dev`
+* [cdk.dev Slack channel](https://cdk.dev/) `cdk.dev`
 
 ### Misc
-* `current` [Steampipe](https://steampipe.io/) `steampipe.io` ![#2BBA9C](https://via.placeholder.com/15/2BBA9C/000000?text=+)
+* [Steampipe](https://steampipe.io/) `steampipe.io` ![#2BBA9C](https://via.placeholder.com/15/2BBA9C/000000?text=+)
   * Steampipe allows you to query your AWS infrastructure, IAM policies, etc., using SQL. 
-* `current` [Click](https://click.palletsprojects.com/en/7.x/) `PalletsProjects` ![#2BBA9C](https://via.placeholder.com/15/2BBA9C/000000?text=+)
+* [Click](https://click.palletsprojects.com/en/7.x/) `PalletsProjects` ![#2BBA9C](https://via.placeholder.com/15/2BBA9C/000000?text=+)
   * You can pair Flask's Click project to decorate your Chalice apps so as to have a CLI.
-* `current` [AWS CDK Patterns](https://github.com/cdk-patterns/serverless) `GitHub` ![#2BBA9C](https://via.placeholder.com/15/2BBA9C/000000?text=+)
+* [AWS CDK Patterns](https://github.com/cdk-patterns/serverless) `GitHub` ![#2BBA9C](https://via.placeholder.com/15/2BBA9C/000000?text=+)
