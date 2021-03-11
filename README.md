@@ -38,13 +38,13 @@ Chalice's design is based on decorators. It is written by the AWS Chalice team. 
   * The most high performance Python-on-AWS applications may make use of the AWS C Common Runtime, which is written in.. C! You'll need to use the [AWS CRT Python](https://github.com/awslabs/aws-crt-python) module to make the magic happen.
 * `current` [AWS Encryption SDK for Python](https://github.com/aws/aws-encryption-sdk-python/) `GitHub`
   * This is a client-side encryption library, meaning a library for using hard encryption hosted by AWS, in your application logic.
-* `current` [AWS SageMaker SDK for Python](https://github.com/aws/sagemaker-python-sdk) `GitHub` ![#90EE90](https://via.placeholder.com/15/90EE90/000000?text=+)
+* `current` [AWS SageMaker SDK for Python](https://github.com/aws/sagemaker-python-sdk) `GitHub`
   * This SDK allows you to train and deploy machine learning models in Python, from Chalice, in frameworks such as TensorFlow, MXNet, or models that you created in SageMaker. It also supports hosting Apache SparkML models, allowing you to integrate with your AWS EMR cluster.
-* `current` [AWS Step Functions Data Science SDK for Python](https://github.com/aws/aws-step-functions-data-science-sdk-python) `GitHub` ![#90EE90](https://via.placeholder.com/15/90EE90/000000?text=+)
+* `current` [AWS Step Functions Data Science SDK for Python](https://github.com/aws/aws-step-functions-data-science-sdk-python) `GitHub`
   * This SDK is for data scientists who want to create workflows that train and publish machine learning models, as orchestrated by AWS Step Functions, without having to worry about provisioning infrastructure.
 * `current` [AWS Braket SDK for Python](https://github.com/aws/amazon-braket-sdk-python) `GitHub`
   * This SDK allows you to interact with D-Wave quantum computing devices on AWS Braket from Chalice, enabling applications from quantum annealing to random number generation.
-* `current` [AWS DynamoDB Encryption SDK for Python](https://github.com/aws/aws-dynamodb-encryption-python) `GitHub` ![#90EE90](https://via.placeholder.com/15/90EE90/000000?text=+)
+* `current` [AWS DynamoDB Encryption SDK for Python](https://github.com/aws/aws-dynamodb-encryption-python) `GitHub`
   * This client-side SDK helps you encrypt your sensitive data before sending it to DynamoDB.
 
 ### 3rd Party Tools
