@@ -1,13 +1,13 @@
 # Awesome AWS Chalice <a href="https://github.com/aws/chalice"><img src="https://user-images.githubusercontent.com/80226595/110259005-4ec13080-7f5a-11eb-98eb-f84dbac2c736.png" height="20" align="right"></a><a href="https://github.com/sindresorhus/awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" align="right" height="20"></a>
 
-[Chalice](https://aws.github.io/chalice/)<a href="https://aws.github.io/chalice/"><img src="https://aws.github.io/chalice/_static/img/chalice-logo-icon-small.png" height="20"></a> is Amazon Web Services' premier solution to writing infinitely scalable serverless Python applications based on AWS Lambda. Chalice provides an extensible build process via <code>chalice generate-pipeline</code>, allowing you to orchestrate the deployment (<code>chalice deploy</code>) of any dependencies or outputs, such as infrastructure code written in the CDK, executable artifacts, backend APIs or front-end applications. Chalice is suited for:
+[AWS Chalice](https://aws.github.io/chalice/)<a href="https://aws.github.io/chalice/"><img src="https://aws.github.io/chalice/_static/img/chalice-logo-icon-small.png" height="20"></a> (join us in our [community Slack channel](https://chalice.dev)) is Amazon Web Services' premier solution to writing infinitely scalable serverless Python applications based on AWS Lambda. Chalice provides an extensible build process via <code>chalice generate-pipeline</code>, allowing you to orchestrate the deployment (<code>chalice deploy</code>) of any dependencies or outputs, such as infrastructure code written in the CDK, executable artifacts, backend APIs or front-end applications. Chalice is suited for:
 - Writing https APIs that wrap infrastructure on AWS.
 - Building libraries of Ops functions (DevOps, DevSecOps, NetDevOps, NetOps, NetSecOps, CI/CD Pipeline, ChatOps, etc.).
 - Managing AWS accounts programatically.
 - Creating web applications with your favorite front-end toolkit (or AWS Amplify).
 - Providing the web API backend layer to cross-platform Win/Mac/Linux/Android/iOS desktop and mobile applications written in Qt for Python (PySide6).
 
-Chalice's design is based on decorators. It is written by the AWS Chalice team. Think of Chalice as your primary entry point to whatever it is that you want to do on AWS, or in the cloud. To join the community-run Slack channel, visit https://chalice.dev
+Chalice's design is based on decorators. It is written by the AWS Chalice team. Think of Chalice as your primary entry point to whatever it is that you want to do on AWS, or in the cloud.
 
 ## AWS Projects
 * [AWS Cloud Development Kit (CDK)](https://aws.amazon.com/cdk/) `aws.amazon.com`
