@@ -170,3 +170,6 @@ AWS Samples are example solution architectures created by AWS and published on G
 * [Click](https://click.palletsprojects.com/en/7.x/) `PalletsProjects` ![#2BBA9C](https://via.placeholder.com/15/2BBA9C/000000?text=+)
   * You can pair Flask's Click project to decorate your Chalice apps so as to have a CLI.
 * [AWS CDK Patterns](https://github.com/cdk-patterns/serverless) `GitHub` ![#2BBA9C](https://via.placeholder.com/15/2BBA9C/000000?text=+)
+
+
+[![Analytics](https://ga-beacon.appspot.com/UA-191636151-1/awesome-chalice)](https://github.com/igrigorik/ga-beacon)
