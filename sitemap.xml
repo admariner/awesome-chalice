@@ -4,5 +4,8 @@
 			<loc>https://chalice.dev</loc>
 			<changefreq>weekly</changefreq>
 		</url>
-
+		<url>
+			<loc>https://github.com/chalice-dev/awesome-chalice</loc>
+			<changefreq>hourly</changefreq>
+		</url>
 	</urlset>
