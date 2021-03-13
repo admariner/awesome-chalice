@@ -172,4 +172,4 @@ AWS Samples are example solution architectures created by AWS and published on G
 * [AWS CDK Patterns](https://github.com/cdk-patterns/serverless) `GitHub` ![#2BBA9C](https://via.placeholder.com/15/2BBA9C/000000?text=+)
 
 
-[![Analytics](https://ga-beacon.appspot.com/UA-191636151-1/awesome-chalice)](https://github.com/igrigorik/ga-beacon)
+[![Analytics](https://ga-beacon.appspot.com/UA-191636151-1/awesome-chalice/README.md)](https://github.com/igrigorik/ga-beacon)
