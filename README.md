@@ -63,6 +63,7 @@ AWS Samples are example solution architectures created by AWS and published on G
 * [Serverless Tracking Pixel](https://github.com/aws-samples/aws-serverless-tracking-pixel) `GitHub`
 * [Serverless Reference Architecture: Real-time File Processing](https://github.com/aws-samples/lambda-refarch-fileprocessing) `GitHub`
 * [Serverless Reference Architecture: IoT Backend](https://github.com/aws-samples/lambda-refarch-iotbackend) `GitHub`
+* [AWS X-Ray Serverless Samples](https://github.com/aws-samples/aws-xray-serverless-samples) `GitHub`
 
 ### 3rd Party Tools
 * [PynamoDB: A Pythonic wrapper for DynamoDB](https://github.com/pynamodb/PynamoDB) `GitHub`
