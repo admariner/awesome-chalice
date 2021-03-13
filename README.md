@@ -56,6 +56,7 @@ AWS Samples are example solution architectures created by AWS and published on G
 * [SQS dead letter queue replay with backoff and jitter](https://github.com/aws-samples/amazon-sqs-dlq-replay-backoff) `GitHub`
 * [Tokenization and Encryption of Sensitive Data](https://github.com/aws-samples/aws-serverless-tokenization) `GitHub`
 * [AWS ParallelCluster serverless API](https://github.com/aws-samples/aws-parallelcluster-serverless-api) `GitHub`
+* [Amazon WorkMail Lambda Templates](https://github.com/aws-samples/amazon-workmail-lambda-templates)
 
 ### 3rd Party Tools
 * [PynamoDB: A Pythonic wrapper for DynamoDB](https://github.com/pynamodb/PynamoDB) `GitHub`
