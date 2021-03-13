@@ -20,8 +20,8 @@ Chalice's design is based on decorators. It is written by the AWS Chalice team. 
   * JSii is the library that enables the AWS CDK to generalize from Javascript to Python. You can use JSii to call CDK code that may not have been interfaced to Python in a CDK Construct yet.
 * [DynamoDB Global Tables](https://aws.amazon.com/dynamodb/global-tables/) `aws.amazon.com`
   * A fully managed extension to DynamoDB for global NoSQL scale-out of your Chalice application. 
-* [Aurora Serverless 2](https://aws.amazon.com/rds/aurora/serverless/) `aws.amazon.com`
-  * A serverless OLTP database for your Chalice application that scales out to hundreds of thousands of transactions per second. Rumor has it that it runs Amazon.com.
+* [Aurora Serverless Global Database 2](https://aws.amazon.com/rds/aurora/serverless/) `aws.amazon.com`
+  * A serverless OLTP database for your Chalice application that scales out to hundreds of thousands of transactions per second, with secondary cluster replications in up to 5 regions. Rumor has it that it runs Amazon.com.
 * [AWS Amplify](https://docs.amplify.aws/) `docs.amplify.aws`
   * You can pair Chalice with AWS Amplify, in particular the [Amplify UI Components](https://docs.amplify.aws/ui), written in Javascript. Chalice makes it easy to create routing-based APIs that wrap the heavy lifting, while Amplify helps with the front-end Javascript, such as reactive programming based on React. You can use Chalice's [built-in support for authorization via Cognito user pools](https://aws.github.io/chalice/topics/authorizers.html), and you can pair Amplify's support for GraphQL with the [Chalice-GraphQL](https://github.com/jrbeilke/chalice-graphql) 3rd-party library. 
 * [Amazon Athena Federated Query](https://docs.aws.amazon.com/athena/latest/ug/connect-to-a-data-source.html) `docs.aws.amazon.com`
@@ -31,7 +31,7 @@ Chalice's design is based on decorators. It is written by the AWS Chalice team. 
 * [AWS SDK for Python (boto3)](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html) `boto3.amazonaws.com`
   * In addition to providing Python interfaces to most AWS services, Amazon will often release setup/teardown code for new services as boto3 scripts (i.e. [AWS Detective](https://github.com/aws-samples/amazon-detective-multiaccount-scripts) and [AWS GuardDuty](https://github.com/aws-samples/amazon-guardduty-multiaccount-scripts/blob/master/enableguardduty.py)) before they are available in CloudFormation or the CDK. You can modify these scripts to be run from Chalice. There is also an *asynchronous* version of boto3 available, [aioboto3](https://github.com/terrycain/aioboto3), that is compatible with Python 3's built-in  <code>async</code> and <code>await</code> asynchronous programming keywords. With aioboto3 you can, for example, perform massively parallel writes and reads to S3 or DynamoDB.
 * [AWS X-Ray SDK for Python](https://docs.aws.amazon.com/xray/latest/devguide/xray-sdk-python.html)  `docs.aws.amazon.com`
-  * The X-Ray SDK for Python is a must have for using the X-Ray console to trace and visualize your Chalice-based microservices architecture. In addition, this SDK can dynamically instrument tracing into other libraries that are useful for Chalice, such as [boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html), [aioboto3](https://aioboto3.readthedocs.io/en/latest/usage.html), [pynamodb](https://github.com/pynamodb/PynamoDB), [sqlite3](https://docs.python.org/3/library/sqlite3.html), [psycopg2](https://www.psycopg.org/), [pymongo](https://pymongo.readthedocs.io/en/stable/) and [PyMySQL](https://github.com/PyMySQL/PyMySQL) using `from aws_xray_sdk.core import patch_all`
+  * The X-Ray SDK for Python is a must have for using the X-Ray console to trace and visualize your Chalice-based microservices architecture. In addition, this SDK can dynamically instrument tracing into other libraries that are useful for Chalice, such as [boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html), [aioboto3](https://aioboto3.readthedocs.io/en/latest/usage.html), [pynamodb](https://github.com/pynamodb/PynamoDB), [sqlite3](https://docs.python.org/3/library/sqlite3.html), [psycopg2](https://www.psycopg.org/), [pymongo](https://pymongo.readthedocs.io/en/stable/) and [PyMySQL](https://github.com/PyMySQL/PyMySQL) using `from aws_xray_sdk.core import patch_all;patch_all();`
 * [AWS IoT SDK for Python](https://github.com/aws/aws-iot-device-sdk-python-v2) `GitHub`
   * Add Internet of Things support to your Chalice application. This pairs well with Chalice's [built-in support for events based on Kinesis Streams](https://aws.amazon.com/blogs/developer/aws-chalice-now-supports-amazon-kinesis-and-amazon-dynamodb-streams/). There is also a [Python SDK for Greengrass](https://aws.github.io/aws-greengrass-core-sdk-python/), which runs Lambda functions ON Greengrass IoT edge devices. These functions can trigger application logic in Chalice via IoT --> Kinesis Streams.
 * [AWS C Common Runtime](https://github.com/awslabs/aws-c-common) `GitHub`
@@ -56,7 +56,10 @@ AWS Samples are example solution architectures created by AWS and published on G
 * [SQS dead letter queue replay with backoff and jitter](https://github.com/aws-samples/amazon-sqs-dlq-replay-backoff) `GitHub`
 * [Tokenization and Encryption of Sensitive Data](https://github.com/aws-samples/aws-serverless-tokenization) `GitHub`
 * [AWS ParallelCluster serverless API](https://github.com/aws-samples/aws-parallelcluster-serverless-api) `GitHub`
-* [Amazon WorkMail Lambda Templates](https://github.com/aws-samples/amazon-workmail-lambda-templates)
+* [Amazon WorkMail Lambda Templates](https://github.com/aws-samples/amazon-workmail-lambda-templates) `GitHub`
+* [S3 Glacier Bulk Retrieval](https://github.com/aws-samples/s3-glacier-bulk-retrieval) `GitHub`
+* [AutoML with AutoGluon, Amazon SageMaker, and AWS Lambda](https://github.com/aws-samples/automl-pipeline-with-autogluon-sagemaker-lambda) `GitHub`
+* [Processing ML Workloads asynchronously in Batch using SageMaker Batch Transform](https://github.com/aws-samples/aws-asynchronous-ml-processing) `GitHub`
 
 ### 3rd Party Tools
 * [PynamoDB: A Pythonic wrapper for DynamoDB](https://github.com/pynamodb/PynamoDB) `GitHub`
