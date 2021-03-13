@@ -53,6 +53,7 @@ AWS Samples are example solution architectures created by AWS and published on G
 * [AWS Control Tower Account Creation Automation](https://github.com/aws-samples/aws-control-tower-automate-account-creation) `GitHub`
 * [AWS Serverless Ecommerce Platform](https://github.com/aws-samples/aws-serverless-ecommerce-platform) `GitHub`
 * [Recurring Security Hub Summary Email](https://github.com/aws-samples/aws-security-hub-summary-email)
+* [SQS dead letter queue replay with backoff and jitter](https://github.com/aws-samples/amazon-sqs-dlq-replay-backoff)
 
 ### 3rd Party Tools
 * [PynamoDB: A Pythonic wrapper for DynamoDB](https://github.com/pynamodb/PynamoDB) `GitHub`
