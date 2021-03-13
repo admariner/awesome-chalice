@@ -27,7 +27,7 @@ Chalice's design is based on decorators. It is written by the AWS Chalice team. 
 * [Amazon Athena Federated Query](https://docs.aws.amazon.com/athena/latest/ug/connect-to-a-data-source.html) `docs.aws.amazon.com`
   * This allows you to write Athena *data source connector* Lambda functions that can be used to query across hybrid data sources achieving a mesh topology for your ad-hoc Data Lake. You can write these data source connectors with Chalice using its ability to create [pure Lambda functions](https://aws.github.io/chalice/topics/purelambda), and run your federated queries from Chalice in SQL using a third party module such as [SQLAlchemy](https://www.sqlalchemy.org/).
 
-### AWS Python SDKs
+## AWS Python SDKs
 * [AWS SDK for Python (boto3)](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html) `boto3.amazonaws.com`
   * In addition to providing Python interfaces to most AWS services, Amazon will often release setup/teardown code for new services as boto3 scripts (i.e. [AWS Detective](https://github.com/aws-samples/amazon-detective-multiaccount-scripts) and [AWS GuardDuty](https://github.com/aws-samples/amazon-guardduty-multiaccount-scripts/blob/master/enableguardduty.py)) before they are available in CloudFormation or the CDK. You can modify these scripts to be run from Chalice. There is also an *asynchronous* version of boto3 available, [aioboto3](https://github.com/terrycain/aioboto3), that is compatible with Python 3's built-in  <code>async</code> and <code>await</code> asynchronous programming keywords. With aioboto3 you can, for example, perform massively parallel writes and reads to S3 or DynamoDB.
 * [AWS X-Ray SDK for Python](https://docs.aws.amazon.com/xray/latest/devguide/xray-sdk-python.html)  `docs.aws.amazon.com`
@@ -47,7 +47,7 @@ Chalice's design is based on decorators. It is written by the AWS Chalice team. 
 * [AWS DynamoDB Encryption SDK for Python](https://github.com/aws/aws-dynamodb-encryption-python) `GitHub`
   * This client-side SDK helps you encrypt your sensitive data before sending it to DynamoDB.
 
-### AWS Samples for Python
+## AWS Samples for Python
 AWS Samples are example solution architectures created by AWS and published on GitHub. Here is [the complete list of 500+ Python samples](https://github.com/aws-samples?q=&type=&language=python&sort=). This section contains the best serverless samples, which you can use as inspiration.
 
 * [AWS Control Tower Account Creation Automation](https://github.com/aws-samples/aws-control-tower-automate-account-creation) `GitHub`
@@ -65,7 +65,7 @@ AWS Samples are example solution architectures created by AWS and published on G
 * [Serverless Reference Architecture: IoT Backend](https://github.com/aws-samples/lambda-refarch-iotbackend) `GitHub`
 * [AWS X-Ray Serverless Samples](https://github.com/aws-samples/aws-xray-serverless-samples) `GitHub`
 
-### 3rd Party Tools
+## 3rd Party Tools
 * [PynamoDB: A Pythonic wrapper for DynamoDB](https://github.com/pynamodb/PynamoDB) `GitHub`
   * PynamoDB is a pythonic interface to DynamoDB for data modelling. Example: [terraform-registry](https://github.com/zeroae/terraform-registry). `GitHub`
 * [PySide6](https://www.qt.io/blog/qt-for-python-6-released) `qt.io`
@@ -75,7 +75,7 @@ AWS Samples are example solution architectures created by AWS and published on G
 * [Toolz: A set of utility functions for iterators, functions, and dictionaries](https://github.com/pytoolz/toolz) `GitHub`
   * Toolz is a python module that allows you to import functional programming primitives, going beyond Python's built-in map-reduce-filter idioms.
 
-### Tooling for Writing Chalice Code
+## Tooling for Writing Chalice Code
 * [Lucidchart](https://lucid.app/) `lucid.app`
   * Lucid is the premier tool for hand-crafting AWS Solutions Architecture diagrams. They have the 2017 and 2019 AWS icon packs by default, and you can also [download the latest AWS Architecture Icons from Amazon](https://aws.amazon.com/architecture/icons/) and upload them to Lucidchart.
 * [AWS Toolkit for PyCharm](https://aws.amazon.com/pycharm/) `aws.amazon.com`
@@ -135,14 +135,14 @@ AWS Samples are example solution architectures created by AWS and published on G
 * `01-2019` [Damn Vulnerable Functions as a Service](https://github.com/we45/DVFaaS-Damn-Vulnerable-Functions-as-a-Service) `GitHub`
   * Example insecure FaaS repository built on Chalice
 
-## Miscellaneous Awesomeness
+# Miscellaneous Awesomeness
 
-### Stack Overflow
+## Stack Overflow
 * `10-2020` [Using APISpec to enable using Swagger with Chalice](https://stackoverflow.com/questions/63048401/any-framework-or-tool-is-available-to-achieve-swagger-definition-as-the-auto-gen)
 * `09-2020` [AWS IAM Policy required for AWS Chalice](https://stackoverflow.com/questions/63781304/aws-iam-policy-required-for-aws-chalice)
 * `07-2020` [Calling a Lambda from a Lambda in Chalice without going through API Gateway again](https://stackoverflow.com/questions/62815740/how-to-directly-invoke-a-chalice-lambda-from-another-lambda-without-going-throug)
 
-### Chalice Documentation
+## Chalice Documentation
 
 * [How to create pure Lambda functions in Chalice](https://aws.github.io/chalice/topics/purelambda)
 * [Continuous Deployment with Chalice](https://aws.github.io/chalice/topics/cd) ![#2BBA9C](https://via.placeholder.com/15/2BBA9C/000000?text=+)
@@ -150,21 +150,21 @@ AWS Samples are example solution architectures created by AWS and published on G
 * [Configuration File](https://aws.github.io/chalice/topics/configfile.html) ![#2BBA9C](https://via.placeholder.com/15/2BBA9C/000000?text=+)
   * By setting `api_gateway_endpoint_type` you can deploy into a VPC. 
 
-### Paid Tracing
+## Paid Tracing
 * [sentry-python: application monitoring platform to diagnose, fix, and optimize code performance](https://github.com/getsentry/sentry-python/blob/af163ff176b2c22952443dc5ec535aed98656fc2/tests/integrations/chalice/test_chalice.py) `GitHub`
 * [Lumigo Python agent for distributed tracing and performance monitoring](https://github.com/lumigo-io/python_tracer/blob/1ab55406befe494aa61384576339b49a1e681623/src/lumigo_tracer/examples/chalice.py) `GitHub`
 * [IOpipe Analytics & Distributed Tracing Agent for Python](https://github.com/iopipe/iopipe-python#chalice) `GitHub`
 
-### Videos
+## Videos
 * `10-2020` [Building your first REST API with AWS’s Open Data Sets and Chalice - Christian Weber](https://www.youtube.com/watch?v=VKUoL3IL3-w) `YouTube`
 * `09-2020` [AWS Chalice Hands-On Walkthrough, a Python Serverless Microframework for AWS](https://www.youtube.com/watch?v=q3eayufwmMg) `YouTube`
 * `04-2019` [Udemy Online Course - AWS Chalice : Build Serverless REST APIs on AWS](https://www.udemy.com/course/aws-chalice-build-serverless-rest-apis-on-aws/?ranMID=39197&ranEAID=Gw%2FETjJoU9M&ranSiteID=Gw_ETjJoU9M-gPreRA73w_.wS1U96fuiKw&utm_source=aff-campaign&utm_medium=udemyads&LSNPUBID=Gw%2FETjJoU9M) `Udemy`
 
-### Support
+## Support
 * [chalice.dev Slack channel](https://chalice.dev/) `chalice.dev`
 * [cdk.dev Slack channel](https://cdk.dev/) `cdk.dev`
 
-### Misc
+## Misc
 * [Steampipe](https://steampipe.io/) `steampipe.io` ![#2BBA9C](https://via.placeholder.com/15/2BBA9C/000000?text=+)
   * Steampipe allows you to query your AWS infrastructure, IAM policies, etc., using SQL. 
 * [Click](https://click.palletsprojects.com/en/7.x/) `PalletsProjects` ![#2BBA9C](https://via.placeholder.com/15/2BBA9C/000000?text=+)
