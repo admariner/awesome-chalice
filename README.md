@@ -52,6 +52,7 @@ AWS Samples are complete sample solution architectures created by AWS and publis
 
 * [AWS Control Tower Account Creation Automation](https://github.com/aws-samples/aws-control-tower-automate-account-creation) `GitHub`
   * AWS Control Tower allows you to automate account creation, and the documentation mentions doing it from Lambda. This repo shows you how. 
+* [AWS Serverless Ecommerce Platform](https://github.com/aws-samples/aws-serverless-ecommerce-platform) `GitHub`
 
 ### 3rd Party Tools
 * [PynamoDB: A Pythonic wrapper for DynamoDB](https://github.com/pynamodb/PynamoDB) `GitHub`
