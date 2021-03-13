@@ -47,6 +47,12 @@ Chalice's design is based on decorators. It is written by the AWS Chalice team. 
 * [AWS DynamoDB Encryption SDK for Python](https://github.com/aws/aws-dynamodb-encryption-python) `GitHub`
   * This client-side SDK helps you encrypt your sensitive data before sending it to DynamoDB.
 
+### AWS Samples for Python
+AWS Samples are complete sample solution architectures created by AWS and published on GitHub. Here is [the complete list of 500+ Python samples](https://github.com/aws-samples?q=&type=&language=python&sort=). This section contains some of the most awesome ones that are based on Python and Lambda and which are good targets for Chalice applications.
+
+* [AWS Control Tower Account Creation Automation](https://github.com/aws-samples/aws-control-tower-automate-account-creation) `GitHub`
+  * AWS Control Tower allows you to automate account creation, and the documentation mentions doing it from Lambda. This repo shows you how. 
+
 ### 3rd Party Tools
 * [PynamoDB: A Pythonic wrapper for DynamoDB](https://github.com/pynamodb/PynamoDB) `GitHub`
   * PynamoDB is a pythonic interface to DynamoDB for data modelling. Example: [terraform-registry](https://github.com/zeroae/terraform-registry). `GitHub`
