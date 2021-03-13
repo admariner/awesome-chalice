@@ -61,6 +61,7 @@ AWS Samples are example solution architectures created by AWS and published on G
 * [AutoML with AutoGluon, Amazon SageMaker, and AWS Lambda](https://github.com/aws-samples/automl-pipeline-with-autogluon-sagemaker-lambda) `GitHub`
 * [Processing ML Workloads asynchronously in Batch using SageMaker Batch Transform](https://github.com/aws-samples/aws-asynchronous-ml-processing) `GitHub`
 * [Serverless Tracking Pixel](https://github.com/aws-samples/aws-serverless-tracking-pixel) `GitHub`
+* [Serverless Reference Architecture: Real-time File Processing](https://github.com/aws-samples/lambda-refarch-fileprocessing) `GitHub`
 
 ### 3rd Party Tools
 * [PynamoDB: A Pythonic wrapper for DynamoDB](https://github.com/pynamodb/PynamoDB) `GitHub`
