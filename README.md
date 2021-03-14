@@ -69,12 +69,12 @@ AWS Samples are example solution architectures created by AWS and published on G
 ## AWS Labs
 Sample serverless solution architectures code in Python from AWS Labs, which tends to be more feature complete that AWS Samples.
 - [Serverless Data Lake Framework (SDLF)](https://github.com/awslabs/aws-serverless-data-lake-framework) `GitHub`
-- [Media Insights Engine](https://github.com/awslabs/aws-media-insights-engine)
-- [Serverless Transit Network Orchestrator](https://github.com/awslabs/serverless-transit-network-orchestrator)
-- [Amazon Aurora Postgres Advanced Monitoring](https://github.com/awslabs/amazon-aurora-postgres-monitoring)
-- [AWS Serverless Twitter Event Source](https://github.com/awslabs/aws-serverless-twitter-event-source)
-- [Serverless Subtitles](https://github.com/awslabs/serverless-subtitles)
-- [AWS Serverless Financial Functions](https://github.com/awslabs/aws-serverless-financial-functions)
+- [Media Insights Engine](https://github.com/awslabs/aws-media-insights-engine) `GitHub`
+- [Serverless Transit Network Orchestrator](https://github.com/awslabs/serverless-transit-network-orchestrator) `GitHub`
+- [Amazon Aurora Postgres Advanced Monitoring](https://github.com/awslabs/amazon-aurora-postgres-monitoring) `GitHub`
+- [AWS Serverless Twitter Event Source](https://github.com/awslabs/aws-serverless-twitter-event-source) `GitHub`
+- [Serverless Subtitles](https://github.com/awslabs/serverless-subtitles) `GitHub`
+- [AWS Serverless Financial Functions](https://github.com/awslabs/aws-serverless-financial-functions) `GitHub`
 
 ## 3rd Party Tools
 - [PynamoDB: A Pythonic wrapper for DynamoDB](https://github.com/pynamodb/PynamoDB) `GitHub`
