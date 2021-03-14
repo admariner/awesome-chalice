@@ -18,7 +18,7 @@ Chalice's design is based on decorators. It is written by the AWS Chalice team. 
 * [3rd Party Tools](#3rd-party-tools)
 * [Tooling for Writing Chalice Code](#tooling-for-writing-chalice-code)
 * [Blog Posts and Feature Releases](#blog-posts-and-feature-releases)
-* [Build on Chalice](#built-on-chalice)
+* [Built on Chalice](#built-on-chalice)
 * [Miscellaneous Awesomeness](#miscellaneous-awesomeness)
 
 ## AWS Projects
