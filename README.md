@@ -120,7 +120,7 @@ AWS Samples are example solution architectures created by AWS and published on G
 - `current` [Agave: REST API for Chalice BluePrints](https://github.com/cuenca-mx/agave)
 - `current` [aws-chalice-swagger: AWS Chalice template project with Swagger UI](https://github.com/samuelkhtu/aws-chalice-swagger) `GitHub`
   - Chalice comes with Swagger support, this project shows you how to use it.
-- `01-2021` [Lambda Multi-threading in Chalice](https://github.com/vumdao/multithread-in-lambda) ![#2BBA9C](https://via.placeholder.com/15/2BBA9C/000000?text=+)
+- `01-2021` [Lambda Multi-threading in Chalice](https://github.com/vumdao/multithread-in-lambda) `GitHub` ![#2BBA9C](https://via.placeholder.com/15/2BBA9C/000000?text=+)
   - Lambda functions can have up to 6 vCPU cores and 10GB RAM, this simple example shows how to use a map/reduce across cores in Chalice.
 - `12-2020` [chalice-cicd-app: Deploy Chalice using AWS CodeStar via the AWS CDK](https://github.com/folksgl/chalice-cicd-app) `GitHub`
 - `11-2020` [aws-chalice-boilerplate](https://github.com/GabrielTavares99/aws-chalice-boilerplate) `GitHub`
