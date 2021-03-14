@@ -12,6 +12,14 @@ Chalice's design is based on decorators. It is written by the AWS Chalice team. 
 
 ## Contents
 * [AWS Projects](#aws-projects)
+* [AWS Python SDKs](#aws-python-sdks)
+* [AWS Samples for Python](#aws-samples-for-python)
+* [AWS Labs Samples](#aws-labs-samples)
+* [3rd Party Tools](#3rd-party-tools)
+* [Tooling for Writing Chalice Code](#tooling-for-writing-chalice-code)
+* [Blog Posts and Feature Releases](#blog-posts-and-feature-releases)
+* [Build on Chalice](#built-on-chalice)
+* [Miscellaneous Awesomeness](#miscellaneous-awesomeness)
 
 ## AWS Projects
 - [AWS Cloud Development Kit (CDK)](https://aws.amazon.com/cdk/) `aws.amazon.com`
@@ -69,7 +77,7 @@ AWS Samples are example solution architectures created by AWS and published on G
 - [Serverless Reference Architecture: IoT Backend](https://github.com/aws-samples/lambda-refarch-iotbackend) `GitHub`
 - [AWS X-Ray Serverless Samples](https://github.com/aws-samples/aws-xray-serverless-samples) `GitHub`
 
-## AWS Labs
+## AWS Labs Samples
 Sample serverless solution architectures code in Python from AWS Labs, which tends to be more feature complete than AWS Samples.
 - [Serverless Data Lake Framework (SDLF)](https://github.com/awslabs/aws-serverless-data-lake-framework) `GitHub`
 - [Media Insights Engine](https://github.com/awslabs/aws-media-insights-engine) `GitHub`
