@@ -10,6 +10,9 @@
 
 Chalice's design is based on decorators. It is written by the AWS Chalice team. Think of Chalice as your primary entry point to whatever it is that you want to do on AWS, or in the cloud.
 
+## Contents
+* [AWS Projects](#aws-projects)
+
 ## AWS Projects
 - [AWS Cloud Development Kit (CDK)](https://aws.amazon.com/cdk/) `aws.amazon.com`
   - The AWS CDK is written in Javascript and, via JSii, is available to Python. With the <code>chalice-cdk</code> CDK Construct for Chalice you can deploy your Chalice application via `cdk deploy`. Alternately, with Chalice's <code>chalice generate-pipeline</code> extensible build process, you can deploy your CDK infrastructure when you deploy your Chalice application. In other words, you can either use the CDK to deploy your Chalice application, or use Chalice to deploy your CDK application. If you primarily write Chalice applications, you can use the CDK primarily for deploying your infrastructure layer. 
