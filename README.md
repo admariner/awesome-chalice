@@ -100,7 +100,7 @@ Sample serverless solution architectures code in Python from AWS Labs, which ten
 - `01-2021` [AWS Chalice adds support for the AWS CDK](https://aws.amazon.com/blogs/developer/aws-chalice-adds-support-for-the-aws-cdk/) `AWS Blog`
 - `12-2020` [Packaging AWS Lambda functions as container images](https://acloudguru.com/blog/engineering/packaging-aws-lambda-functions-as-container-images) `A Cloud Guru`
 - `12-2020` [New for AWS Lambda – 1ms Billing Granularity Adds Cost Savings](https://aws.amazon.com/blogs/aws/new-for-aws-lambda-1ms-billing-granularity-adds-cost-savings/) `AWS Blog`
-- `12-2020` [Implementing version control using Amazon DynamoDB](https://aws.amazon.com/blogs/database/implementing-version-control-using-amazon-dynamodb/)
+- `12-2020` [Implementing version control using Amazon DynamoDB](https://aws.amazon.com/blogs/database/implementing-version-control-using-amazon-dynamodb/) `AWS Blog`
   - Includes code on `GitHub`: [Amazon DynamoDB Design Patterns](https://github.com/aws-samples/amazon-dynamodb-design-patterns)
 - `10-2020` [AWS Lambda Extensions: What are they and why do they matter](https://lumigo.io/blog/aws-lambda-extensions-what-are-they-and-why-do-they-matter/) `Lumigo`
   - Extensions allow you to monitor your Lambda functions, such as CPU and network utilization.
