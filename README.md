@@ -66,6 +66,16 @@ AWS Samples are example solution architectures created by AWS and published on G
 - [Serverless Reference Architecture: IoT Backend](https://github.com/aws-samples/lambda-refarch-iotbackend) `GitHub`
 - [AWS X-Ray Serverless Samples](https://github.com/aws-samples/aws-xray-serverless-samples) `GitHub`
 
+## AWS Labs
+Sample serverless solution architectures code in Python from AWS Labs, which tends to be more feature complete that AWS Samples.
+- [Serverless Data Lake Framework (SDLF)](https://github.com/awslabs/aws-serverless-data-lake-framework) `GitHub`
+- [Media Insights Engine](https://github.com/awslabs/aws-media-insights-engine)
+- [Serverless Transit Network Orchestrator](https://github.com/awslabs/serverless-transit-network-orchestrator)
+- [Amazon Aurora Postgres Advanced Monitoring](https://github.com/awslabs/amazon-aurora-postgres-monitoring)
+- [AWS Serverless Twitter Event Source](https://github.com/awslabs/aws-serverless-twitter-event-source)
+- [Serverless Subtitles](https://github.com/awslabs/serverless-subtitles)
+- [AWS Serverless Financial Functions](https://github.com/awslabs/aws-serverless-financial-functions)
+
 ## 3rd Party Tools
 - [PynamoDB: A Pythonic wrapper for DynamoDB](https://github.com/pynamodb/PynamoDB) `GitHub`
   - PynamoDB is a pythonic interface to DynamoDB for data modelling. Example: [terraform-registry](https://github.com/zeroae/terraform-registry). `GitHub`
