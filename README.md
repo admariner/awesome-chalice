@@ -112,6 +112,7 @@ Sample serverless solution architectures code in Python from AWS Labs, which ten
   - Allows you to ie trace with AWS X-Ray, and to create middleware - code that is called before, during and after each lambda invocation.
 - `08-2020` [Automatically deploy a Serverless REST API from GitHub with AWS Chalice](https://aws.amazon.com/blogs/developer/automatically-deploy-a-serverless-rest-api-from-github-with-aws-chalice/) `AWS Blog`
 - `07-2020` [Creating low-latency, high-volume APIs with Provisioned Concurrency](https://aws.amazon.com/blogs/compute/creating-low-latency-high-volume-apis-with-provisioned-concurrency/) `GitHub`
+  - Chalice does not yet support Provisioned Concurrency out of the box, [but it plans to.](https://github.com/aws/chalice/issues/1322) `GitHub`
 - `07-2020` [Configuring custom domain names with AWS Chalice](https://aws.amazon.com/blogs/developer/configuring-custom-domain-names-with-aws-chalice/) `AWS Blog` ![#2BBA9C](https://via.placeholder.com/15/2BBA9C/000000?text=+)
 - `06-2020` [AWS Chalice Now Supports YAML Templates](https://aws.amazon.com/blogs/developer/aws-chalice-now-supports-yaml-templates/) `AWS Blog`
   - Allows you to deploy Chalice using the AWS Serverless Application model, for integration with CloudFormation.
