@@ -95,7 +95,7 @@ Sample serverless solution architectures code in Python from AWS Labs, which ten
   - Anaconda provides a consistent Python development environment. You can use Anaconda on AWS Lambda if you [mount an EFS filesystem](https://docs.aws.amazon.com/efs/latest/ug/mounting-fs.html) that has it, or if you [use a container image](https://aws.amazon.com/blogs/aws/new-for-aws-lambda-container-image-support/) for your Lambda functions. This is not yet tightly integrated with Chalice, however, it works very well for local development.
 
 ## Blog Posts and Feature Releases
-- `02-2021` [Amplify Flutter is Now Generally Available: Build Beautiful Cross-Platform Apps](https://aws.amazon.com/blogs/aws/amplify-flutter-is-now-generally-available-build-beautiful-cross-platform-apps/)
+- `02-2021` [Amplify Flutter is Now Generally Available: Build Beautiful Cross-Platform Apps](https://aws.amazon.com/blogs/aws/amplify-flutter-is-now-generally-available-build-beautiful-cross-platform-apps/) `AWS Blog`
 - `02-2021` [Using container images to run PyTorch models in AWS Lambda](https://aws.amazon.com/blogs/machine-learning/using-container-images-to-run-pytorch-models-in-aws-lambda/) `AWS Blog`
 - `01-2021` [AWS Chalice adds support for the AWS CDK](https://aws.amazon.com/blogs/developer/aws-chalice-adds-support-for-the-aws-cdk/) `AWS Blog`
 - `12-2020` [Packaging AWS Lambda functions as container images](https://acloudguru.com/blog/engineering/packaging-aws-lambda-functions-as-container-images) `A Cloud Guru`
