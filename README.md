@@ -120,6 +120,7 @@ Sample serverless solution architectures code in Python from AWS Labs, which ten
 - `06-2020` [Using Amazon EFS for AWS Lambda in your serverless applications](https://aws.amazon.com/blogs/compute/using-amazon-efs-for-aws-lambda-in-your-serverless-applications/) `AWS Blog` ![#2BBA9C](https://via.placeholder.com/15/2BBA9C/000000?text=+)
   - A building block for mounting an Elastic File System with Chalice, which should be combined with CDK support.
 - `05-2020` [Introducing the AWS Chalice test client](https://aws.amazon.com/blogs/developer/introducing-the-new-test-client-for-aws-chalice/) `AWS Blog` ![#2BBA9C](https://via.placeholder.com/15/2BBA9C/000000?text=+)
+- `04-2020` [Use Amazon DynamoDB Accelerator (DAX) from AWS Lambda to increase performance while reducing costs](https://aws.amazon.com/blogs/database/how-to-increase-performance-while-reducing-costs-by-using-amazon-dynamodb-accelerator-dax-and-aws-lambda/) `GitHub`
 - `02-2020` [Painless AWS Chalice Application Debug](https://medium.com/cyberark-engineering/painless-aws-chalice-application-debug-90534e33cf76) `Medium`
 - `03-2019` [Modularizing a Chalice Application for Teams](https://medium.com/tensoriot/modularizing-a-chalice-application-for-teams-f716f496b94b) `Medium`
   - How to leverage the `chalicelib` directory to enable a team of developers to work on Chalice.
