@@ -154,7 +154,7 @@ Sample serverless solution architectures code in Python from AWS Labs, which ten
 - `11-2020` ~~[Chalice + LocalStack (doesn't work yet)](https://github.com/localstack/chalice-local)~~
 - `08-2020` [chalice-extended-action: Automated deployment of your Chalice application via GitHub Actions](https://github.com/jayef0/chalice-extended-action) `GitHub`
 - `06-2020` [pytest-chalice: A set of py.test fixtures for AWS Chalice](https://github.com/studio3104/pytest-chalice)
-- `02-2020` [chalice-cognito-auth: A library for setting up login routes in a Chalice app](https://github.com/stealthycoin/chalice-cognito-auth)  ![#2BBA9C](https://via.placeholder.com/15/2BBA9C/000000?text=+)
+- `02-2020` [chalice-cognito-auth: A library for setting up login routes in a Chalice app](https://github.com/stealthycoin/chalice-cognito-auth)
   - Connect Chalice to a Cognito user pool for single-sign on (SSO).
 - `10-2019` [Domovoi - Extension to Chalice that supports Automatic Load Balancing](https://github.com/cloud-utils/domovoi) `GitHub`
 - `01-2019` [Damn Vulnerable Functions as a Service](https://github.com/we45/DVFaaS-Damn-Vulnerable-Functions-as-a-Service) `GitHub`
@@ -170,9 +170,9 @@ Sample serverless solution architectures code in Python from AWS Labs, which ten
 ## Chalice Documentation
 
 - [How to create pure Lambda functions in Chalice](https://aws.github.io/chalice/topics/purelambda)
-- [Continuous Deployment with Chalice](https://aws.github.io/chalice/topics/cd) ![#2BBA9C](https://via.placeholder.com/15/2BBA9C/000000?text=+)
+- [Continuous Deployment with Chalice](https://aws.github.io/chalice/topics/cd)
   - Chalice has support for dev/stage/prod out-of-the-box, in addition to CodeBuild, CodeDeploy and CodePipeline.
-- [Configuration File](https://aws.github.io/chalice/topics/configfile.html) ![#2BBA9C](https://via.placeholder.com/15/2BBA9C/000000?text=+)
+- [Configuration File](https://aws.github.io/chalice/topics/configfile.html)
   - By setting `api_gateway_endpoint_type` you can deploy into a VPC. 
 
 ## Paid Tracing
@@ -190,8 +190,8 @@ Sample serverless solution architectures code in Python from AWS Labs, which ten
 - [cdk.dev Slack channel](https://cdk.dev/) `cdk.dev`
 
 ## Misc
-- [Steampipe](https://steampipe.io/) `steampipe.io` ![#2BBA9C](https://via.placeholder.com/15/2BBA9C/000000?text=+)
+- [Steampipe](https://steampipe.io/) `steampipe.io`
   - Steampipe allows you to query your AWS infrastructure, IAM policies, etc., using SQL. 
-- [Click](https://click.palletsprojects.com/en/7.x/) `PalletsProjects` ![#2BBA9C](https://via.placeholder.com/15/2BBA9C/000000?text=+)
+- [Click](https://click.palletsprojects.com/en/7.x/) `PalletsProjects`
   - You can pair Flask's Click project to decorate your Chalice apps so as to have a CLI.
-- [AWS CDK Patterns](https://github.com/cdk-patterns/serverless) `GitHub` ![#2BBA9C](https://via.placeholder.com/15/2BBA9C/000000?text=+)
+- [AWS CDK Patterns](https://github.com/cdk-patterns/serverless) `GitHub`
