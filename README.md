@@ -95,6 +95,8 @@ Sample serverless solution architectures code in Python from AWS Labs, which ten
   - Hy is a multi-paradigm general-purpose programming language in the Lisp family, inspired by Clojure and written in Python. You can use it to pipeline Chalice λ functions together (functional programming), achieving lambda-based programming that is as effortless as Bash pipelines on the Linux command line. You can mix Hy and Python in the same file.
 - [Toolz: A set of utility functions for iterators, functions, and dictionaries](https://github.com/pytoolz/toolz) `GitHub`
   - Toolz is a python module that allows you to import functional programming primitives, going beyond Python's built-in map-reduce-filter idioms.
+- [AWS Limit Checker](https://github.com/jantman/awslimitchecker) `GitHub`
+  - Python code for automatically detecting when you are about to run up against AWS limits.
 
 ## Tooling for Writing Chalice Code
 - [Lucidchart](https://lucid.app/) `lucid.app`
