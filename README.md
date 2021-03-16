@@ -137,6 +137,7 @@ Sample serverless solution architectures code in Python from AWS Labs, which ten
 - `02-2020` [Painless AWS Chalice Application Debug](https://medium.com/cyberark-engineering/painless-aws-chalice-application-debug-90534e33cf76) `Medium`
 - `03-2019` [Modularizing a Chalice Application for Teams](https://medium.com/tensoriot/modularizing-a-chalice-application-for-teams-f716f496b94b) `Medium`
   - How to leverage the `chalicelib` directory to enable a team of developers to work on Chalice.
+- `05-2019` [Getting started with the AWS Cloud Development Kit and Python](https://aws.amazon.com/blogs/developer/getting-started-with-the-aws-cloud-development-kit-and-python/)
 - `03-2019` [Run your Python Scripts as Slack Commands (ChatOps)](https://medium.com/@yogeshingale94/run-your-python-scripts-as-slack-commands-chatops-63bc334b74cd) `Medium`
 - `12-2018` [Building Serverless Python Apps Using AWS Chalice](https://realpython.com/aws-chalice-serverless-python/) `Real Python Blog`
 
