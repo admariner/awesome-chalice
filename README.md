@@ -2,6 +2,8 @@
 # Awesome AWS Chalice
 > Difficulty: Advanced<br/>
 > Awesomeness: Awesome
+
+
 [AWS Chalice](https://aws.github.io/chalice/)<a href="https://aws.github.io/chalice/"><img src="https://aws.github.io/chalice/_static/img/chalice-logo-icon-small.png" height="20"></a> (join us in our [community Slack channel](https://join.slack.com/t/chalicedev/shared_invite/zt-naadmddi-MRwgFq40Ge3qfcPJR_RaDQ)) is Amazon Web Services' premier solution to writing infinitely scalable serverless Python applications based on AWS Lambda. Chalice provides an extensible build process via <code>chalice generate-pipeline</code>, allowing you to orchestrate the deployment (<code>chalice deploy</code>) of any dependencies or outputs, such as infrastructure code written in the CDK, executable artifacts, backend APIs or front-end applications. Chalice is suited for:
 - Writing https APIs that wrap infrastructure on AWS.
 - Building libraries of Ops functions (DevOps, DevSecOps, NetDevOps, NetOps, NetSecOps, CI/CD Pipeline, ChatOps, etc.).
