@@ -1,6 +1,6 @@
 <a href="https://github.com/chalice-dev/awesome-chalice"><img alight="right" src="https://end4gy838edhwnq.m.pipedream.net" align="right" height="20"></a><a href="https://github.com/aws/chalice"><img src="https://user-images.githubusercontent.com/80226595/110259005-4ec13080-7f5a-11eb-98eb-f84dbac2c736.png" height="20" align="right"></a><a href="https://github.com/sindresorhus/awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" align="right" height="20"></a>[![Analytics](https://ga-beacon.appspot.com/UA-191636151-1/awesome-chalice?useReferer&pixel)](https://github.com/igrigorik/ga-beacon)
 # Awesome AWS Chalice
-> Difficulty: Advanced<br/>
+> Difficulty: Beginner, Advanced<br/>
 > Awesomeness: Awesome
 
 
