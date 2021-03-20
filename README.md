@@ -5,7 +5,7 @@
 [AWS Chalice](https://aws.github.io/chalice/)<a href="https://aws.github.io/chalice/"><img src="https://aws.github.io/chalice/_static/img/chalice-logo-icon-small.png" height="20"></a> (join us in our [community Slack channel](https://join.slack.com/t/chalicedev/shared_invite/zt-naadmddi-MRwgFq40Ge3qfcPJR_RaDQ)) is Amazon Web Services' premier solution to writing infinitely scalable serverless Python applications based on AWS Lambda. Chalice provides an extensible build process via <code>chalice generate-pipeline</code>, allowing you to orchestrate the deployment (<code>chalice deploy</code>) of any dependencies or outputs, such as infrastructure code written in the CDK, executable artifacts, backend APIs or front-end applications. Chalice is suited for:
 - Writing https APIs that wrap infrastructure on AWS.
 - Building libraries of Ops functions (DevOps, DevSecOps, NetDevOps, NetOps, NetSecOps, CI/CD Pipeline, ChatOps, etc.).
-- Managing AWS accounts programatically.
+- Managing AWS accounts programmatically.
 - Creating web applications with your favorite front-end toolkit, just as [jQuery UI](https://jqueryui.com/) or [AWS Amplify](https://aws.amazon.com/amplify/).
 - Providing the web API backend layer to cross-platform Win/Mac/Linux/Android/iOS desktop and mobile applications written in Qt for Python (PySide6).
 
@@ -48,7 +48,7 @@ Chalice's design is based on decorators. It is written by the AWS Chalice team. 
 - [AWS IoT SDK for Python](https://github.com/aws/aws-iot-device-sdk-python-v2) `GitHub`
   - Add Internet of Things support to your Chalice application. This pairs well with Chalice's [built-in support for events based on Kinesis Streams](https://aws.amazon.com/blogs/developer/aws-chalice-now-supports-amazon-kinesis-and-amazon-dynamodb-streams/). There is also a [Python SDK for Greengrass](https://aws.github.io/aws-greengrass-core-sdk-python/), which runs Lambda functions ON Greengrass IoT edge devices. These functions can trigger application logic in Chalice via IoT --> Kinesis Streams.
 - [AWS C Common Runtime](https://github.com/awslabs/aws-c-common) `GitHub`
-  - The most high performance Python-on-AWS applications may make use of the AWS C Common Runtime, which is written in.. C! You'll need to use the [AWS CRT Python](https://github.com/awslabs/aws-crt-python) module to make the magic happen.
+  - The most high performance Python-on-AWS applications may make use of the AWS C Common Runtime, which is written in... C! You'll need to use the [AWS CRT Python](https://github.com/awslabs/aws-crt-python) module to make the magic happen.
 - [AWS Encryption SDK for Python](https://github.com/aws/aws-encryption-sdk-python/) `GitHub`
   - This is a client-side encryption library, meaning a library for using hard encryption hosted by AWS, in your application logic.
 - [AWS SageMaker SDK for Python](https://github.com/aws/sagemaker-python-sdk) `GitHub`
@@ -190,7 +190,7 @@ Sample serverless solution architectures code in Python from AWS Labs, which ten
 - `01-2021` [PySide6, Qt Quick, Material Design, VS Code And Python 3.9.1 - Tutorial Modern GUI - Part 1](https://www.youtube.com/watch?v=Jn0PpzB14Y8)
 - `10-2020` [Building your first REST API with AWS’s Open Data Sets and Chalice - Christian Weber](https://www.youtube.com/watch?v=VKUoL3IL3-w) `YouTube`
 - `09-2020` [AWS Chalice Hands-On Walkthrough, a Python Serverless Microframework for AWS](https://www.youtube.com/watch?v=q3eayufwmMg) `YouTube`
-- `04-2019` [Udemy Online Course - AWS Chalice : Build Serverless REST APIs on AWS](https://www.udemy.com/course/aws-chalice-build-serverless-rest-apis-on-aws/?ranMID=39197&ranEAID=Gw%2FETjJoU9M&ranSiteID=Gw_ETjJoU9M-gPreRA73w_.wS1U96fuiKw&utm_source=aff-campaign&utm_medium=udemyads&LSNPUBID=Gw%2FETjJoU9M) `Udemy`
+- `04-2019` [Udemy Online Course - AWS Chalice: Build Serverless REST APIs on AWS](https://www.udemy.com/course/aws-chalice-build-serverless-rest-apis-on-aws/?ranMID=39197&ranEAID=Gw%2FETjJoU9M&ranSiteID=Gw_ETjJoU9M-gPreRA73w_.wS1U96fuiKw&utm_source=aff-campaign&utm_medium=udemyads&LSNPUBID=Gw%2FETjJoU9M) `Udemy`
 
 ## Support
 - [chalice.dev Slack channel](https://chalice.dev/) `chalice.dev`
