@@ -116,6 +116,7 @@ Sample serverless solution architectures code in Python from AWS Labs, which ten
 - `12-2020` [New for AWS Lambda – 1ms Billing Granularity Adds Cost Savings](https://aws.amazon.com/blogs/aws/new-for-aws-lambda-1ms-billing-granularity-adds-cost-savings/) `AWS Blog`
 - `12-2020` [Implementing version control using Amazon DynamoDB](https://aws.amazon.com/blogs/database/implementing-version-control-using-amazon-dynamodb/) `AWS Blog`
   - Includes code on `GitHub`: [Amazon DynamoDB Design Patterns](https://github.com/aws-samples/amazon-dynamodb-design-patterns)
+- `10-2020` [Qt for Python 6 released](https://www.qt.io/blog/qt-for-python-6-released) `qt.io`
 - `10-2020` [How do I give internet access to a Lambda function that's connected to an Amazon VPC?](https://aws.amazon.com/premiumsupport/knowledge-center/internet-access-lambda-function/) `aws.amazon.com`
 - `10-2020` [AWS Lambda Extensions: What are they and why do they matter](https://lumigo.io/blog/aws-lambda-extensions-what-are-they-and-why-do-they-matter/) `Lumigo`
   - Extensions allow you to monitor your Lambda functions, such as CPU and network utilization.
