@@ -190,6 +190,7 @@ Sample serverless solution architectures code in Python from AWS Labs, which ten
 - `01-2021` [PySide6, Qt Quick, Material Design, VS Code And Python 3.9.1 - Tutorial Modern GUI - Part 1](https://www.youtube.com/watch?v=Jn0PpzB14Y8)
 - `10-2020` [Building your first REST API with AWS’s Open Data Sets and Chalice - Christian Weber](https://www.youtube.com/watch?v=VKUoL3IL3-w) `YouTube`
 - `09-2020` [AWS Chalice Hands-On Walkthrough, a Python Serverless Microframework for AWS](https://www.youtube.com/watch?v=q3eayufwmMg) `YouTube`
+- `08-2020` [AWS Chalice - Walkthrough of the Media Query Sample Application](https://www.youtube.com/watch?v=UCZXJpI1dKw&ab_channel=AmazonWebServices)
 - `04-2019` [Udemy Online Course - AWS Chalice: Build Serverless REST APIs on AWS](https://www.udemy.com/course/aws-chalice-build-serverless-rest-apis-on-aws/?ranMID=39197&ranEAID=Gw%2FETjJoU9M&ranSiteID=Gw_ETjJoU9M-gPreRA73w_.wS1U96fuiKw&utm_source=aff-campaign&utm_medium=udemyads&LSNPUBID=Gw%2FETjJoU9M) `Udemy`
 
 ## Support
