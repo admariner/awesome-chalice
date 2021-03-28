@@ -91,6 +91,8 @@ Sample serverless solution architectures code in Python from AWS Labs, which ten
 ## 3rd Party Tools
 - [PynamoDB: A Pythonic wrapper for DynamoDB](https://github.com/pynamodb/PynamoDB) `GitHub`
   - PynamoDB is a pythonic interface to DynamoDB for data modelling. Example: [terraform-registry](https://github.com/zeroae/terraform-registry). `GitHub`
+- [S3Fs](https://s3fs.readthedocs.io/en/latest/) `ReadTheDocs`
+  - A filesystem-like interface to S3 built on `botocore`.
 - [PySide6](https://www.qt.io/blog/qt-for-python-6-released) `qt.io`
   - PySide6 is the official Qt module for Python, for writing cross-platform Win/Mac/Linux/Android/iOS applications. With PySide6 and [QtQuick](https://doc-snapshots.qt.io/qt6-dev/qtquick-index.html) you can very quickly write desktop Python applications that integrate with Chalice. You can use Chalice to authenticate via Cognito user pools, and to write an API layer for your application that is backed by any AWS service. You can use Chalice's extensible build system to create and publish cross-platform Qt executables.
 - [Hy: A lisp written in Python](https://docs.hylang.org/en/master/tutorial.html) `hylang.org`
