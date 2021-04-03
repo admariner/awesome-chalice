@@ -26,7 +26,7 @@ Chalice's design is based on decorators. It is written by the AWS Chalice team. 
 - [AWS Data Wrangler](https://github.com/awslabs/aws-data-wrangler) `GitHub`
   - "Pandas on AWS": *Easy integration with Athena, Glue, Redshift, Timestream, QuickSight, Chime, CloudWatchLogs, DynamoDB, EMR, SecretManager, PostgreSQL, MySQL, SQLServer and S3 (Parquet, CSV, JSON and EXCEL).*
 - [AWS Cloud Development Kit (CDK)](https://aws.amazon.com/cdk/) `aws.amazon.com`
-  - The AWS CDK is written in Javascript and, via JSii, is available to Python. With the <code>chalice-cdk</code> CDK Construct for Chalice you can deploy your Chalice application via `cdk deploy`. Alternately, with Chalice's <code>chalice generate-pipeline</code> extensible build process, you can deploy your CDK infrastructure when you deploy your Chalice application. In other words, you can either use the CDK to deploy your Chalice application, or use Chalice to deploy your CDK application. If you primarily write Chalice applications, you can use the CDK primarily for deploying your infrastructure layer. 
+  - The AWS CDK is written in Javascript and, via JSii, is available to Python. With the <code>chalice-cdk</code> CDK Construct for Chalice you can deploy your Chalice application via `cdk deploy`. Alternately, with Chalice's <code>chalice generate-pipeline</code> extensible build process, you can deploy your CDK infrastructure when you deploy your Chalice application. In other words, you can either use the CDK to deploy your Chalice application, or use Chalice to deploy your CDK application. If you primarily write Chalice applications, you can use the CDK primarily for deploying your infrastructure layer.
 - [AWS Solutions Constructs Patterns](https://aws.amazon.com/solutions/constructs/patterns/) `aws.amazon.com`
   - These are vetted architectural patterns for the AWS CDK that allow you to easily chain together multiple products per solutions construct, and to also chain those patterns together. Many of the patterns are serverless in nature.
 - [AWS Serverless Application Repository](https://serverlessrepo.aws.amazon.com/applications) `aws.amazon.com`
@@ -34,11 +34,11 @@ Chalice's design is based on decorators. It is written by the AWS Chalice team. 
 - [JSii](https://github.com/aws/jsii) `GitHub`
   - JSii is the library that enables the AWS CDK to generalize from Javascript to Python. You can use JSii to call CDK code that may not have been interfaced to Python in a CDK Construct yet.
 - [DynamoDB Global Tables](https://aws.amazon.com/dynamodb/global-tables/) `aws.amazon.com`
-  - A fully managed extension to DynamoDB for global NoSQL scale-out of your Chalice application. 
+  - A fully managed extension to DynamoDB for global NoSQL scale-out of your Chalice application.
 - [Aurora Serverless Global Database 2](https://aws.amazon.com/rds/aurora/serverless/) `aws.amazon.com`
   - A serverless OLTP database for your Chalice application that scales out to hundreds of thousands of transactions per second, with secondary cluster replications in up to 5 regions. Rumor has it that it runs Amazon.com.
 - [AWS Amplify](https://docs.amplify.aws/) `docs.amplify.aws`
-  - In particular the [Amplify UI Components](https://docs.amplify.aws/ui), written in Javascript. Chalice makes it easy to create routing-based APIs that wrap the heavy lifting, while Amplify helps with the front-end Javascript, such as reactive programming based on React. You can use Chalice's [built-in support for authorization via Cognito user pools](https://aws.github.io/chalice/topics/authorizers.html), and you can pair Amplify's support for GraphQL with the [Chalice-GraphQL](https://github.com/jrbeilke/chalice-graphql) 3rd-party library. You can also use Amplify CLI to deploy your Chalice application. 
+  - In particular the [Amplify UI Components](https://docs.amplify.aws/ui), written in Javascript. Chalice makes it easy to create routing-based APIs that wrap the heavy lifting, while Amplify helps with the front-end Javascript, such as reactive programming based on React. You can use Chalice's [built-in support for authorization via Cognito user pools](https://aws.github.io/chalice/topics/authorizers.html), and you can pair Amplify's support for GraphQL with the [Chalice-GraphQL](https://github.com/jrbeilke/chalice-graphql) 3rd-party library. You can also use Amplify CLI to deploy your Chalice application.
 - [Amazon Athena Federated Query](https://docs.aws.amazon.com/athena/latest/ug/connect-to-a-data-source.html) `docs.aws.amazon.com`
   - This allows you to write Athena "data source connector" Lambda functions that can be used to query across hybrid data sources achieving a mesh topology for your ad-hoc Data Lake. You can write these data source connectors with Chalice using its ability to create [pure Lambda functions](https://aws.github.io/chalice/topics/purelambda), and run your federated queries from Chalice in SQL using a third party module such as [SQLAlchemy](https://www.sqlalchemy.org/).
 
@@ -106,7 +106,7 @@ Sample serverless solution architectures code in Python from AWS Labs, which ten
 
 ## Tooling for Writing Chalice Code
 - [Lucidchart](https://lucid.app/) `lucid.app`
-  - Lucid allows you to hand-craft AWS Solutions Architecture diagrams. They have the 2017 and 2019 AWS icon packs by default. 
+  - Lucid allows you to hand-craft AWS Solutions Architecture diagrams. They have the 2017 and 2019 AWS icon packs by default.
 - [CloudMoji™](https://cloudmoji.com/) `cloudmoji.com`
   - CloudMoji has the 2021 icon packs for AWS, Azure and GCP, and enables you to use them with Lucidchart.
 - [AWS Toolkit for PyCharm](https://aws.amazon.com/pycharm/) `aws.amazon.com`
@@ -163,7 +163,7 @@ Sample serverless solution architectures code in Python from AWS Labs, which ten
   - Among other things, demonstrates how to use `chalice.cli.CLIFactory`.
 - `11-2020` [chalice_dockerized: How to deploy Chalice with docker-compose](https://github.com/vanderlvoff/chalice_dockerized) `GitHub`
 - `11-2020` [Chalice-GraphQL: Adds Facebook's GraphQL support to your Chalice application](https://github.com/jrbeilke/chalice-graphql)
-- `11-2020` ~~[Chalice + LocalStack (doesn't work yet)](https://github.com/localstack/chalice-local)~~
+- `11-2020` [Chalice + LocalStack](https://github.com/localstack/chalice-local)
 - `08-2020` [chalice-extended-action: Automated deployment of your Chalice application via GitHub Actions](https://github.com/jayef0/chalice-extended-action) `GitHub`
 - `06-2020` [pytest-chalice: A set of py.test fixtures for AWS Chalice](https://github.com/studio3104/pytest-chalice)
 - `02-2020` [chalice-cognito-auth: A library for setting up login routes in a Chalice app](https://github.com/stealthycoin/chalice-cognito-auth)
@@ -185,7 +185,7 @@ Sample serverless solution architectures code in Python from AWS Labs, which ten
 - [Continuous Deployment with Chalice](https://aws.github.io/chalice/topics/cd)
   - Chalice has support for dev/stage/prod out-of-the-box, in addition to CodeBuild, CodeDeploy and CodePipeline.
 - [Configuration File](https://aws.github.io/chalice/topics/configfile.html)
-  - By setting `api_gateway_endpoint_type` you can deploy into a VPC. 
+  - By setting `api_gateway_endpoint_type` you can deploy into a VPC.
 
 ## Paid Tracing
 - [sentry-python: application monitoring platform to diagnose, fix, and optimize code performance](https://github.com/getsentry/sentry-python/blob/af163ff176b2c22952443dc5ec535aed98656fc2/tests/integrations/chalice/test_chalice.py) `GitHub`
@@ -205,7 +205,7 @@ Sample serverless solution architectures code in Python from AWS Labs, which ten
 
 ## Misc
 - [Steampipe](https://steampipe.io/) `steampipe.io`
-  - Steampipe allows you to query your AWS infrastructure, IAM policies, etc., using SQL. 
+  - Steampipe allows you to query your AWS infrastructure, IAM policies, etc., using SQL.
 - [Click](https://click.palletsprojects.com/en/7.x/) `PalletsProjects`
   - You can pair Flask's Click project to decorate your Chalice apps so as to have a CLI.
 - [AWS CDK Patterns](https://github.com/cdk-patterns/serverless) `GitHub`
