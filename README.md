@@ -207,6 +207,7 @@ Sample serverless solution architectures code in Python from AWS Labs, which ten
 - [cdk.dev Slack channel](https://cdk.dev/) `cdk.dev`
 
 ## Misc
+- [AWS Nuke](https://github.com/rebuy-de/aws-nuke) `GitHub`
 - [Steampipe](https://steampipe.io/) `steampipe.io`
   - Steampipe allows you to query your AWS infrastructure, IAM policies, etc., using SQL.
 - [Click](https://click.palletsprojects.com/en/7.x/) `PalletsProjects`
