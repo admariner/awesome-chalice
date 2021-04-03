@@ -25,6 +25,8 @@ Chalice's design is based on decorators. It is written by the AWS Chalice team. 
 ## AWS Projects
 - [AWS Data Wrangler](https://github.com/awslabs/aws-data-wrangler) `GitHub`
   - "Pandas on AWS": *Easy integration with Athena, Glue, Redshift, Timestream, QuickSight, Chime, CloudWatchLogs, DynamoDB, EMR, SecretManager, PostgreSQL, MySQL, SQLServer and S3 (Parquet, CSV, JSON and EXCEL).*
+- [AWS SDK for Javascript](https://aws.amazon.com/sdk-for-javascript/) `aws.amazon.com`
+  - With the AWS SDK for Javascript, you can authenticate your users on the front-end using Cognito, and from there code up a management interface for much of AWS. Note however that not all AWS services are supported yet. You can see which servics are supported in [aws-sdk-js/clients/all.js](https://github.com/aws/aws-sdk-js/blob/master/clients/all.js).
 - [AWS Cloud Development Kit (CDK)](https://aws.amazon.com/cdk/) `aws.amazon.com`
   - The AWS CDK is written in Javascript and, via JSii, is available to Python. With the <code>chalice-cdk</code> CDK Construct for Chalice you can deploy your Chalice application via `cdk deploy`. Alternately, with Chalice's <code>chalice generate-pipeline</code> extensible build process, you can deploy your CDK infrastructure when you deploy your Chalice application. In other words, you can either use the CDK to deploy your Chalice application, or use Chalice to deploy your CDK application. If you primarily write Chalice applications, you can use the CDK primarily for deploying your infrastructure layer.
 - [AWS Solutions Constructs Patterns](https://aws.amazon.com/solutions/constructs/patterns/) `aws.amazon.com`
