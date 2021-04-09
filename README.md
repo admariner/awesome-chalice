@@ -107,10 +107,10 @@ Sample serverless solution architectures code in Python from AWS Labs, which ten
   - Python code for automatically detecting when you are about to run up against AWS limits.
 
 ## Tooling for Writing Chalice Code
-- [Lucidchart](https://lucid.app/) `lucid.app`
-  - Lucid allows you to hand-craft AWS Solutions Architecture diagrams. They have the 2017 and 2019 AWS icon packs by default.
+- [Cloudviz](https://cloudviz.io/) `cloudviz.io`
+  - Cloudviz is the software that most AWS employees use to create diagrams.
 - [CloudMoji™](https://cloudmoji.com/) `cloudmoji.com`
-  - CloudMoji has the 2021 icon packs for AWS, Azure and GCP, and enables you to use them with Lucidchart.
+  - CloudMoji has the 2021 icon packs for AWS, Azure and GCP.
 - [AWS Toolkit for PyCharm](https://aws.amazon.com/pycharm/) `aws.amazon.com`
   - Amazon has thrown its weight behind the [PyCharm IDE](https://www.jetbrains.com/pycharm/) with this AWS Toolkit, which enables you to seamlessly switch between accounts, to use a proxy, and other features, from inside the PyCharm editor. There is also the [AWS Toolkit for VSCode](https://aws.amazon.com/visualstudiocode/), [IntelliJ IDEA](https://aws.amazon.com/intellij/), [Eclipse](https://aws.amazon.com/eclipse/) and [JetBrains](https://docs.aws.amazon.com/toolkit-for-jetbrains/).
 - [Anaconda Python Distribution](https://www.anaconda.com/products/individual/download-success). `anaconda.com`
