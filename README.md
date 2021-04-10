@@ -93,6 +93,8 @@ Sample serverless solution architectures code in Python from AWS Labs, which ten
 - [AWS Serverless Financial Functions](https://github.com/awslabs/aws-serverless-financial-functions) `GitHub`
 
 ## 3rd Party Tools
+- [3M Falcano](https://github.com/3mcloud/falcano) `GitHub`
+  - Falcano provides a PynamoDB-like interface that allows for single table designs. 
 - [PynamoDB: A Pythonic wrapper for DynamoDB](https://github.com/pynamodb/PynamoDB) `GitHub`
   - PynamoDB is a pythonic interface to DynamoDB for data modelling. Example: [terraform-registry](https://github.com/zeroae/terraform-registry). `GitHub`
 - [S3Fs](https://s3fs.readthedocs.io/en/latest/) `ReadTheDocs`
