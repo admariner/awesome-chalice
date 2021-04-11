@@ -134,7 +134,7 @@ Sample serverless solution architectures code in Python from AWS Labs, which ten
 - [Domovoi - Extension to Chalice that supports Automatic Load Balancing](https://github.com/cloud-utils/domovoi)
 - [Damn Vulnerable Functions as a Service](https://github.com/we45/DVFaaS-Damn-Vulnerable-Functions-as-a-Service) - Example insecure FaaS repository built on Chalice
 
-# Miscellaneous Awesomeness
+## Miscellaneous Awesomeness
 
 - [Using APISpec to enable using Swagger with Chalice](https://stackoverflow.com/questions/63048401/any-framework-or-tool-is-available-to-achieve-swagger-definition-as-the-auto-gen)
 - [AWS IAM Policy required for AWS Chalice](https://stackoverflow.com/questions/63781304/aws-iam-policy-required-for-aws-chalice)
