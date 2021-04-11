@@ -151,7 +151,7 @@ Sample serverless solution architectures code in Python from AWS Labs, which ten
 - [Udemy Online Course - AWS Chalice: Build Serverless REST APIs on AWS](https://www.udemy.com/course/aws-chalice-build-serverless-rest-apis-on-aws/?ranMID=39197&ranEAID=Gw%2FETjJoU9M&ranSiteID=Gw_ETjJoU9M-gPreRA73w_.wS1U96fuiKw&utm_source=aff-campaign&utm_medium=udemyads&LSNPUBID=Gw%2FETjJoU9M)
 - [chalice.dev Slack channel](https://chalice.dev/)
 - [cdk.dev Slack channel](https://cdk.dev/)
-- [AWS Nuke](https://github.com/rebuy-de/aws-nuke)
+- [AWS Nuke](https://github.com/rebuy-de/aws-nuke) - Attempts to delete all resources in an AWS account.
 - [Steampipe](https://steampipe.io/) - Steampipe allows you to query your AWS infrastructure, IAM policies, etc., using SQL.
 - [Click](https://click.palletsprojects.com/en/7.x/) - You can pair Flask's Click project to decorate your Chalice apps so as to have a CLI.
 - [AWS CDK Patterns](https://github.com/cdk-patterns/serverless)
