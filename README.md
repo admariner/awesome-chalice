@@ -216,3 +216,5 @@ Sample serverless solution architectures code in Python from AWS Labs, which ten
 - [Click](https://click.palletsprojects.com/en/7.x/) `PalletsProjects`
   - You can pair Flask's Click project to decorate your Chalice apps so as to have a CLI.
 - [AWS CDK Patterns](https://github.com/cdk-patterns/serverless) `GitHub`
+- [Metaflow S3](https://github.com/Netflix/metaflow/blob/master/metaflow/datatools/s3.py) `GitHub`
+  - Achieve 20 gigabit throughput with S3 using this python module from Netflix.
