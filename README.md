@@ -118,7 +118,7 @@ Sample serverless solution architectures code in Python from AWS Labs, which ten
 - [Building Serverless Python Apps Using AWS Chalice](https://realpython.com/aws-chalice-serverless-python/)
 
 ## Built on Chalice
--  [Coworks Microframework](https://github.com/gdoumenc/coworks) - Coworks is a complete microservices framework for Chalice that utilizes AWS Step Functions for implementing business logic, as an alternative to DynamoDB event triggers.
+- [Coworks Microframework](https://github.com/gdoumenc/coworks) - Coworks is a complete microservices framework for Chalice that utilizes AWS Step Functions for implementing business logic, as an alternative to DynamoDB event triggers.
 - [Agave: REST API for Chalice BluePrints](https://github.com/cuenca-mx/agave)
 - [aws-chalice-swagger: AWS Chalice template project with Swagger UI](https://github.com/samuelkhtu/aws-chalice-swagger) - Chalice comes with Swagger support, this project shows you how to use it.
 - [Lambda Multi-threading in Chalice](https://github.com/vumdao/multithread-in-lambda) - Lambda functions can have up to 6 vCPU cores and 10GB RAM, this simple example shows how to use a map/reduce across cores in Chalice.
@@ -131,7 +131,7 @@ Sample serverless solution architectures code in Python from AWS Labs, which ten
 - [pytest-chalice: A set of py.test fixtures for AWS Chalice](https://github.com/studio3104/pytest-chalice)
 - [chalice-cognito-auth: A library for setting up login routes in a Chalice app](https://github.com/stealthycoin/chalice-cognito-auth) - Connect Chalice to a Cognito user pool for single-sign on (SSO).
 - [Domovoi - Extension to Chalice that supports Automatic Load Balancing](https://github.com/cloud-utils/domovoi)
-- [Damn Vulnerable Functions as a Service](https://github.com/we45/DVFaaS-Damn-Vulnerable-Functions-as-a-Service) - Example insecure FaaS repository built on Chalice
+- [Damn Vulnerable Functions as a Service](https://github.com/we45/DVFaaS-Damn-Vulnerable-Functions-as-a-Service) - Example insecure FaaS repository built on Chalice.
 
 ## Miscellaneous Awesomeness
 
@@ -141,14 +141,14 @@ Sample serverless solution architectures code in Python from AWS Labs, which ten
 - [How to create pure Lambda functions in Chalice](https://aws.github.io/chalice/topics/purelambda)
 - [Continuous Deployment with Chalice](https://aws.github.io/chalice/topics/cd) - Chalice has support for dev/stage/prod out-of-the-box, in addition to CodeBuild, CodeDeploy and CodePipeline.
 - [Configuration File](https://aws.github.io/chalice/topics/configfile.html) - By setting `api_gateway_endpoint_type` you can deploy into a VPC.
-- [sentry-python: application monitoring platform to diagnose, fix, and optimize code performance](https://github.com/getsentry/sentry-python/blob/af163ff176b2c22952443dc5ec535aed98656fc2/tests/integrations/chalice/test_chalice.py) `GitHub`
-- [Lumigo Python agent for distributed tracing and performance monitoring](https://github.com/lumigo-io/python_tracer/blob/1ab55406befe494aa61384576339b49a1e681623/src/lumigo_tracer/examples/chalice.py) `GitHub`
+- [sentry-python: application monitoring platform to diagnose, fix, and optimize code performance](https://github.com/getsentry/sentry-python/blob/af163ff176b2c22952443dc5ec535aed98656fc2/tests/integrations/chalice/test_chalice.py)
+- [Lumigo Python agent for distributed tracing and performance monitoring](https://github.com/lumigo-io/python_tracer/blob/1ab55406befe494aa61384576339b49a1e681623/src/lumigo_tracer/examples/chalice.py)
 - [IOpipe Analytics & Distributed Tracing Agent for Python](https://github.com/iopipe/iopipe-python#chalice) `GitHub`
 -  [PySide6, Qt Quick, Material Design, VS Code And Python 3.9.1 - Tutorial Modern GUI - Part 1](https://www.youtube.com/watch?v=Jn0PpzB14Y8)
-- [Building your first REST API with AWS’s Open Data Sets and Chalice - Christian Weber](https://www.youtube.com/watch?v=VKUoL3IL3-w) `YouTube`
-- [AWS Chalice Hands-On Walkthrough, a Python Serverless Microframework for AWS](https://www.youtube.com/watch?v=q3eayufwmMg) `YouTube`
+- [Building your first REST API with AWS’s Open Data Sets and Chalice - Christian Weber](https://www.youtube.com/watch?v=VKUoL3IL3-w)
+- [AWS Chalice Hands-On Walkthrough, a Python Serverless Microframework for AWS](https://www.youtube.com/watch?v=q3eayufwmMg)
 - [AWS Chalice - Walkthrough of the Media Query Sample Application](https://www.youtube.com/watch?v=UCZXJpI1dKw&ab_channel=AmazonWebServices)
-- [Udemy Online Course - AWS Chalice: Build Serverless REST APIs on AWS](https://www.udemy.com/course/aws-chalice-build-serverless-rest-apis-on-aws/?ranMID=39197&ranEAID=Gw%2FETjJoU9M&ranSiteID=Gw_ETjJoU9M-gPreRA73w_.wS1U96fuiKw&utm_source=aff-campaign&utm_medium=udemyads&LSNPUBID=Gw%2FETjJoU9M) `Udemy`
+- [Udemy Online Course - AWS Chalice: Build Serverless REST APIs on AWS](https://www.udemy.com/course/aws-chalice-build-serverless-rest-apis-on-aws/?ranMID=39197&ranEAID=Gw%2FETjJoU9M&ranSiteID=Gw_ETjJoU9M-gPreRA73w_.wS1U96fuiKw&utm_source=aff-campaign&utm_medium=udemyads&LSNPUBID=Gw%2FETjJoU9M)
 - [chalice.dev Slack channel](https://chalice.dev/)
 - [cdk.dev Slack channel](https://cdk.dev/)
 - [AWS Nuke](https://github.com/rebuy-de/aws-nuke)
