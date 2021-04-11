@@ -136,34 +136,27 @@ Sample serverless solution architectures code in Python from AWS Labs, which ten
 
 # Miscellaneous Awesomeness
 
-## Stack Overflow
 - [Using APISpec to enable using Swagger with Chalice](https://stackoverflow.com/questions/63048401/any-framework-or-tool-is-available-to-achieve-swagger-definition-as-the-auto-gen)
 - [AWS IAM Policy required for AWS Chalice](https://stackoverflow.com/questions/63781304/aws-iam-policy-required-for-aws-chalice)
 - [Calling a Lambda from a Lambda in Chalice without going through API Gateway again](https://stackoverflow.com/questions/62815740/how-to-directly-invoke-a-chalice-lambda-from-another-lambda-without-going-throug)
-
-## Chalice Documentation
 
 - [How to create pure Lambda functions in Chalice](https://aws.github.io/chalice/topics/purelambda)
 - [Continuous Deployment with Chalice](https://aws.github.io/chalice/topics/cd) - Chalice has support for dev/stage/prod out-of-the-box, in addition to CodeBuild, CodeDeploy and CodePipeline.
 - [Configuration File](https://aws.github.io/chalice/topics/configfile.html) - By setting `api_gateway_endpoint_type` you can deploy into a VPC.
 
-## Paid Tracing
 - [sentry-python: application monitoring platform to diagnose, fix, and optimize code performance](https://github.com/getsentry/sentry-python/blob/af163ff176b2c22952443dc5ec535aed98656fc2/tests/integrations/chalice/test_chalice.py) `GitHub`
 - [Lumigo Python agent for distributed tracing and performance monitoring](https://github.com/lumigo-io/python_tracer/blob/1ab55406befe494aa61384576339b49a1e681623/src/lumigo_tracer/examples/chalice.py) `GitHub`
 - [IOpipe Analytics & Distributed Tracing Agent for Python](https://github.com/iopipe/iopipe-python#chalice) `GitHub`
 
-## Videos
 - `01-2021` [PySide6, Qt Quick, Material Design, VS Code And Python 3.9.1 - Tutorial Modern GUI - Part 1](https://www.youtube.com/watch?v=Jn0PpzB14Y8)
 - `10-2020` [Building your first REST API with AWS’s Open Data Sets and Chalice - Christian Weber](https://www.youtube.com/watch?v=VKUoL3IL3-w) `YouTube`
 - `09-2020` [AWS Chalice Hands-On Walkthrough, a Python Serverless Microframework for AWS](https://www.youtube.com/watch?v=q3eayufwmMg) `YouTube`
 - `08-2020` [AWS Chalice - Walkthrough of the Media Query Sample Application](https://www.youtube.com/watch?v=UCZXJpI1dKw&ab_channel=AmazonWebServices)
 - `04-2019` [Udemy Online Course - AWS Chalice: Build Serverless REST APIs on AWS](https://www.udemy.com/course/aws-chalice-build-serverless-rest-apis-on-aws/?ranMID=39197&ranEAID=Gw%2FETjJoU9M&ranSiteID=Gw_ETjJoU9M-gPreRA73w_.wS1U96fuiKw&utm_source=aff-campaign&utm_medium=udemyads&LSNPUBID=Gw%2FETjJoU9M) `Udemy`
 
-## Support
 - [chalice.dev Slack channel](https://chalice.dev/)
 - [cdk.dev Slack channel](https://cdk.dev/)
 
-## Misc
 - [AWS Nuke](https://github.com/rebuy-de/aws-nuke)
 - [Steampipe](https://steampipe.io/) Steampipe allows you to query your AWS infrastructure, IAM policies, etc., using SQL.
 - [Click](https://click.palletsprojects.com/en/7.x/) You can pair Flask's Click project to decorate your Chalice apps so as to have a CLI.
