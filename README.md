@@ -160,8 +160,8 @@ Sample serverless solution architectures code in Python from AWS Labs, which ten
 - `04-2019` [Udemy Online Course - AWS Chalice: Build Serverless REST APIs on AWS](https://www.udemy.com/course/aws-chalice-build-serverless-rest-apis-on-aws/?ranMID=39197&ranEAID=Gw%2FETjJoU9M&ranSiteID=Gw_ETjJoU9M-gPreRA73w_.wS1U96fuiKw&utm_source=aff-campaign&utm_medium=udemyads&LSNPUBID=Gw%2FETjJoU9M) `Udemy`
 
 ## Support
-- [chalice.dev Slack channel](https://chalice.dev/) `chalice.dev`
-- [cdk.dev Slack channel](https://cdk.dev/) `cdk.dev`
+- [chalice.dev Slack channel](https://chalice.dev/)
+- [cdk.dev Slack channel](https://cdk.dev/)
 
 ## Misc
 - [AWS Nuke](https://github.com/rebuy-de/aws-nuke)
