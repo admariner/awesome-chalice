@@ -124,7 +124,7 @@ Sample serverless solution architectures code in Python from AWS Labs, which ten
 - [aws-chalice-swagger: AWS Chalice template project with Swagger UI](https://github.com/samuelkhtu/aws-chalice-swagger) - Chalice comes with Swagger support, this project shows you how to use it.
 - [Lambda Multi-threading in Chalice](https://github.com/vumdao/multithread-in-lambda) - Lambda functions can have up to 6 vCPU cores and 10GB RAM, this simple example shows how to use a map/reduce across cores in Chalice.
 - [chalice-cicd-app: Deploy Chalice using AWS CodeStar via the AWS CDK](https://github.com/folksgl/chalice-cicd-app)
-- [aws-chalice-boilerplate](https://github.com/GabrielTavares99/aws-chalice-boilerplate - Among other things, demonstrates how to use `chalice.cli.CLIFactory`.
+- [aws-chalice-boilerplate](https://github.com/GabrielTavares99/aws-chalice-boilerplate) - Among other things, demonstrates how to use `chalice.cli.CLIFactory`.
 - [chalice_dockerized: How to deploy Chalice with docker-compose](https://github.com/vanderlvoff/chalice_dockerized)
 - [Chalice-GraphQL: Adds Facebook's GraphQL support to your Chalice application](https://github.com/jrbeilke/chalice-graphql)
 - [Chalice + LocalStack](https://github.com/localstack/chalice-local)
