@@ -12,15 +12,15 @@
 Chalice's design is based on decorators. It is written by the AWS Chalice team. Think of Chalice as your primary entry point to whatever it is that you want to do on AWS, or in the cloud.
 
 ## Contents
-* [AWS Projects](#aws-projects)
-* [AWS Python SDKs](#aws-python-sdks)
-* [AWS Samples for Python](#aws-samples-for-python)
-* [AWS Labs](#aws-labs)
-* [3rd Party Tools](#3rd-party-tools)
-* [Tooling for Writing Chalice Code](#tooling-for-writing-chalice-code)
-* [Blog Posts and Feature Releases](#blog-posts-and-feature-releases)
-* [Built on Chalice](#built-on-chalice)
-* [Miscellaneous Awesomeness](#miscellaneous-awesomeness)
+- [AWS Projects](#aws-projects)
+- [AWS Python SDKs](#aws-python-sdks)
+- [AWS Samples for Python](#aws-samples-for-python)
+- [AWS Labs](#aws-labs)
+- [3rd Party Tools](#3rd-party-tools)
+- [Tooling for Writing Chalice Code](#tooling-for-writing-chalice-code)
+- [Blog Posts and Feature Releases](#blog-posts-and-feature-releases)
+- [Built on Chalice](#built-on-chalice)
+- [Miscellaneous Awesomeness](#miscellaneous-awesomeness)
 
 ## AWS Projects
 - [AWS Data Wrangler](https://github.com/awslabs/aws-data-wrangler) - "Pandas on AWS": *Easy integration with Athena, Glue, Redshift, Timestream, QuickSight, Chime, CloudWatchLogs, DynamoDB, EMR, SecretManager, PostgreSQL, MySQL, SQLServer and S3 (Parquet, CSV, JSON and EXCEL).*
