@@ -82,7 +82,7 @@ AWS Samples are example solution architectures created by AWS and published on G
 - [Serverless Reference Architecture: IoT Backend](https://github.com/aws-samples/lambda-refarch-iotbackend) `GitHub`
 - [AWS X-Ray Serverless Samples](https://github.com/aws-samples/aws-xray-serverless-samples) `GitHub`
 
-## AWS Labs Samples
+## AWS Labs
 Sample serverless solution architectures code in Python from AWS Labs, which tends to be more feature complete than AWS Samples.
 - [Serverless Data Lake Framework (SDLF)](https://github.com/awslabs/aws-serverless-data-lake-framework) `GitHub`
 - [Media Insights Engine](https://github.com/awslabs/aws-media-insights-engine) `GitHub`
