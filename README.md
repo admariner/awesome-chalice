@@ -126,7 +126,7 @@ Sample serverless solution architectures code in Python from AWS Labs, which ten
 - [aws-chalice-boilerplate](https://github.com/GabrielTavares99/aws-chalice-boilerplate) - Among other things, demonstrates how to use `chalice.cli.CLIFactory`.
 - [chalice_dockerized: How to deploy Chalice with docker-compose](https://github.com/vanderlvoff/chalice_dockerized)
 - [Chalice-GraphQL: Adds Facebook's GraphQL support to your Chalice application](https://github.com/jrbeilke/chalice-graphql)
-- [Chalice + LocalStack](https://github.com/localstack/chalice-local)
+- [Chalice + LocalStack](https://github.com/localstack/chalice-local) - Allows you to dev against Chalice using LocalStack, aka, local versions of DynamoDB, AWS Lambda, API Gateway, etc. 
 - [chalice-extended-action: Automated deployment of your Chalice application via GitHub Actions](https://github.com/jayef0/chalice-extended-action)
 - [pytest-chalice: A set of py.test fixtures for AWS Chalice](https://github.com/studio3104/pytest-chalice)
 - [chalice-cognito-auth: A library for setting up login routes in a Chalice app](https://github.com/stealthycoin/chalice-cognito-auth) - Connect Chalice to a Cognito user pool for single-sign on (SSO).
