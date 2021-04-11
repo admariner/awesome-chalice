@@ -143,16 +143,16 @@ Sample serverless solution architectures code in Python from AWS Labs, which ten
 - [Configuration File](https://aws.github.io/chalice/topics/configfile.html) - By setting `api_gateway_endpoint_type` you can deploy into a VPC.
 - [sentry-python: application monitoring platform to diagnose, fix, and optimize code performance](https://github.com/getsentry/sentry-python/blob/af163ff176b2c22952443dc5ec535aed98656fc2/tests/integrations/chalice/test_chalice.py)
 - [Lumigo Python agent for distributed tracing and performance monitoring](https://github.com/lumigo-io/python_tracer/blob/1ab55406befe494aa61384576339b49a1e681623/src/lumigo_tracer/examples/chalice.py)
-- [IOpipe Analytics & Distributed Tracing Agent for Python](https://github.com/iopipe/iopipe-python#chalice) `GitHub`
--  [PySide6, Qt Quick, Material Design, VS Code And Python 3.9.1 - Tutorial Modern GUI - Part 1](https://www.youtube.com/watch?v=Jn0PpzB14Y8)
-- [Building your first REST API with AWS’s Open Data Sets and Chalice - Christian Weber](https://www.youtube.com/watch?v=VKUoL3IL3-w)
+- [IOpipe Analytics & Distributed Tracing Agent for Python](https://github.com/iopipe/iopipe-python#chalice)
+- [PySide6, Qt Quick, Material Design, VS Code And Python 3.9.1 - Tutorial Modern GUI - Part 1](https://www.youtube.com/watch?v=Jn0PpzB14Y8)
+- [Building your first REST API with AWSs Open Data Sets and Chalice - Christian Weber](https://www.youtube.com/watch?v=VKUoL3IL3-w)
 - [AWS Chalice Hands-On Walkthrough, a Python Serverless Microframework for AWS](https://www.youtube.com/watch?v=q3eayufwmMg)
 - [AWS Chalice - Walkthrough of the Media Query Sample Application](https://www.youtube.com/watch?v=UCZXJpI1dKw&ab_channel=AmazonWebServices)
 - [Udemy Online Course - AWS Chalice: Build Serverless REST APIs on AWS](https://www.udemy.com/course/aws-chalice-build-serverless-rest-apis-on-aws/?ranMID=39197&ranEAID=Gw%2FETjJoU9M&ranSiteID=Gw_ETjJoU9M-gPreRA73w_.wS1U96fuiKw&utm_source=aff-campaign&utm_medium=udemyads&LSNPUBID=Gw%2FETjJoU9M)
 - [chalice.dev Slack channel](https://chalice.dev/)
 - [cdk.dev Slack channel](https://cdk.dev/)
 - [AWS Nuke](https://github.com/rebuy-de/aws-nuke)
-- [Steampipe](https://steampipe.io/) Steampipe allows you to query your AWS infrastructure, IAM policies, etc., using SQL.
-- [Click](https://click.palletsprojects.com/en/7.x/) You can pair Flask's Click project to decorate your Chalice apps so as to have a CLI.
+- [Steampipe](https://steampipe.io/) - Steampipe allows you to query your AWS infrastructure, IAM policies, etc., using SQL.
+- [Click](https://click.palletsprojects.com/en/7.x/) - You can pair Flask's Click project to decorate your Chalice apps so as to have a CLI.
 - [AWS CDK Patterns](https://github.com/cdk-patterns/serverless)
 - [Metaflow S3](https://github.com/Netflix/metaflow/blob/master/metaflow/datatools/s3.py) - Achieve 20 gigabit throughput with S3 using this python module from Netflix.
