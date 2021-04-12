@@ -15,7 +15,7 @@
 ## Contents
 - [AWS Projects that work well with Chalice](#aws-projects-that-work-well-with-chalice)
 - [AWS Python SDKs](#aws-python-sdks)
-- [AWS Python Samples](#aws-python-samples)
+- [Example Serverless Python Solution Architectures from AWS](#example-serverles-python-solution-architectures-from-aws)
 - [AWS Labs](#aws-labs)
 - [3rd Party Python Tools](#3rd-party-python-tools)
 - [Tooling for Writing Chalice Code](#tooling-for-writing-chalice-code)
@@ -23,7 +23,7 @@
 - [Built on Chalice](#built-on-chalice)
 
 ## AWS Projects that work well with Chalice
-AWS projects to supercharge your app.
+Supercharge your app.
 
 - [AWS Data Wrangler](https://github.com/awslabs/aws-data-wrangler) - This AWS ProServ project integrates Pandas with nearly every major AWS backend store.
 - [AWS SDK for JavaScript](https://aws.amazon.com/sdk-for-javascript/) - Include it like so: `<script src="https://sdk.amazonaws.com/js/aws-sdk-2.879.0.min.js"></script>` 
@@ -36,7 +36,7 @@ AWS projects to supercharge your app.
 - [Amazon Athena Federated Query](https://docs.aws.amazon.com/athena/latest/ug/connect-to-a-data-source.html) - Author pure lambda functions for ad-hoc datalakes.
 
 ## AWS Python SDKs
-Every Python SDK from AWS.
+Every SDK in one place.
 
 - [AWS SDK for Python (boto3)](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html) - See `aioboto3` for the async version.
 - [AWS X-Ray SDK for Python](https://docs.aws.amazon.com/xray/latest/devguide/xray-sdk-python.html) - Dynamically instrument your app with `from aws_xray_sdk.core import patch_all;patch_all();`.
@@ -48,8 +48,8 @@ Every Python SDK from AWS.
 - [AWS Braket SDK for Python](https://github.com/aws/amazon-braket-sdk-python) - Leverage D-Wave quantum computing devices.
 - [AWS DynamoDB Encryption SDK for Python](https://github.com/aws/aws-dynamodb-encryption-python) - Encrypt data before sending it to DynamoDB.
 
-## AWS Python Samples
-Example solution architectures created by AWS and published on GitHub. [Complete list of 500+ Python samples](https://github.com/aws-samples?q=&type=&language=python&sort=). 
+## Example Serverless Python Solution Architectures from AWS
+[Complete list of 500+ sample architectures](https://github.com/aws-samples?q=&type=&language=python&sort=). 
 
 - [AWS Control Tower Account Creation Automation](https://github.com/aws-samples/aws-control-tower-automate-account-creation) 
 - [AWS Serverless Ecommerce Platform](https://github.com/aws-samples/aws-serverless-ecommerce-platform)
