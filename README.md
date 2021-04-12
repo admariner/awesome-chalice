@@ -13,7 +13,7 @@
 [Join us in Slack.](https://join.slack.com/t/chalicedev/shared_invite/zt-naadmddi-MRwgFq40Ge3qfcPJR_RaDQ)
 
 ## Contents
-- [AWS Projects that integrate with Chalice](#aws-projects-that-integrate-with-chalice)
+- [AWS Projects that work well with Chalice](#aws-projects-that-work-well-with-chalice)
 - [AWS Python SDKs](#aws-python-sdks)
 - [AWS Samples for Python](#aws-samples-for-python)
 - [AWS Labs](#aws-labs)
@@ -23,7 +23,7 @@
 - [Built on Chalice](#built-on-chalice)
 - [Miscellaneous Awesomeness](#miscellaneous-awesomeness)
 
-## AWS Projects that work with Chalice
+## AWS Projects that work well with Chalice
 AWS projects to supercharge your app.
 
 - [AWS Data Wrangler](https://github.com/awslabs/aws-data-wrangler) - This AWS ProServ project integrates Pandas with nearly every major AWS backend store.
