@@ -39,7 +39,7 @@ Supercharge your app.
 Every SDK in one place.
 
 - [AWS SDK for Python (boto3)](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html) - See `aioboto3` for the async version.
-- [AWS X-Ray SDK for Python](https://docs.aws.amazon.com/xray/latest/devguide/xray-sdk-python.html) - Dynamically instrument your app with `from aws_xray_sdk.core import patch_all;patch_all();`.
+- [AWS X-Ray SDK for Python](https://docs.aws.amazon.com/xray/latest/devguide/xray-sdk-python.html) - Instrument with `from aws_xray_sdk.core import patch_all;patch_all();`.
 - [AWS IoT SDK for Python](https://github.com/aws/aws-iot-device-sdk-python-v2) - Can talk to Chalice via Kinesis Streams. 
 - [AWS C Common Runtime](https://github.com/awslabs/aws-c-common) - Use with the AWS CRT Python module.
 - [AWS Encryption SDK for Python](https://github.com/aws/aws-encryption-sdk-python/) - Hard encryption in your application logic.
