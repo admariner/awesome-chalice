@@ -17,7 +17,7 @@
 - [AWS Python SDKs](#aws-python-sdks)
 - [AWS Samples for Python](#aws-samples-for-python)
 - [AWS Labs](#aws-labs)
-- [3rd Party Tools](#3rd-party-python-tools)
+- [3rd Party Python Tools](#3rd-party-python-tools)
 - [Tooling for Writing Chalice Code](#tooling-for-writing-chalice-code)
 - [Blog Posts and Feature Releases](#blog-posts-and-feature-releases)
 - [Built on Chalice](#built-on-chalice)
