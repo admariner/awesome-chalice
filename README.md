@@ -13,16 +13,16 @@
 [Join us in Slack.](https://join.slack.com/t/chalicedev/shared_invite/zt-naadmddi-MRwgFq40Ge3qfcPJR_RaDQ)
 
 ## Contents
-- [AWS Projects that work well with Chalice](#aws-projects-that-work-well-with-chalice)
+- [AWS Projects](#aws-projects)
 - [AWS Python SDKs](#aws-python-sdks)
-- [Example serverless Python solution architectures from AWS](#example-serverless-python-solution-architectures-from-aws)
-- [Production architectures from AWS Labs](#production-architectures-from-aws-labs)
-- [3rd-party Python Tools](#3rd-party-python-tools)
-- [Tooling for Writing Chalice Code](#tooling-for-writing-chalice-code)
-- [Blog Posts and Feature Releases](#blog-posts-and-feature-releases)
-- [Built on Chalice](#built-on-chalice)
+- [AWS serverless architectures](#aws-serverless-architectures)
+- [AWS Labs](#aws-labs)
+- [3rd-party](#3rd-party)
+- [Tooling](#tooling)
+- [Blogs](#blogs)
+- [Made with Chalice](#made-with-chalice)
 
-## AWS Projects that work well with Chalice
+## AWS Projects
 Supercharge your app.
 
 - [AWS Data Wrangler](https://github.com/awslabs/aws-data-wrangler) - This AWS ProServ project integrates Pandas with nearly every major AWS backend store.
@@ -48,7 +48,7 @@ Every SDK in one place.
 - [AWS Braket SDK for Python](https://github.com/aws/amazon-braket-sdk-python) - Leverage D-Wave quantum computing devices.
 - [AWS DynamoDB Encryption SDK for Python](https://github.com/aws/aws-dynamodb-encryption-python) - Encrypt data before sending it to DynamoDB.
 
-## Example serverless Python solution architectures from AWS
+## AWS serverless architectures
 [Complete list of 500+ sample architectures](https://github.com/aws-samples?q=&type=&language=python&sort=). 
 
 - [AWS Control Tower Account Creation Automation](https://github.com/aws-samples/aws-control-tower-automate-account-creation) 
@@ -66,8 +66,8 @@ Every SDK in one place.
 - [Serverless Reference Architecture: IoT Backend](https://github.com/aws-samples/lambda-refarch-iotbackend)
 - [AWS X-Ray Serverless Samples](https://github.com/aws-samples/aws-xray-serverless-samples)
 
-## Production architectures from AWS Labs
-The best Python serverless code from AWS Labs.
+## AWS Labs
+The best Python production serverless architectures from AWS Labs.
 
 - [Serverless Data Lake Framework (SDLF)](https://github.com/awslabs/aws-serverless-data-lake-framework)
 - [Media Insights Engine](https://github.com/awslabs/aws-media-insights-engine)
@@ -77,29 +77,30 @@ The best Python serverless code from AWS Labs.
 - [Serverless Subtitles](https://github.com/awslabs/serverless-subtitles)
 - [AWS Serverless Financial Functions](https://github.com/awslabs/aws-serverless-financial-functions)
 
-## 3rd-party Python Tools
+## 3rd-party
 - [3M Falcano](https://github.com/3mcloud/falcano) - Similar to PynamoDB, but allows for single table designs, following official guidelines. 
 - [PynamoDB: A Pythonic wrapper for DynamoDB](https://github.com/pynamodb/PynamoDB) - ORM for DynamoDB.
 - [S3Fs](https://s3fs.readthedocs.io/en/latest/) - Use S3 like a filesystem.
 - [PySide6](https://www.qt.io/blog/qt-for-python-6-released) - Official Qt module for Python.
 - [Hy: A lisp written in Python](https://docs.hylang.org/en/master/tutorial.html) - A lisp that can you can use in your Python code, for FP.
-- [Toolz: A set of utility functions for iterators, functions, and dictionaries](https://github.com/pytoolz/toolz) - Functional programming primitives.
+- [Toolz: A set of utility functions for iterators, functions, and dictionaries](https://github.com/pytoolz/toolz) - FP primitives.
 - [AWS Limit Checker](https://github.com/jantman/awslimitchecker) - Detect when you are about to run up against AWS limits.
 - [Click](https://click.palletsprojects.com/en/7.x/) - Create a CLI.
-- [Steampipe](https://steampipe.io/) - Query your AWS infrastructure, IAM policies, etc., using SQL.
+- [Steampipe](https://steampipe.io/) - Query your infrastructure, policies, etc., using SQL.
 - [Netflix' Metaflow S3](https://github.com/Netflix/metaflow/blob/master/metaflow/datatools/s3.py) - Achieve 20 gigabit S3 throughput.
 - [sentry-python](https://github.com/getsentry/sentry-python/blob/af163ff176b2c22952443dc5ec535aed98656fc2/tests/integrations/chalice/test_chalice.py) - Paid tracing.
 - [Lumigo Python agent](https://github.com/lumigo-io/python_tracer/blob/1ab55406befe494aa61384576339b49a1e681623/src/lumigo_tracer/examples/chalice.py) - Paid tracing.
 - [IOpipe](https://github.com/iopipe/iopipe-python#chalice) - Paid tracing.
 
-## Tooling for Writing Chalice Code
+## Tooling
 - [AWS Toolkit for PyCharm](https://aws.amazon.com/pycharm/) - Tightly integrated editor, for repl-driven development.
 - [Anaconda Python Distribution](https://www.anaconda.com/products/individual/download-success) - Consistent Python environment for local dev.
 - [Cloudviz](https://cloudviz.io/) - Create diagrams in the official style.
 - [CloudMoji™](https://cloudmoji.com/) - Has the 2021 AWS icon pack.
 
-## Blog Posts and Feature Releases
-Critical background reading for using Chalice.
+## Blogs
+Critical background reading.
+
 - [Python support GA: improving Python code quality using Amazon CodeGuru Reviewer](https://aws.amazon.com/blogs/devops/python-support-ga-improving-python-code-quality-using-amazon-codeguru-reviewer/)
 - [Amplify Flutter is Now Generally Available: Build Beautiful Cross-Platform Apps](https://aws.amazon.com/blogs/aws/amplify-flutter-is-now-generally-available-build-beautiful-cross-platform-apps/)
 - [Using container images to run PyTorch models in AWS Lambda](https://aws.amazon.com/blogs/machine-learning/using-container-images-to-run-pytorch-models-in-aws-lambda/)
@@ -126,7 +127,7 @@ Critical background reading for using Chalice.
 - [Run your Python Scripts as Slack Commands (ChatOps)](https://medium.com/@yogeshingale94/run-your-python-scripts-as-slack-commands-chatops-63bc334b74cd)
 - [Building Serverless Python Apps Using AWS Chalice](https://realpython.com/aws-chalice-serverless-python/)
 
-## Built on Chalice
+## Made with Chalice
 - [Coworks Microframework](https://github.com/gdoumenc/coworks) - Complete microservices framework based on Step Functions.
 - [Agave: REST API for Chalice BluePrints](https://github.com/cuenca-mx/agave) - REST APIs for your managed routes.
 - [aws-chalice-swagger](https://github.com/samuelkhtu/aws-chalice-swagger) - How to use Swagger support.
