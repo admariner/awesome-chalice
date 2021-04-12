@@ -13,9 +13,9 @@
 [Join us in Slack.](https://join.slack.com/t/chalicedev/shared_invite/zt-naadmddi-MRwgFq40Ge3qfcPJR_RaDQ)
 
 ## Contents
-- [AWS projects](#aws-projects)
+- [AWS Projects](#aws-projects)
 - [AWS Python SDKs](#aws-python-sdks)
-- [AWS serverless architectures](#aws-serverless-architectures)
+- [AWS Serverless Architectures](#aws-serverless-architectures)
 - [AWS Labs](#aws-labs)
 - [3rd-party](#3rd-party)
 - [Tooling](#tooling)
@@ -48,7 +48,7 @@ Every SDK in one place.
 - [AWS Braket SDK for Python](https://github.com/aws/amazon-braket-sdk-python) - Leverage D-Wave quantum computing devices.
 - [AWS DynamoDB Encryption SDK for Python](https://github.com/aws/aws-dynamodb-encryption-python) - Encrypt data before sending it to DynamoDB.
 
-## AWS serverless architectures
+## AWS Serverless Architectures
 [Complete list of 500+ sample architectures](https://github.com/aws-samples?q=&type=&language=python&sort=). 
 
 - [AWS Control Tower Account Creation Automation](https://github.com/aws-samples/aws-control-tower-automate-account-creation) 
