@@ -14,37 +14,40 @@
 - [AWS Python SDKs](#aws-python-sdks)
 - [AWS Samples for Python](#aws-samples-for-python)
 - [AWS Labs](#aws-labs)
-- [3rd Party Tools](#3rd-party-tools)
+- [3rd Party Tools](#3rd-party-python-tools)
 - [Tooling for Writing Chalice Code](#tooling-for-writing-chalice-code)
 - [Blog Posts and Feature Releases](#blog-posts-and-feature-releases)
 - [Built on Chalice](#built-on-chalice)
 - [Miscellaneous Awesomeness](#miscellaneous-awesomeness)
 
 ## AWS Projects that work with Chalice
+AWS projects to supercharge your app.
+
 - [AWS Data Wrangler](https://github.com/awslabs/aws-data-wrangler) - This AWS ProServ project integrates Pandas with nearly every major AWS backend store.
-- [AWS SDK for JavaScript](https://aws.amazon.com/sdk-for-javascript/) - Chalice's front-end partner, you can include it in your HTML like so: ` <script src="https://sdk.amazonaws.com/js/aws-sdk-2.879.0.min.js"></script>` 
+- [AWS SDK for JavaScript](https://aws.amazon.com/sdk-for-javascript/) - Include it like so: `<script src="https://sdk.amazonaws.com/js/aws-sdk-2.879.0.min.js"></script>` 
 - [AWS Cloud Development Kit (CDK)](https://aws.amazon.com/cdk/) - The CDK can author and deploy Chalice applications, or Chalice can deploy CDK applications.
 - [AWS Solutions Constructs Patterns](https://aws.amazon.com/solutions/constructs/patterns/) - Architectural patterns for the CDK that can be chained together.
 - [AWS Serverless Application Repository](https://serverlessrepo.aws.amazon.com/applications) - Serverless AWS applications. 
-- [JSii](https://github.com/aws/jsii) - Enables the CDK to be used from Python.
 - [DynamoDB Global Tables](https://aws.amazon.com/dynamodb/global-tables/) - NoSQL database.
 - [Aurora Serverless Global Database 2](https://aws.amazon.com/rds/aurora/serverless/) - Serverless OLTP database.
 - [AWS Amplify](https://docs.amplify.aws/) - Front-end toolkit.
-- [Amazon Athena Federated Query](https://docs.aws.amazon.com/athena/latest/ug/connect-to-a-data-source.html) - Author `data source connectors` as pure lambda functions.
+- [Amazon Athena Federated Query](https://docs.aws.amazon.com/athena/latest/ug/connect-to-a-data-source.html) - Author pure lambda functions for ad-hoc datalakes.
 
 ## AWS Python SDKs
-- [AWS SDK for Python (boto3)](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html) - See also `aioboto3` for the asynchronous version.
-- [AWS X-Ray SDK for Python](https://docs.aws.amazon.com/xray/latest/devguide/xray-sdk-python.html) - Ddynamically instrument your application with `from aws_xray_sdk.core import patch_all;patch_all();`.
+Every Python SDK from AWS.
+
+- [AWS SDK for Python (boto3)](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html) - See `aioboto3` for the async version.
+- [AWS X-Ray SDK for Python](https://docs.aws.amazon.com/xray/latest/devguide/xray-sdk-python.html) - Dynamically instrument your app with `from aws_xray_sdk.core import patch_all;patch_all();`.
 - [AWS IoT SDK for Python](https://github.com/aws/aws-iot-device-sdk-python-v2) - Can talk to Chalice via Kinesis Streams. 
-- [AWS C Common Runtime](https://github.com/awslabs/aws-c-common) - Use the AWS CRT Python module to take advantage of this fast AWS backend library written in C.
+- [AWS C Common Runtime](https://github.com/awslabs/aws-c-common) - Use with the AWS CRT Python module.
 - [AWS Encryption SDK for Python](https://github.com/aws/aws-encryption-sdk-python/) - Hard encryption in your application logic.
 - [AWS SageMaker SDK for Python](https://github.com/aws/sagemaker-python-sdk) - Train and deploy machine learning models. Integrate with your EMR cluster.
-- [AWS Step Functions Data Science SDK for Python](https://github.com/aws/aws-step-functions-data-science-sdk-python) - Similar to above, but with managed infrastructure.
+- [AWS Step Functions Data Science SDK for Python](https://github.com/aws/aws-step-functions-data-science-sdk-python) - Managed AI/ML infrastructure.
 - [AWS Braket SDK for Python](https://github.com/aws/amazon-braket-sdk-python) - Leverage D-Wave quantum computing devices.
 - [AWS DynamoDB Encryption SDK for Python](https://github.com/aws/aws-dynamodb-encryption-python) - Encrypt data before sending it to DynamoDB.
 
 ## AWS Samples for Python
-AWS Samples are example solution architectures created by AWS and published on GitHub. Here is [the complete list of 500+ Python samples](https://github.com/aws-samples?q=&type=&language=python&sort=). This section contains the best serverless samples, which you can use as inspiration.
+Example solution architectures created by AWS and published on GitHub. [Complete list of 500+ Python samples](https://github.com/aws-samples?q=&type=&language=python&sort=). 
 
 - [AWS Control Tower Account Creation Automation](https://github.com/aws-samples/aws-control-tower-automate-account-creation) 
 - [AWS Serverless Ecommerce Platform](https://github.com/aws-samples/aws-serverless-ecommerce-platform)
@@ -62,7 +65,7 @@ AWS Samples are example solution architectures created by AWS and published on G
 - [AWS X-Ray Serverless Samples](https://github.com/aws-samples/aws-xray-serverless-samples)
 
 ## AWS Labs
-Sample serverless solution architectures code in Python from AWS Labs, which tends to be more feature complete than AWS Samples.
+The best serverless code from AWS Labs.
 
 - [Serverless Data Lake Framework (SDLF)](https://github.com/awslabs/aws-serverless-data-lake-framework)
 - [Media Insights Engine](https://github.com/awslabs/aws-media-insights-engine)
@@ -72,7 +75,7 @@ Sample serverless solution architectures code in Python from AWS Labs, which ten
 - [Serverless Subtitles](https://github.com/awslabs/serverless-subtitles)
 - [AWS Serverless Financial Functions](https://github.com/awslabs/aws-serverless-financial-functions)
 
-## 3rd Party Tools
+## 3rd Party Python Tools
 - [3M Falcano](https://github.com/3mcloud/falcano) - Similar to PynamoDB, but allows for single table designs, following official guidelines. 
 - [PynamoDB: A Pythonic wrapper for DynamoDB](https://github.com/pynamodb/PynamoDB) - ORM for DynamoDB.
 - [S3Fs](https://s3fs.readthedocs.io/en/latest/) - Use S3 like a filesystem.
@@ -80,15 +83,22 @@ Sample serverless solution architectures code in Python from AWS Labs, which ten
 - [Hy: A lisp written in Python](https://docs.hylang.org/en/master/tutorial.html) - A lisp that can you can use in your Python code, for FP.
 - [Toolz: A set of utility functions for iterators, functions, and dictionaries](https://github.com/pytoolz/toolz) - Functional programming primitives.
 - [AWS Limit Checker](https://github.com/jantman/awslimitchecker) - Automatically detecting when you are about to run up against AWS limits.
+- [sentry-python](https://github.com/getsentry/sentry-python/blob/af163ff176b2c22952443dc5ec535aed98656fc2/tests/integrations/chalice/test_chalice.py) Paid tracing.
+- [Lumigo Python agent](https://github.com/lumigo-io/python_tracer/blob/1ab55406befe494aa61384576339b49a1e681623/src/lumigo_tracer/examples/chalice.py) Paid tracing.
+- [IOpipe](https://github.com/iopipe/iopipe-python#chalice) Paid tracing.
+- [Click](https://click.palletsprojects.com/en/7.x/) - Create a CLI.
+- [Steampipe](https://steampipe.io/) - Query your AWS infrastructure, IAM policies, etc., using SQL.
+- [Netflix' Metaflow S3](https://github.com/Netflix/metaflow/blob/master/metaflow/datatools/s3.py) - Achieve 20 gigabit S3 throughput.
+
 
 ## Tooling for Writing Chalice Code
 - [AWS Toolkit for PyCharm](https://aws.amazon.com/pycharm/) - Tightly integrated editor, for repl-driven development.
-- [Anaconda Python Distribution](https://www.anaconda.com/products/individual/download-success) - Consistent Python development environment for local dev.
-- [Cloudviz](https://cloudviz.io/) - Create official looking diagrams.
-- [CloudMoji™](https://cloudmoji.com/) - CloudMoji has the 2021 AWS icon pack.
+- [Anaconda Python Distribution](https://www.anaconda.com/products/individual/download-success) - Consistent Python environment for local dev.
+- [Cloudviz](https://cloudviz.io/) - Create diagrams in the official style.
+- [CloudMoji™](https://cloudmoji.com/) - Has the 2021 AWS icon pack.
 
 ## Blog Posts and Feature Releases
-Blog posts, mostly from AWS, that are critical background reading for using Chalice.
+Critical background reading for using Chalice.
 - [Python support GA: improving Python code quality using Amazon CodeGuru Reviewer](https://aws.amazon.com/blogs/devops/python-support-ga-improving-python-code-quality-using-amazon-codeguru-reviewer/)
 - [Amplify Flutter is Now Generally Available: Build Beautiful Cross-Platform Apps](https://aws.amazon.com/blogs/aws/amplify-flutter-is-now-generally-available-build-beautiful-cross-platform-apps/)
 - [Using container images to run PyTorch models in AWS Lambda](https://aws.amazon.com/blogs/machine-learning/using-container-images-to-run-pytorch-models-in-aws-lambda/)
@@ -127,25 +137,4 @@ Blog posts, mostly from AWS, that are critical background reading for using Chal
 - [chalice-extended-action](https://github.com/jayef0/chalice-extended-action) - Deploy with GitHub Actions.
 - [pytest-chalice](https://github.com/studio3104/pytest-chalice) - py.test fixtures.
 - [chalice-cognito-auth: A library for setting up login routes in a Chalice app](https://github.com/stealthycoin/chalice-cognito-auth) - SSO with a Cognito user pool.
-- [Damn Vulnerable Functions as a Service](https://github.com/we45/DVFaaS-Damn-Vulnerable-Functions-as-a-Service) - Insecure FaaS repository.
 
-## Miscellaneous Awesomeness
-
-- [Using APISpec to enable using Swagger with Chalice](https://stackoverflow.com/questions/63048401/any-framework-or-tool-is-available-to-achieve-swagger-definition-as-the-auto-gen)
-- [AWS IAM Policy required for AWS Chalice](https://stackoverflow.com/questions/63781304/aws-iam-policy-required-for-aws-chalice)
-- [Calling a Lambda from a Lambda in Chalice without going through API Gateway again](https://stackoverflow.com/questions/62815740/how-to-directly-invoke-a-chalice-lambda-from-another-lambda-without-going-throug)
-- [How to create pure Lambda functions in Chalice](https://aws.github.io/chalice/topics/purelambda)
-- [Continuous Deployment with Chalice](https://aws.github.io/chalice/topics/cd) - Chalice has support for dev/stage/prod out-of-the-box, in addition to CodeBuild, CodeDeploy and CodePipeline.
-- [Configuration File](https://aws.github.io/chalice/topics/configfile.html) - Deploy into a VPC by setting `api_gateway_endpoint_type`.
-- [sentry-python](https://github.com/getsentry/sentry-python/blob/af163ff176b2c22952443dc5ec535aed98656fc2/tests/integrations/chalice/test_chalice.py) Paid tracing.
-- [Lumigo Python agent](https://github.com/lumigo-io/python_tracer/blob/1ab55406befe494aa61384576339b49a1e681623/src/lumigo_tracer/examples/chalice.py) Paid tracing.
-- [IOpipe](https://github.com/iopipe/iopipe-python#chalice) Paid tracing.
-- [PySide6](https://www.youtube.com/watch?v=Jn0PpzB14Y8) Video demonstrating Qt for Python (PySide6).
-- [Building your first REST API](https://www.youtube.com/watch?v=VKUoL3IL3-w) Tutorial video.
-- [Hands-On Walkthrough](https://www.youtube.com/watch?v=q3eayufwmMg) Tutorial video.
-- [Udemy Online Course](https://www.udemy.com/course/aws-chalice-build-serverless-rest-apis-on-aws/?ranMID=39197&ranEAID=Gw%2FETjJoU9M&ranSiteID=Gw_ETjJoU9M-gPreRA73w_.wS1U96fuiKw&utm_source=aff-campaign&utm_medium=udemyads&LSNPUBID=Gw%2FETjJoU9M) Udemy course.
-- [AWS Nuke](https://github.com/rebuy-de/aws-nuke) - Delete all resources in an AWS account.
-- [Steampipe](https://steampipe.io/) - Query your AWS infrastructure, IAM policies, etc., using SQL.
-- [Click](https://click.palletsprojects.com/en/7.x/) - Create a CLI.
-- [AWS CDK Patterns](https://github.com/cdk-patterns/serverless) - CDK architecture patterns.
-- [Netflix' Metaflow S3](https://github.com/Netflix/metaflow/blob/master/metaflow/datatools/s3.py) - Achieve 20 gigabit S3 throughput.
