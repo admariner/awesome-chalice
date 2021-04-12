@@ -10,7 +10,7 @@
 - Creating web applications with your favorite front-end toolkit.
 - Providing the web API backend layer to cross-platform desktop and mobile applications written in Qt for Python.
 
-[Join us](https://join.slack.com/t/chalicedev/shared_invite/zt-naadmddi-MRwgFq40Ge3qfcPJR_RaDQ)) in Slack.
+[Join us](https://join.slack.com/t/chalicedev/shared_invite/zt-naadmddi-MRwgFq40Ge3qfcPJR_RaDQ) in Slack.
 
 ## Contents
 - [AWS Projects that integrate with Chalice](#aws-projects-that-integrate-with-chalice)
