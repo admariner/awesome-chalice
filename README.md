@@ -21,7 +21,6 @@
 - [Tooling for Writing Chalice Code](#tooling-for-writing-chalice-code)
 - [Blog Posts and Feature Releases](#blog-posts-and-feature-releases)
 - [Built on Chalice](#built-on-chalice)
-- [Miscellaneous Awesomeness](#miscellaneous-awesomeness)
 
 ## AWS Projects that work well with Chalice
 AWS projects to supercharge your app.
