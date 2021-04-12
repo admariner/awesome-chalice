@@ -15,7 +15,7 @@
 ## Contents
 - [AWS Projects that work well with Chalice](#aws-projects-that-work-well-with-chalice)
 - [AWS Python SDKs](#aws-python-sdks)
-- [AWS Samples for Python](#aws-samples-for-python)
+- [AWS Python Samples](#aws-python-samples)
 - [AWS Labs](#aws-labs)
 - [3rd Party Python Tools](#3rd-party-python-tools)
 - [Tooling for Writing Chalice Code](#tooling-for-writing-chalice-code)
@@ -49,7 +49,7 @@ Every Python SDK from AWS.
 - [AWS Braket SDK for Python](https://github.com/aws/amazon-braket-sdk-python) - Leverage D-Wave quantum computing devices.
 - [AWS DynamoDB Encryption SDK for Python](https://github.com/aws/aws-dynamodb-encryption-python) - Encrypt data before sending it to DynamoDB.
 
-## AWS Samples for Python
+## AWS Python Samples
 Example solution architectures created by AWS and published on GitHub. [Complete list of 500+ Python samples](https://github.com/aws-samples?q=&type=&language=python&sort=). 
 
 - [AWS Control Tower Account Creation Automation](https://github.com/aws-samples/aws-control-tower-automate-account-creation) 
