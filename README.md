@@ -15,12 +15,12 @@
 ## Contents
 - [AWS Projects](#aws-projects)
 - [AWS Python SDKs](#aws-python-sdks)
-- [AWS Serverless Architectures](#aws-serverless-architectures)
-- [AWS Labs](#aws-labs)
 - [3rd-party Python](#3rd-party-python)
 - [Tooling](#tooling)
 - [Made with Chalice](#made-with-chalice)
 - [Blogs](#blogs)
+- [AWS Serverless Architectures](#aws-serverless-architectures)
+- [AWS Labs](#aws-labs)
 
 ## AWS Projects
 Supercharge your app.
@@ -47,35 +47,6 @@ Every SDK in one place.
 - [AWS Step Functions Data Science SDK for Python](https://github.com/aws/aws-step-functions-data-science-sdk-python) - Managed AI/ML infrastructure.
 - [AWS Braket SDK for Python](https://github.com/aws/amazon-braket-sdk-python) - Leverage D-Wave quantum computing devices.
 - [AWS DynamoDB Encryption SDK for Python](https://github.com/aws/aws-dynamodb-encryption-python) - Encrypt data before sending it to DynamoDB.
-
-## AWS Serverless Architectures
-Inspiration for your app. [Complete list of 500+ sample architectures](https://github.com/aws-samples?q=&type=&language=python&sort=). 
-
-- [AWS Control Tower Account Creation Automation](https://github.com/aws-samples/aws-control-tower-automate-account-creation) 
-- [AWS Serverless Ecommerce Platform](https://github.com/aws-samples/aws-serverless-ecommerce-platform)
-- [Recurring Security Hub Summary Email](https://github.com/aws-samples/aws-security-hub-summary-email)
-- [SQS dead letter queue replay with backoff and jitter](https://github.com/aws-samples/amazon-sqs-dlq-replay-backoff)
-- [Tokenization and Encryption of Sensitive Data](https://github.com/aws-samples/aws-serverless-tokenization)
-- [AWS ParallelCluster serverless API](https://github.com/aws-samples/aws-parallelcluster-serverless-api)
-- [Amazon WorkMail Lambda Templates](https://github.com/aws-samples/amazon-workmail-lambda-templates)
-- [S3 Glacier Bulk Retrieval](https://github.com/aws-samples/s3-glacier-bulk-retrieval)
-- [AutoML with AutoGluon, Amazon SageMaker, and AWS Lambda](https://github.com/aws-samples/automl-pipeline-with-autogluon-sagemaker-lambda)
-- [Processing ML Workloads asynchronously in Batch using SageMaker Batch Transform](https://github.com/aws-samples/aws-asynchronous-ml-processing)
-- [Serverless Tracking Pixel](https://github.com/aws-samples/aws-serverless-tracking-pixel)
-- [Serverless Reference Architecture: Real-time File Processing](https://github.com/aws-samples/lambda-refarch-fileprocessing)
-- [Serverless Reference Architecture: IoT Backend](https://github.com/aws-samples/lambda-refarch-iotbackend)
-- [AWS X-Ray Serverless Samples](https://github.com/aws-samples/aws-xray-serverless-samples)
-
-## AWS Labs
-More inspiration from AWS Labs, closer to production-ready.
-
-- [Serverless Data Lake Framework (SDLF)](https://github.com/awslabs/aws-serverless-data-lake-framework)
-- [Media Insights Engine](https://github.com/awslabs/aws-media-insights-engine)
-- [Serverless Transit Network Orchestrator](https://github.com/awslabs/serverless-transit-network-orchestrator)
-- [Amazon Aurora Postgres Advanced Monitoring](https://github.com/awslabs/amazon-aurora-postgres-monitoring)
-- [AWS Serverless Twitter Event Source](https://github.com/awslabs/aws-serverless-twitter-event-source)
-- [Serverless Subtitles](https://github.com/awslabs/serverless-subtitles)
-- [AWS Serverless Financial Functions](https://github.com/awslabs/aws-serverless-financial-functions)
 
 ## 3rd-party Python
 Only the best.
@@ -144,3 +115,32 @@ Critical background reading.
 - [Getting started with the AWS Cloud Development Kit and Python](https://aws.amazon.com/blogs/developer/getting-started-with-the-aws-cloud-development-kit-and-python/)
 - [Run your Python Scripts as Slack Commands (ChatOps)](https://medium.com/@yogeshingale94/run-your-python-scripts-as-slack-commands-chatops-63bc334b74cd)
 - [Building Serverless Python Apps Using AWS Chalice](https://realpython.com/aws-chalice-serverless-python/)
+
+## AWS Serverless Architectures
+Inspiration for your app. [Complete list of 500+ sample architectures](https://github.com/aws-samples?q=&type=&language=python&sort=). 
+
+- [AWS Control Tower Account Creation Automation](https://github.com/aws-samples/aws-control-tower-automate-account-creation) 
+- [AWS Serverless Ecommerce Platform](https://github.com/aws-samples/aws-serverless-ecommerce-platform)
+- [Recurring Security Hub Summary Email](https://github.com/aws-samples/aws-security-hub-summary-email)
+- [SQS dead letter queue replay with backoff and jitter](https://github.com/aws-samples/amazon-sqs-dlq-replay-backoff)
+- [Tokenization and Encryption of Sensitive Data](https://github.com/aws-samples/aws-serverless-tokenization)
+- [AWS ParallelCluster serverless API](https://github.com/aws-samples/aws-parallelcluster-serverless-api)
+- [Amazon WorkMail Lambda Templates](https://github.com/aws-samples/amazon-workmail-lambda-templates)
+- [S3 Glacier Bulk Retrieval](https://github.com/aws-samples/s3-glacier-bulk-retrieval)
+- [AutoML with AutoGluon, Amazon SageMaker, and AWS Lambda](https://github.com/aws-samples/automl-pipeline-with-autogluon-sagemaker-lambda)
+- [Processing ML Workloads asynchronously in Batch using SageMaker Batch Transform](https://github.com/aws-samples/aws-asynchronous-ml-processing)
+- [Serverless Tracking Pixel](https://github.com/aws-samples/aws-serverless-tracking-pixel)
+- [Serverless Reference Architecture: Real-time File Processing](https://github.com/aws-samples/lambda-refarch-fileprocessing)
+- [Serverless Reference Architecture: IoT Backend](https://github.com/aws-samples/lambda-refarch-iotbackend)
+- [AWS X-Ray Serverless Samples](https://github.com/aws-samples/aws-xray-serverless-samples)
+
+## AWS Labs
+More inspiration from AWS Labs, closer to production-ready.
+
+- [Serverless Data Lake Framework (SDLF)](https://github.com/awslabs/aws-serverless-data-lake-framework)
+- [Media Insights Engine](https://github.com/awslabs/aws-media-insights-engine)
+- [Serverless Transit Network Orchestrator](https://github.com/awslabs/serverless-transit-network-orchestrator)
+- [Amazon Aurora Postgres Advanced Monitoring](https://github.com/awslabs/amazon-aurora-postgres-monitoring)
+- [AWS Serverless Twitter Event Source](https://github.com/awslabs/aws-serverless-twitter-event-source)
+- [Serverless Subtitles](https://github.com/awslabs/serverless-subtitles)
+- [AWS Serverless Financial Functions](https://github.com/awslabs/aws-serverless-financial-functions)
