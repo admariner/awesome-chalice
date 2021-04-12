@@ -2,12 +2,14 @@
 # Awesome Chalice
 > List of resources for using AWS Chalice
 
-[AWS Chalice](https://aws.github.io/chalice/)<a href="https://aws.github.io/chalice/"><img src="https://aws.github.io/chalice/_static/img/chalice-logo-icon-small.png" height="20"></a> ([join us in our community Slack channel](https://join.slack.com/t/chalicedev/shared_invite/zt-naadmddi-MRwgFq40Ge3qfcPJR_RaDQ)) is Amazon Web Services' premier solution to writing infinitely scalable serverless Python applications based on AWS Lambda and decorators. Chalice is suited for:
+[AWS Chalice](https://aws.github.io/chalice/)<a href="https://aws.github.io/chalice/"><img src="https://aws.github.io/chalice/_static/img/chalice-logo-icon-small.png" height="20"></a> is Amazon Web Services' premier solution to writing infinitely scalable serverless Python applications based on AWS Lambda and decorators. Chalice is suited for:
 - Writing HTTPS APIs that wrap AWS infrastructure.
 - Building libraries of Ops functions.
 - Managing AWS accounts programmatically.
 - Creating web applications with your favorite front-end toolkit.
 - Providing the web API backend layer to cross-platform desktop and mobile applications written in Qt for Python.
+
+[Join us](https://join.slack.com/t/chalicedev/shared_invite/zt-naadmddi-MRwgFq40Ge3qfcPJR_RaDQ)) in Slack.
 
 ## Contents
 - [AWS Projects that integrate with Chalice](#aws-projects-that-integrate-with-chalice)
