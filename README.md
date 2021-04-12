@@ -2,7 +2,7 @@
 # Awesome Chalice
 > List of resources for using AWS Chalice.
 
-[AWS Chalice](https://aws.github.io/chalice/)<a href="https://aws.github.io/chalice/"><img src="https://aws.github.io/chalice/_static/img/chalice-logo-icon-small.png" height="20"></a> is a library for serverless Python application development based on AWS Lambda and decorators. Chalice is suited for:
+[AWS Chalice](https://aws.github.io/chalice/)<a href="https://aws.github.io/chalice/"><img src="https://aws.github.io/chalice/_static/img/chalice-logo-icon-small.png" height="20"></a> is a library for serverless Python application development using AWS Lambda. Chalice is suited for:
 
 - Writing HTTPS APIs that wrap AWS infrastructure.
 - Building libraries of Ops functions.
