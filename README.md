@@ -84,7 +84,7 @@ The best Python serverless code from AWS Labs.
 - [PySide6](https://www.qt.io/blog/qt-for-python-6-released) - Official Qt module for Python.
 - [Hy: A lisp written in Python](https://docs.hylang.org/en/master/tutorial.html) - A lisp that can you can use in your Python code, for FP.
 - [Toolz: A set of utility functions for iterators, functions, and dictionaries](https://github.com/pytoolz/toolz) - Functional programming primitives.
-- [AWS Limit Checker](https://github.com/jantman/awslimitchecker) - Automatically detecting when you are about to run up against AWS limits.
+- [AWS Limit Checker](https://github.com/jantman/awslimitchecker) - Detect when you are about to run up against AWS limits.
 - [Click](https://click.palletsprojects.com/en/7.x/) - Create a CLI.
 - [Steampipe](https://steampipe.io/) - Query your AWS infrastructure, IAM policies, etc., using SQL.
 - [Netflix' Metaflow S3](https://github.com/Netflix/metaflow/blob/master/metaflow/datatools/s3.py) - Achieve 20 gigabit S3 throughput.
