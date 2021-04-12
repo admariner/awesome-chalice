@@ -67,7 +67,7 @@ Inspiration for your app. [Complete list of 500+ sample architectures](https://g
 - [AWS X-Ray Serverless Samples](https://github.com/aws-samples/aws-xray-serverless-samples)
 
 ## AWS Labs
-The best serverless architectures from AWS Labs, closer to production-ready.
+More inspiration from AWS Labs, closer to production-ready.
 
 - [Serverless Data Lake Framework (SDLF)](https://github.com/awslabs/aws-serverless-data-lake-framework)
 - [Media Insights Engine](https://github.com/awslabs/aws-media-insights-engine)
