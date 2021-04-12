@@ -78,7 +78,7 @@ The best Python production serverless architectures from AWS Labs.
 - [AWS Serverless Financial Functions](https://github.com/awslabs/aws-serverless-financial-functions)
 
 ## 3rd-party
-- [3M Falcano](https://github.com/3mcloud/falcano) - Similar to PynamoDB, but allows for single table designs, following official guidelines. 
+- [3M Falcano](https://github.com/3mcloud/falcano) - Successor to PynamoDB, allowing for single table designs. 
 - [PynamoDB: A Pythonic wrapper for DynamoDB](https://github.com/pynamodb/PynamoDB) - ORM for DynamoDB.
 - [S3Fs](https://s3fs.readthedocs.io/en/latest/) - Use S3 like a filesystem.
 - [PySide6](https://www.qt.io/blog/qt-for-python-6-released) - Official Qt module for Python.
