@@ -13,7 +13,7 @@
 [Join us in Slack.](https://join.slack.com/t/chalicedev/shared_invite/zt-naadmddi-MRwgFq40Ge3qfcPJR_RaDQ)
 
 ## Contents
-- [AWS Projects](#aws-projects)
+- [AWS projects](#aws-projects)
 - [AWS Python SDKs](#aws-python-sdks)
 - [AWS serverless architectures](#aws-serverless-architectures)
 - [AWS Labs](#aws-labs)
