@@ -26,7 +26,7 @@
 Supercharge your app.
 
 - [AWS Data Wrangler](https://github.com/awslabs/aws-data-wrangler) - This AWS ProServ project integrates Pandas with nearly every major AWS backend store.
-- [AWS SDK for JavaScript](https://aws.amazon.com/sdk-for-javascript/) - Include it like so: `<script src="https://sdk.amazonaws.com/js/aws-sdk-2.879.0.min.js"></script>` 
+- [AWS SDK for JavaScript](https://aws.amazon.com/sdk-for-javascript/) - Include it like so: `<script src="https://sdk.amazonaws.com/js/aws-sdk-2.879.0.min.js"></script>`.
 - [AWS Cloud Development Kit (CDK)](https://aws.amazon.com/cdk/) - The CDK can author and deploy Chalice applications, or Chalice can deploy CDK applications.
 - [AWS Solutions Constructs Patterns](https://aws.amazon.com/solutions/constructs/patterns/) - Architectural patterns for the CDK that can be chained together.
 - [AWS Serverless Application Repository](https://serverlessrepo.aws.amazon.com/applications) - Serverless AWS applications. 
@@ -88,9 +88,9 @@ The best Python serverless code from AWS Labs.
 - [Click](https://click.palletsprojects.com/en/7.x/) - Create a CLI.
 - [Steampipe](https://steampipe.io/) - Query your AWS infrastructure, IAM policies, etc., using SQL.
 - [Netflix' Metaflow S3](https://github.com/Netflix/metaflow/blob/master/metaflow/datatools/s3.py) - Achieve 20 gigabit S3 throughput.
-- [sentry-python](https://github.com/getsentry/sentry-python/blob/af163ff176b2c22952443dc5ec535aed98656fc2/tests/integrations/chalice/test_chalice.py) Paid tracing.
-- [Lumigo Python agent](https://github.com/lumigo-io/python_tracer/blob/1ab55406befe494aa61384576339b49a1e681623/src/lumigo_tracer/examples/chalice.py) Paid tracing.
-- [IOpipe](https://github.com/iopipe/iopipe-python#chalice) Paid tracing.
+- [sentry-python](https://github.com/getsentry/sentry-python/blob/af163ff176b2c22952443dc5ec535aed98656fc2/tests/integrations/chalice/test_chalice.py) - Paid tracing.
+- [Lumigo Python agent](https://github.com/lumigo-io/python_tracer/blob/1ab55406befe494aa61384576339b49a1e681623/src/lumigo_tracer/examples/chalice.py) - Paid tracing.
+- [IOpipe](https://github.com/iopipe/iopipe-python#chalice) - Paid tracing.
 
 ## Tooling for Writing Chalice Code
 - [AWS Toolkit for PyCharm](https://aws.amazon.com/pycharm/) - Tightly integrated editor, for repl-driven development.
@@ -136,6 +136,6 @@ Critical background reading for using Chalice.
 - [Chalice-GraphQL](https://github.com/jrbeilke/chalice-graphql) - Add a GraphQL API.
 - [Chalice + LocalStack](https://github.com/localstack/chalice-local) - Dev against local versions of DynamoDB, AWS Lambda, API Gateway, etc.
 - [chalice-extended-action](https://github.com/jayef0/chalice-extended-action) - Deploy with GitHub Actions.
-- [pytest-chalice](https://github.com/studio3104/pytest-chalice) - py.test fixtures.
+- [pytest-chalice](https://github.com/studio3104/pytest-chalice) - Py.test fixtures.
 - [chalice-cognito-auth: A library for setting up login routes in a Chalice app](https://github.com/stealthycoin/chalice-cognito-auth) - SSO with a Cognito user pool.
 
