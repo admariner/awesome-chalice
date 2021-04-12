@@ -15,9 +15,9 @@
 ## Contents
 - [AWS Projects that work well with Chalice](#aws-projects-that-work-well-with-chalice)
 - [AWS Python SDKs](#aws-python-sdks)
-- [Example serverless python solution architectures from AWS](#example-serverless-python-solution-architectures-from-aws)
+- [Example serverless Python solution architectures from AWS](#example-serverless-python-solution-architectures-from-aws)
 - [Production architectures from AWS Labs](#production-architectures-from-aws-labs)
-- [3rd Party Python Tools](#3rd-party-python-tools)
+- [3rd-party Python Tools](#3rd-party-python-tools)
 - [Tooling for Writing Chalice Code](#tooling-for-writing-chalice-code)
 - [Blog Posts and Feature Releases](#blog-posts-and-feature-releases)
 - [Built on Chalice](#built-on-chalice)
@@ -77,7 +77,7 @@ The best Python serverless code from AWS Labs.
 - [Serverless Subtitles](https://github.com/awslabs/serverless-subtitles)
 - [AWS Serverless Financial Functions](https://github.com/awslabs/aws-serverless-financial-functions)
 
-## 3rd Party Python Tools
+## 3rd-party Python Tools
 - [3M Falcano](https://github.com/3mcloud/falcano) - Similar to PynamoDB, but allows for single table designs, following official guidelines. 
 - [PynamoDB: A Pythonic wrapper for DynamoDB](https://github.com/pynamodb/PynamoDB) - ORM for DynamoDB.
 - [S3Fs](https://s3fs.readthedocs.io/en/latest/) - Use S3 like a filesystem.
@@ -85,13 +85,12 @@ The best Python serverless code from AWS Labs.
 - [Hy: A lisp written in Python](https://docs.hylang.org/en/master/tutorial.html) - A lisp that can you can use in your Python code, for FP.
 - [Toolz: A set of utility functions for iterators, functions, and dictionaries](https://github.com/pytoolz/toolz) - Functional programming primitives.
 - [AWS Limit Checker](https://github.com/jantman/awslimitchecker) - Automatically detecting when you are about to run up against AWS limits.
-- [sentry-python](https://github.com/getsentry/sentry-python/blob/af163ff176b2c22952443dc5ec535aed98656fc2/tests/integrations/chalice/test_chalice.py) Paid tracing.
-- [Lumigo Python agent](https://github.com/lumigo-io/python_tracer/blob/1ab55406befe494aa61384576339b49a1e681623/src/lumigo_tracer/examples/chalice.py) Paid tracing.
-- [IOpipe](https://github.com/iopipe/iopipe-python#chalice) Paid tracing.
 - [Click](https://click.palletsprojects.com/en/7.x/) - Create a CLI.
 - [Steampipe](https://steampipe.io/) - Query your AWS infrastructure, IAM policies, etc., using SQL.
 - [Netflix' Metaflow S3](https://github.com/Netflix/metaflow/blob/master/metaflow/datatools/s3.py) - Achieve 20 gigabit S3 throughput.
-
+- [sentry-python](https://github.com/getsentry/sentry-python/blob/af163ff176b2c22952443dc5ec535aed98656fc2/tests/integrations/chalice/test_chalice.py) Paid tracing.
+- [Lumigo Python agent](https://github.com/lumigo-io/python_tracer/blob/1ab55406befe494aa61384576339b49a1e681623/src/lumigo_tracer/examples/chalice.py) Paid tracing.
+- [IOpipe](https://github.com/iopipe/iopipe-python#chalice) Paid tracing.
 
 ## Tooling for Writing Chalice Code
 - [AWS Toolkit for PyCharm](https://aws.amazon.com/pycharm/) - Tightly integrated editor, for repl-driven development.
