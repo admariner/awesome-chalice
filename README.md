@@ -17,10 +17,10 @@
 - [AWS Python SDKs](#aws-python-sdks)
 - [AWS Serverless Architectures](#aws-serverless-architectures)
 - [AWS Labs](#aws-labs)
-- [3rd-party](#3rd-party)
+- [3rd-party Python](#3rd-party-python)
 - [Tooling](#tooling)
-- [Blogs](#blogs)
 - [Made with Chalice](#made-with-chalice)
+- [Blogs](#blogs)
 
 ## AWS Projects
 Supercharge your app.
@@ -49,7 +49,7 @@ Every SDK in one place.
 - [AWS DynamoDB Encryption SDK for Python](https://github.com/aws/aws-dynamodb-encryption-python) - Encrypt data before sending it to DynamoDB.
 
 ## AWS Serverless Architectures
-[Complete list of 500+ sample architectures](https://github.com/aws-samples?q=&type=&language=python&sort=). 
+Inspiration for your app. [Complete list of 500+ sample architectures](https://github.com/aws-samples?q=&type=&language=python&sort=). 
 
 - [AWS Control Tower Account Creation Automation](https://github.com/aws-samples/aws-control-tower-automate-account-creation) 
 - [AWS Serverless Ecommerce Platform](https://github.com/aws-samples/aws-serverless-ecommerce-platform)
@@ -67,7 +67,7 @@ Every SDK in one place.
 - [AWS X-Ray Serverless Samples](https://github.com/aws-samples/aws-xray-serverless-samples)
 
 ## AWS Labs
-The best Python production serverless architectures from AWS Labs.
+The best serverless architectures from AWS Labs, closer to production-ready.
 
 - [Serverless Data Lake Framework (SDLF)](https://github.com/awslabs/aws-serverless-data-lake-framework)
 - [Media Insights Engine](https://github.com/awslabs/aws-media-insights-engine)
@@ -77,26 +77,44 @@ The best Python production serverless architectures from AWS Labs.
 - [Serverless Subtitles](https://github.com/awslabs/serverless-subtitles)
 - [AWS Serverless Financial Functions](https://github.com/awslabs/aws-serverless-financial-functions)
 
-## 3rd-party
-- [3M Falcano](https://github.com/3mcloud/falcano) - Successor to PynamoDB, allowing for single table designs. 
-- [PynamoDB: A Pythonic wrapper for DynamoDB](https://github.com/pynamodb/PynamoDB) - ORM for DynamoDB.
+## 3rd-party Python
+Only the best.
+
+- [3M Falcano](https://github.com/3mcloud/falcano) - DynamoDB ORM, allowing for single table designs. Successor to PynamoDB.
 - [S3Fs](https://s3fs.readthedocs.io/en/latest/) - Use S3 like a filesystem.
 - [PySide6](https://www.qt.io/blog/qt-for-python-6-released) - Official Qt module for Python.
 - [Hy: A lisp written in Python](https://docs.hylang.org/en/master/tutorial.html) - A lisp that can you can use in your Python code, for FP.
 - [Toolz: A set of utility functions for iterators, functions, and dictionaries](https://github.com/pytoolz/toolz) - FP primitives.
 - [AWS Limit Checker](https://github.com/jantman/awslimitchecker) - Detect when you are about to run up against AWS limits.
 - [Click](https://click.palletsprojects.com/en/7.x/) - Create a CLI.
-- [Steampipe](https://steampipe.io/) - Query your infrastructure, policies, etc., using SQL.
 - [Netflix' Metaflow S3](https://github.com/Netflix/metaflow/blob/master/metaflow/datatools/s3.py) - Achieve 20 gigabit S3 throughput.
 - [sentry-python](https://github.com/getsentry/sentry-python/blob/af163ff176b2c22952443dc5ec535aed98656fc2/tests/integrations/chalice/test_chalice.py) - Paid tracing.
 - [Lumigo Python agent](https://github.com/lumigo-io/python_tracer/blob/1ab55406befe494aa61384576339b49a1e681623/src/lumigo_tracer/examples/chalice.py) - Paid tracing.
 - [IOpipe](https://github.com/iopipe/iopipe-python#chalice) - Paid tracing.
 
 ## Tooling
+Create diagrams, write code.
+
 - [AWS Toolkit for PyCharm](https://aws.amazon.com/pycharm/) - Tightly integrated editor, for repl-driven development.
 - [Anaconda Python Distribution](https://www.anaconda.com/products/individual/download-success) - Consistent Python environment for local dev.
+- [Chalice + LocalStack](https://github.com/localstack/chalice-local) - Dev against local versions of DynamoDB, AWS Lambda, API Gateway, etc.
 - [Cloudviz](https://cloudviz.io/) - Create diagrams in the official style.
 - [CloudMoji™](https://cloudmoji.com/) - Has the 2021 AWS icon pack.
+
+## Made with Chalice
+Example GitHub repos.
+
+- [Coworks Microframework](https://github.com/gdoumenc/coworks) - Complete microservices framework based on Step Functions.
+- [Agave: REST API for Chalice BluePrints](https://github.com/cuenca-mx/agave) - REST APIs for your managed routes.
+- [aws-chalice-swagger](https://github.com/samuelkhtu/aws-chalice-swagger) - How to use Swagger support.
+- [Lambda Multi-threading in Chalice](https://github.com/vumdao/multithread-in-lambda) - Map/reduce across your Lambda cores.
+- [aws-chalice-boilerplate](https://github.com/GabrielTavares99/aws-chalice-boilerplate) - How to use `chalice.cli.CLIFactory`.
+- [chalice_dockerized](https://github.com/vanderlvoff/chalice_dockerized) - Dockerize your application.
+- [Chalice-GraphQL](https://github.com/jrbeilke/chalice-graphql) - Add a GraphQL API.
+- [chalice-extended-action](https://github.com/jayef0/chalice-extended-action) - Deploy with GitHub Actions.
+- [pytest-chalice](https://github.com/studio3104/pytest-chalice) - Py.test fixtures.
+- [chalice-cognito-auth](https://github.com/stealthycoin/chalice-cognito-auth) - SSO with a Cognito user pool.
+
 
 ## Blogs
 Critical background reading.
@@ -126,17 +144,3 @@ Critical background reading.
 - [Getting started with the AWS Cloud Development Kit and Python](https://aws.amazon.com/blogs/developer/getting-started-with-the-aws-cloud-development-kit-and-python/)
 - [Run your Python Scripts as Slack Commands (ChatOps)](https://medium.com/@yogeshingale94/run-your-python-scripts-as-slack-commands-chatops-63bc334b74cd)
 - [Building Serverless Python Apps Using AWS Chalice](https://realpython.com/aws-chalice-serverless-python/)
-
-## Made with Chalice
-- [Coworks Microframework](https://github.com/gdoumenc/coworks) - Complete microservices framework based on Step Functions.
-- [Agave: REST API for Chalice BluePrints](https://github.com/cuenca-mx/agave) - REST APIs for your managed routes.
-- [aws-chalice-swagger](https://github.com/samuelkhtu/aws-chalice-swagger) - How to use Swagger support.
-- [Lambda Multi-threading in Chalice](https://github.com/vumdao/multithread-in-lambda) - Map/reduce across your Lambda cores.
-- [aws-chalice-boilerplate](https://github.com/GabrielTavares99/aws-chalice-boilerplate) - How to use `chalice.cli.CLIFactory`.
-- [chalice_dockerized](https://github.com/vanderlvoff/chalice_dockerized) - Dockerize your application.
-- [Chalice-GraphQL](https://github.com/jrbeilke/chalice-graphql) - Add a GraphQL API.
-- [Chalice + LocalStack](https://github.com/localstack/chalice-local) - Dev against local versions of DynamoDB, AWS Lambda, API Gateway, etc.
-- [chalice-extended-action](https://github.com/jayef0/chalice-extended-action) - Deploy with GitHub Actions.
-- [pytest-chalice](https://github.com/studio3104/pytest-chalice) - Py.test fixtures.
-- [chalice-cognito-auth](https://github.com/stealthycoin/chalice-cognito-auth) - SSO with a Cognito user pool.
-
