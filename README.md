@@ -31,7 +31,7 @@ Supercharge your app.
 - [AWS Solutions Constructs Patterns](https://aws.amazon.com/solutions/constructs/patterns/) - Architectural patterns for the CDK that can be chained together.
 - [AWS Serverless Application Repository](https://serverlessrepo.aws.amazon.com/applications) - Serverless AWS applications. 
 - [DynamoDB Global Tables](https://aws.amazon.com/dynamodb/global-tables/) - NoSQL database.
-- [Aurora Serverless Global Database 2](https://aws.amazon.com/rds/aurora/serverless/) - Serverless OLTP database.
+- [Aurora Serverless Global Database 2](https://aws.amazon.com/rds/aurora/serverless/) - OLTP database.
 - [AWS Amplify](https://docs.amplify.aws/) - Front-end toolkit.
 - [Amazon Athena Federated Query](https://docs.aws.amazon.com/athena/latest/ug/connect-to-a-data-source.html) - Author pure lambda functions for ad-hoc datalakes.
 
