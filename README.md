@@ -138,5 +138,5 @@ Critical background reading.
 - [Chalice + LocalStack](https://github.com/localstack/chalice-local) - Dev against local versions of DynamoDB, AWS Lambda, API Gateway, etc.
 - [chalice-extended-action](https://github.com/jayef0/chalice-extended-action) - Deploy with GitHub Actions.
 - [pytest-chalice](https://github.com/studio3104/pytest-chalice) - Py.test fixtures.
-- [chalice-cognito-auth: A library for setting up login routes in a Chalice app](https://github.com/stealthycoin/chalice-cognito-auth) - SSO with a Cognito user pool.
+- [chalice-cognito-auth](https://github.com/stealthycoin/chalice-cognito-auth) - SSO with a Cognito user pool.
 
