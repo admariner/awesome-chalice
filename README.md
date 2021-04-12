@@ -15,7 +15,7 @@
 ## Contents
 - [AWS Projects that work well with Chalice](#aws-projects-that-work-well-with-chalice)
 - [AWS Python SDKs](#aws-python-sdks)
-- [Example Serverless Python Solution Architectures from AWS](#example-serverles-python-solution-architectures-from-aws)
+- [Example Serverless Python Solution Architectures from AWS](#example-serverless-python-solution-architectures-from-aws)
 - [AWS Labs](#aws-labs)
 - [3rd Party Python Tools](#3rd-party-python-tools)
 - [Tooling for Writing Chalice Code](#tooling-for-writing-chalice-code)
