@@ -5,7 +5,7 @@
 [AWS Chalice](https://aws.github.io/chalice/)<a href="https://aws.github.io/chalice/"><img src="https://aws.github.io/chalice/_static/img/chalice-logo-icon-small.png" height="20"></a> is a library for serverless Python application development using AWS Lambda. Chalice is suited for:
 
 - Writing HTTPS APIs that wrap AWS infrastructure.
-- Building libraries of Ops functions.
+- Building libraries of Ops functions, including ChatOps.
 - Managing AWS accounts programmatically.
 - Creating web applications with your favorite front-end toolkit.
 - Providing the web API backend layer to cross-platform desktop and mobile applications written in Qt for Python.
