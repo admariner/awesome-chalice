@@ -15,8 +15,8 @@
 ## Contents
 - [AWS Projects that work well with Chalice](#aws-projects-that-work-well-with-chalice)
 - [AWS Python SDKs](#aws-python-sdks)
-- [Example Serverless Python Solution Architectures from AWS](#example-serverless-python-solution-architectures-from-aws)
-- [AWS Labs](#aws-labs)
+- [Example serverless python solution architectures from AWS](#example-serverless-python-solution-architectures-from-aws)
+- [Production architectures from AWS Labs](#production-architectures-from-aws-labs)
 - [3rd Party Python Tools](#3rd-party-python-tools)
 - [Tooling for Writing Chalice Code](#tooling-for-writing-chalice-code)
 - [Blog Posts and Feature Releases](#blog-posts-and-feature-releases)
@@ -48,7 +48,7 @@ Every SDK in one place.
 - [AWS Braket SDK for Python](https://github.com/aws/amazon-braket-sdk-python) - Leverage D-Wave quantum computing devices.
 - [AWS DynamoDB Encryption SDK for Python](https://github.com/aws/aws-dynamodb-encryption-python) - Encrypt data before sending it to DynamoDB.
 
-## Example Serverless Python Solution Architectures from AWS
+## Example serverless Python solution architectures from AWS
 [Complete list of 500+ sample architectures](https://github.com/aws-samples?q=&type=&language=python&sort=). 
 
 - [AWS Control Tower Account Creation Automation](https://github.com/aws-samples/aws-control-tower-automate-account-creation) 
@@ -66,8 +66,8 @@ Every SDK in one place.
 - [Serverless Reference Architecture: IoT Backend](https://github.com/aws-samples/lambda-refarch-iotbackend)
 - [AWS X-Ray Serverless Samples](https://github.com/aws-samples/aws-xray-serverless-samples)
 
-## AWS Labs
-The best serverless code from AWS Labs.
+## Production architectures from AWS Labs
+The best Python serverless code from AWS Labs.
 
 - [Serverless Data Lake Framework (SDLF)](https://github.com/awslabs/aws-serverless-data-lake-framework)
 - [Media Insights Engine](https://github.com/awslabs/aws-media-insights-engine)
