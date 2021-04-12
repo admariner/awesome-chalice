@@ -104,7 +104,7 @@ Create diagrams, write code.
 ## Made with Chalice
 Example GitHub repos.
 
-- [Coworks Microframework](https://github.com/gdoumenc/coworks) - Complete microservices framework based on Step Functions.
+- [Coworks Microframework](https://github.com/gdoumenc/coworks) - Based on Step Functions.
 - [Agave: REST API for Chalice BluePrints](https://github.com/cuenca-mx/agave) - REST APIs for your managed routes.
 - [aws-chalice-swagger](https://github.com/samuelkhtu/aws-chalice-swagger) - How to use Swagger support.
 - [Lambda Multi-threading in Chalice](https://github.com/vumdao/multithread-in-lambda) - Map/reduce across your Lambda cores.
