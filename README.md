@@ -7,7 +7,7 @@
 > Community list of resources for using AWS Chalice.
 
 <div>
-  <a href="https://img.shields.io/badge/Slack-4A154B?logo=slack&logoColor=white"><img height="20px" src="https://theory.ninja/slack.svg"></a>&nbsp;&nbsp;&nbsp;
+  <a href="https://join.slack.com/t/chalicedev/shared_invite/zt-naadmddi-MRwgFq40Ge3qfcPJR_RaDQ"><img height="20px" src="https://img.shields.io/badge/Slack-4A154B?logo=slack&logoColor=white"></a>&nbsp;&nbsp;&nbsp;
   <img src="https://end4gy838edhwnq.m.pipedream.net">
 </div>
 
