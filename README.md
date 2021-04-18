@@ -4,7 +4,6 @@
 </div>
 
 # Awesome Chalice
-<img src="https://end4gy838edhwnq.m.pipedream.net">
 > Community list of resources for using AWS Chalice.
 
 [AWS Chalice](https://aws.github.io/chalice/)<a href="https://aws.github.io/chalice/"><img src="https://aws.github.io/chalice/_static/img/chalice-logo-icon-small.png" height="20"></a> is a library for serverless Python application development using AWS Lambda. Chalice is suited for:
