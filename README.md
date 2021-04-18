@@ -1,10 +1,9 @@
-<a href="https://github.com/sindresorhus/awesome"><img align="right" height="20" src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg"></a>
+<a href="https://github.com/sindresorhus/awesome"><img height="20" src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg"></a>
 
-<a href="https://github.com/aws/chalice"><img align="right" height="20" src="https://user-images.githubusercontent.com/80226595/110259005-4ec13080-7f5a-11eb-98eb-f84dbac2c736.png"></a>
+<a href="https://github.com/aws/chalice"><img height="20" src="https://user-images.githubusercontent.com/80226595/110259005-4ec13080-7f5a-11eb-98eb-f84dbac2c736.png"></a>
 
-<img alight="right" height="20" src="https://end4gy838edhwnq.m.pipedream.net">
+<img height="20" src="https://end4gy838edhwnq.m.pipedream.net">
 
-<img align="right" height="1" src="https://ga-beacon.appspot.com/UA-191636151-1/awesome-chalice?useReferer&pixel">
 
 # Awesome Chalice
 > List of resources for using AWS Chalice.
@@ -148,3 +147,5 @@ More inspiration from AWS Labs, closer to production-ready.
 - [AWS Serverless Twitter Event Source](https://github.com/awslabs/aws-serverless-twitter-event-source)
 - [Serverless Subtitles](https://github.com/awslabs/serverless-subtitles)
 - [AWS Serverless Financial Functions](https://github.com/awslabs/aws-serverless-financial-functions)
+
+<img src="https://ga-beacon.appspot.com/UA-191636151-1/awesome-chalice?useReferer&pixel">
