@@ -1,12 +1,11 @@
-<div align="center">
-  <br/><br/><br/><br/>
-  <a href="https://github.com/sindresorhus/awesome"><img height="50" src="https://theory.ninja/awesome.svg"></a>&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/aws/chalice"><img height="50" src="https://theory.ninja/chalice.png"></a>&nbsp;&nbsp;&nbsp;
-  <br/><br/><br/><br/>
+<div align="right">
+  <a href="https://github.com/sindresorhus/awesome"><img height="20" src="https://theory.ninja/awesome.svg"></a>&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/aws/chalice"><img height="20" src="https://theory.ninja/chalice.png"></a>&nbsp;&nbsp;&nbsp;
+  <img src="https://end4gy838edhwnq.m.pipedream.net">
 </div>
 
 # Awesome Chalice
-> List of resources for using AWS Chalice.
+> Community list of resources for using AWS Chalice.
 
 [AWS Chalice](https://aws.github.io/chalice/)<a href="https://aws.github.io/chalice/"><img src="https://aws.github.io/chalice/_static/img/chalice-logo-icon-small.png" height="20"></a> is a library for serverless Python application development using AWS Lambda. Chalice is suited for:
 
