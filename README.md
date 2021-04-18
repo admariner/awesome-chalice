@@ -5,7 +5,7 @@
 
 # Awesome Chalice
 <div>
-  <a href="https://join.slack.com/t/chalicedev/shared_invite/zt-naadmddi-MRwgFq40Ge3qfcPJR_RaDQ"><img height="20px" src="https://img.shields.io/badge/Slack-4A154B?logo=slack&logoColor=white"></a>&nbsp;&nbsp;&nbsp;
+  <a href="https://join.slack.com/t/chalicedev/shared_invite/zt-naadmddi-MRwgFq40Ge3qfcPJR_RaDQ"><img height="20px" src="https://img.shields.io/badge/Slack-4A154B?logo=slack&logoColor=white"></a>&nbsp;
   <img src="https://end4gy838edhwnq.m.pipedream.net">
 </div>
 
