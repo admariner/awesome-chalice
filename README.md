@@ -1,7 +1,9 @@
 <div align="right">
-  <a href="https://github.com/sindresorhus/awesome"><img src="https://theory.ninja/awesome.svg"></a>&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/aws/chalice"><img height="20" src="https://theory.ninja/chalice.png"></a>&nbsp;&nbsp;&nbsp;
   <img src="https://end4gy838edhwnq.m.pipedream.net">
+</div>
+<div align="center">
+  <a href="https://github.com/sindresorhus/awesome"><img height="30" src="https://theory.ninja/awesome.svg"></a>&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/aws/chalice"><img height="30" src="https://theory.ninja/chalice.png"></a>&nbsp;&nbsp;&nbsp;
 </div>
 
 # Awesome Chalice
