@@ -18,7 +18,7 @@
 - [3rd-party Python](#3rd-party-python)
 - [Tooling](#tooling)
 - [Made with Chalice](#made-with-chalice)
-- [Blogs](#blogs)
+- [Articles](#articles)
 - [AWS Serverless Architectures](#aws-serverless-architectures)
 - [AWS Labs](#aws-labs)
 
@@ -84,7 +84,7 @@ Example GitHub repos.
 - [chalice-cognito-auth](https://github.com/stealthycoin/chalice-cognito-auth) - SSO with a Cognito user pool.
 
 
-## Blogs
+## Articles
 Critical background reading.
 
 - [Python support GA: improving Python code quality using Amazon CodeGuru Reviewer](https://aws.amazon.com/blogs/devops/python-support-ga-improving-python-code-quality-using-amazon-codeguru-reviewer/)
