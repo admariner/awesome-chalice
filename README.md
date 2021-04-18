@@ -4,7 +4,6 @@
   <img src="https://end4gy838edhwnq.m.pipedream.net">
 </div>
 
-
 # Awesome Chalice
 > List of resources for using AWS Chalice.
 
