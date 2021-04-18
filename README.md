@@ -1,6 +1,8 @@
 <div align="center">
+  <br/><br/><br/><br/>
   <a href="https://github.com/sindresorhus/awesome"><img height="50" src="https://theory.ninja/awesome.svg"></a>&nbsp;&nbsp;&nbsp;
   <a href="https://github.com/aws/chalice"><img height="50" src="https://theory.ninja/chalice.png"></a>&nbsp;&nbsp;&nbsp;
+  <br/><br/><br/><br/>
 </div>
 
 # Awesome Chalice
