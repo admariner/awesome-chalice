@@ -19,6 +19,8 @@
 - Creating web applications with your favorite front-end toolkit.
 - Providing the web API backend layer to cross-platform desktop and mobile applications written in Qt for Python.
 
+<a href="https://join.slack.com/t/chalicedev/shared_invite/zt-naadmddi-MRwgFq40Ge3qfcPJR_RaDQ">Join us in Slack.</a>
+
 ## Contents
 - [AWS Projects](#aws-projects)
 - [AWS Python SDKs](#aws-python-sdks)
