@@ -1,7 +1,7 @@
 <div align="center">
   <br/>
-  <a href="https://github.com/sindresorhus/awesome"><img height="30" src="https://theory.ninja/awesome.svg"></a>&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/aws/chalice"><img height="30" src="https://theory.ninja/chalice.png"></a>&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/sindresorhus/awesome"><img height="40" src="https://theory.ninja/awesome.svg"></a>&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/aws/chalice"><img height="40" src="https://theory.ninja/chalice.png"></a>&nbsp;&nbsp;&nbsp;
   <br/><br/><br/>
   <a href="https://join.slack.com/t/chalicedev/shared_invite/zt-naadmddi-MRwgFq40Ge3qfcPJR_RaDQ"><img height="20px" src="https://img.shields.io/badge/Slack-4A154B?logo=slack&logoColor=white"></a>&nbsp;
   <img src="https://end4gy838edhwnq.m.pipedream.net">
