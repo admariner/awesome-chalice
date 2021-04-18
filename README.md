@@ -1,4 +1,8 @@
-<div align="right"><a href="https://github.com/sindresorhus/awesome"><img height="20" src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg"></a>&nbsp;&nbsp;&nbsp;<a href="https://github.com/aws/chalice"><img height="20" src="https://user-images.githubusercontent.com/80226595/110259005-4ec13080-7f5a-11eb-98eb-f84dbac2c736.png"></a>&nbsp;&nbsp;&nbsp;<img height="20" src="https://end4gy838edhwnq.m.pipedream.net"></div>
+<div align="right">
+  <a href="https://github.com/sindresorhus/awesome"><img src="https://theory.ninja/awesome.svg"></a>&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/aws/chalice"><img height="20" src="https://theory.ninja/chalice.png"></a>&nbsp;&nbsp;&nbsp;
+  <img src="https://end4gy838edhwnq.m.pipedream.net">
+</div>
 
 
 # Awesome Chalice
