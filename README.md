@@ -149,5 +149,6 @@ More inspiration from AWS Labs, closer to production-ready.
 - [Awesome IAM](https://github.com/kdeldycke/awesome-iam#readme)
 - [Awesome CDK](https://github.com/kolomied/awesome-cdk#readme)
 - [Awesome AWS](https://github.com/donnemartin/awesome-aws#readme)
+- [Awesome Cloud Security](https://github.com/RyanJarv/awesome-cloud-sec#readme)
 
 <img src="https://ga-beacon.appspot.com/UA-191636151-1/awesome-chalice?useReferer&pixel">
