@@ -1,5 +1,5 @@
 # Awesome Chalice
-<a href="https://github.com/sindresorhus/awesome"><img src="https://theory.ninja/awesome-square.svg"></a>&nbsp;<a href="https://join.slack.com/t/chalicedev/shared_invite/zt-naadmddi-MRwgFq40Ge3qfcPJR_RaDQ"><img height="20px" src="https://img.shields.io/badge/Slack-4A154B?logo=slack&logoColor=white"></a>
+<a href="https://github.com/sindresorhus/awesome"><img src="https://theory.ninja/awesome-square.svg"></a>&nbsp;<a href="https://join.slack.com/t/chalicedev/shared_invite/zt-naadmddi-MRwgFq40Ge3qfcPJR_RaDQ"><img height="20px" src="https://img.shields.io/badge/Slack-4A154B?logo=slack&logoColor=white"></a>&nbsp;<img src="https://end4gy838edhwnq.m.pipedream.net">
 > Community list of resources about AWS Chalice.
 
 <br/>
