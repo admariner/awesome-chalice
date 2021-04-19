@@ -29,6 +29,7 @@
 Supercharge your app.
 
 - [AWS Data Wrangler](https://github.com/awslabs/aws-data-wrangler) - Integrate Pandas with every major AWS data backend.
+- [AWS Lambda PowerTools](https://github.com/awslabs/aws-lambda-powertools-python) - Middleware for AWS Lambda.
 - [AWS SDK for JavaScript](https://aws.amazon.com/sdk-for-javascript/) - `<script src="https://sdk.amazonaws.com/js/aws-sdk-2.879.0.min.js"></script>`.
 - [AWS Cloud Development Kit (CDK)](https://aws.amazon.com/cdk/) - The CDK can author and deploy Chalice applications, or Chalice can deploy CDK applications.
 - [AWS Solutions Constructs Patterns](https://aws.amazon.com/solutions/constructs/patterns/) - Architectural patterns for the CDK that can be chained together.
