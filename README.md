@@ -23,6 +23,7 @@
 - [Articles](#articles)
 - [AWS Serverless Architectures](#aws-serverless-architectures)
 - [AWS Labs](#aws-labs)
+- [Related Awesome Lists(#related-awesome-lists)
 
 ## AWS Projects
 Supercharge your app.
