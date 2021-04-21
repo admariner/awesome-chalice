@@ -158,5 +158,6 @@ More inspiration from AWS Labs, closer to production-ready.
 - [Awesome AWS](https://github.com/donnemartin/awesome-aws#readme)
 - [Awesome Cloud Security](https://github.com/RyanJarv/awesome-cloud-sec#readme)
 - [Awesome AWS Amplify](https://github.com/dabit3/awesome-aws-amplify)
+- [Awesome Amazon Alexa](https://github.com/miguelmota/awesome-amazon-alexa#sdkstools)
 
 <img src="https://ga-beacon.appspot.com/UA-191636151-1/awesome-chalice?useReferer&pixel">
