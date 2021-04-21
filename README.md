@@ -142,8 +142,9 @@ Inspiration for your app. [Complete list of 500+ sample architectures](https://g
 - [AWS X-Ray Serverless Samples](https://github.com/aws-samples/aws-xray-serverless-samples)
 
 ## AWS Labs
-More inspiration from AWS Labs, closer to production-ready.
+More inspiration from AWS Labs, closer to production-ready. [Complete list of 100+ Labs solutions](https://github.com/awslabs?q=&type=&language=python&sort=stargazers).
 
+- [AWS Control Tower Customizations](https://github.com/awslabs/aws-control-tower-customizations)
 - [Serverless Data Lake Framework (SDLF)](https://github.com/awslabs/aws-serverless-data-lake-framework)
 - [Media Insights Engine](https://github.com/awslabs/aws-media-insights-engine)
 - [Serverless Transit Network Orchestrator](https://github.com/awslabs/serverless-transit-network-orchestrator)
