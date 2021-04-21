@@ -166,5 +166,6 @@ More inspiration from AWS Labs, closer to production-ready. [Complete list of 10
 - [Awesome AWS Research](https://github.com/randyridgley/awesome-aws-research#readme)
 - [AWSome Websites](https://github.com/StanForever/AWSome-websites)
 - [Awesome ECS](https://github.com/nathanpeck/awesome-ecs)
+- [The Open Guide to Amazon Web Services](https://github.com/open-guides/og-aws)
 
 <img src="https://ga-beacon.appspot.com/UA-191636151-1/awesome-chalice?useReferer&pixel">
