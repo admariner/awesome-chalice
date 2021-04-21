@@ -51,6 +51,7 @@ Every SDK in one place.
 - [AWS Step Functions Data Science SDK for Python](https://github.com/aws/aws-step-functions-data-science-sdk-python) - Managed AI/ML infrastructure.
 - [AWS Braket SDK for Python](https://github.com/aws/amazon-braket-sdk-python) - Leverage D-Wave quantum computing devices.
 - [AWS DynamoDB Encryption SDK for Python](https://github.com/aws/aws-dynamodb-encryption-python) - Encrypt data before sending it to DynamoDB.
+- [AWS Transcribe Streaming SDK](https://github.com/awslabs/amazon-transcribe-streaming-sdk) - Convert audio into text.
 
 ## 3rd-party Python
 Only the best.
