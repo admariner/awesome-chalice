@@ -29,7 +29,7 @@
 Supercharge your app.
 
 - [AWS Data Wrangler](https://github.com/awslabs/aws-data-wrangler) - Integrate Pandas with every major AWS data backend.
-- [AWS AutoGluon](https://github.com/awslabs/autogluon) - Automate training and deployment.
+- [AWS AutoGluon](https://github.com/awslabs/autogluon) - Automate machine learning training and deployment.
 - [AWS Lambda Powertools](https://github.com/awslabs/aws-lambda-powertools-python) - A suite of utilities for AWS Lambda functions to ease adopting best practices such as tracing, structured logging, custom metrics async, parameters and secrets management, idempotency, and more.
 - [AWS Cloud Development Kit (CDK)](https://aws.amazon.com/cdk/) - The CDK can deploy Chalice apps, or Chalice can deploy CDK apps.
 - [AWS Solutions Constructs Patterns](https://aws.amazon.com/solutions/constructs/patterns/) - Architectural patterns for the CDK that can be chained together.
