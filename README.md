@@ -63,7 +63,8 @@ Only the best.
 - [AWS Limit Checker](https://github.com/jantman/awslimitchecker) - Detect when you are about to run up against AWS limits.
 - [Click](https://click.palletsprojects.com/en/7.x/) - Create a CLI.
 - [Netflix Metaflow S3](https://github.com/Netflix/metaflow/blob/master/metaflow/datatools/s3.py) - Achieve 20 gigabit S3 throughput.
-- [Slack Bolt](https://github.com/slackapi/bolt-python) Slack Bolt supports Chalice, enabling ChatOps on AWS.
+- [Slack Bolt](https://github.com/slackapi/bolt-python) - Enable AWS ChatOps with Slack's built-in Chalice support.
+- [Troposphere](https://github.com/cloudtools/troposphere) - Write CloudFormation using Python.
 
 ## Tooling
 Create diagrams, write code.
