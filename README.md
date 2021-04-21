@@ -127,6 +127,7 @@ Critical background reading.
 ## AWS Serverless Architectures
 Inspiration for your app. [Complete list of 500+ sample architectures](https://github.com/aws-samples?q=&type=&language=python&sort=). 
 
+- [AWS Glue ETL Code Samples](https://github.com/aws-samples/aws-glue-samples)
 - [AWS Control Tower Account Creation Automation](https://github.com/aws-samples/aws-control-tower-automate-account-creation) 
 - [AWS Serverless Ecommerce Platform](https://github.com/aws-samples/aws-serverless-ecommerce-platform)
 - [Recurring Security Hub Summary Email](https://github.com/aws-samples/aws-security-hub-summary-email)
