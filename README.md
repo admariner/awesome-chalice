@@ -53,7 +53,7 @@ Every SDK in one place.
 - [AWS Braket SDK for Python](https://github.com/aws/amazon-braket-sdk-python) - Leverage D-Wave quantum computing devices.
 - [AWS DynamoDB Encryption SDK for Python](https://github.com/aws/aws-dynamodb-encryption-python) - Encrypt data before sending it to DynamoDB.
 - [AWS Transcribe Streaming SDK](https://github.com/awslabs/amazon-transcribe-streaming-sdk) - Convert audio into text.
-- [AWS Data API SDK](https://github.com/awslabs/aws-data-api-python-sdk) - HTTP interface to your non-transactional Data lake, built on Chalice.
+- [AWS Data API SDK](https://github.com/awslabs/aws-data-api-python-sdk) - HTTP interface to your non-transactional data lake, made with Chalice.
 
 ## 3rd-party Python
 Only the best.
