@@ -66,6 +66,7 @@ Only the best.
 - [Slack Bolt](https://github.com/slackapi/bolt-python) - Enable AWS ChatOps with Slack's built-in Chalice support.
 - [Troposphere](https://github.com/cloudtools/troposphere) - Write CloudFormation using Python.
 - [PyCognito](https://github.com/pvizeli/pycognito) - Manage and use Cognito user pools.
+- [mrjob](https://github.com/Yelp/mrjob) - Run MapReduce jobs on your EMR cluster.
 
 ## Tooling
 Create diagrams, write code.
