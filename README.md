@@ -68,6 +68,7 @@ Only the best.
 - [Netflix Metaflow S3](https://github.com/Netflix/metaflow/blob/master/metaflow/datatools/s3.py) - Achieve 20 gigabit S3 throughput.
 - [Slack Bolt](https://github.com/slackapi/bolt-python) - Enable AWS ChatOps with Slack's built-in Chalice support.
 - [Troposphere](https://github.com/cloudtools/troposphere) - Write CloudFormation using Python.
+- [Scepter](https://github.com/Sceptre/sceptre) - CloudFormation CLI tool or library.
 - [PyCognito](https://github.com/pvizeli/pycognito) - Manage and use Cognito user pools.
 - [mrjob](https://github.com/Yelp/mrjob) - Run MapReduce jobs on your EMR cluster.
 
