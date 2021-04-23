@@ -164,6 +164,7 @@ More inspiration from AWS Labs, closer to production-ready. [Complete list of 10
 - [Awesome EKS](https://github.com/realvz/awesome-eks#readme)
 - [Awesome ECS](https://github.com/nathanpeck/awesome-ecs#readme)
 - [Awesome AWS](https://github.com/donnemartin/awesome-aws#readme)
+- [Awesome AWS Security](https://github.com/jassics/awesome-aws-security)
 - [Awesome Cloud Security](https://github.com/RyanJarv/awesome-cloud-sec#readme)
 - [Awesome AWS Amplify](https://github.com/dabit3/awesome-aws-amplify#readme)
 - [Awesome Amazon Alexa](https://github.com/miguelmota/awesome-amazon-alexa#readme)
