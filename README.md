@@ -168,7 +168,7 @@ More inspiration from AWS Labs, closer to production-ready. [Complete list of 10
 - [Awesome AWS Amplify](https://github.com/dabit3/awesome-aws-amplify#readme)
 - [Awesome Amazon Alexa](https://github.com/miguelmota/awesome-amazon-alexa#readme)
 - [Awesome AWS Research](https://github.com/randyridgley/awesome-aws-research#readme)
-- [Awesome AWS AppSync](https://github.com/dabit3/awesome-aws-appsync#readme)
+- [Awesome AWS AppSync](https://github.com/aws/aws-appsync-community#readme)
 - [AWSome Websites](https://github.com/StanForever/AWSome-websites)
 - [The Open Guide to Amazon Web Services](https://github.com/open-guides/og-aws)
 
