@@ -160,13 +160,13 @@ More inspiration from AWS Labs, closer to production-ready. [Complete list of 10
 - [Awesome IAM](https://github.com/kdeldycke/awesome-iam#readme)
 - [Awesome CDK](https://github.com/kolomied/awesome-cdk#readme)
 - [Awesome AWS](https://github.com/donnemartin/awesome-aws#readme)
+- [Awesome EKS](https://github.com/realvz/awesome-eks#readme)
+- [Awesome ECS](https://github.com/nathanpeck/awesome-ecs#readme)
 - [Awesome Cloud Security](https://github.com/RyanJarv/awesome-cloud-sec#readme)
 - [Awesome AWS Amplify](https://github.com/dabit3/awesome-aws-amplify#readme)
 - [Awesome Amazon Alexa](https://github.com/miguelmota/awesome-amazon-alexa#readme)
-- [Awesome EKS](https://github.com/realvz/awesome-eks#readme)
 - [Awesome AWS Research](https://github.com/randyridgley/awesome-aws-research#readme)
 - [AWSome Websites](https://github.com/StanForever/AWSome-websites)
-- [Awesome ECS](https://github.com/nathanpeck/awesome-ecs)
 - [The Open Guide to Amazon Web Services](https://github.com/open-guides/og-aws)
 
 <img src="https://ga-beacon.appspot.com/UA-191636151-1/awesome-chalice?useReferer&pixel">
