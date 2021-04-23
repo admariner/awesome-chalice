@@ -168,6 +168,7 @@ More inspiration from AWS Labs, closer to production-ready. [Complete list of 10
 - [Awesome EC2 Spot](https://github.com/nadaahm/awesome-ec2-spot)
 - [Awesome ECS](https://github.com/nathanpeck/awesome-ecs#readme)
 - [Awesome EKS](https://github.com/realvz/awesome-eks#readme)
+- [Awesome Lambda Layers](https://github.com/mthenw/awesome-layers)
 - [Awesome AWS Research](https://github.com/randyridgley/awesome-aws-research#readme)
 - [Awesome AWS Security](https://github.com/jassics/awesome-aws-security)
 - [Awesome Cloud Security](https://github.com/RyanJarv/awesome-cloud-sec#readme)
