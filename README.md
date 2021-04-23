@@ -165,6 +165,7 @@ More inspiration from AWS Labs, closer to production-ready. [Complete list of 10
 - [Awesome IAM](https://github.com/kdeldycke/awesome-iam#readme)
 - [Awesome CDK](https://github.com/kolomied/awesome-cdk#readme)
 - [Awesome CloudFormation](https://github.com/aws-cloudformation/awesome-cloudformation#readme)
+- [Awesome EC2 Spot](https://github.com/nadaahm/awesome-ec2-spot)
 - [Awesome ECS](https://github.com/nathanpeck/awesome-ecs#readme)
 - [Awesome EKS](https://github.com/realvz/awesome-eks#readme)
 - [Awesome AWS Research](https://github.com/randyridgley/awesome-aws-research#readme)
