@@ -156,6 +156,7 @@ More inspiration from AWS Labs, closer to production-ready. [Complete list of 10
 - [AWS Serverless Financial Functions](https://github.com/awslabs/aws-serverless-financial-functions)
 
 ## Related Awesome Lists
+- [Awesome CloudFormation](https://github.com/aws-cloudformation/awesome-cloudformation#readme)
 - [Awesome IAM](https://github.com/kdeldycke/awesome-iam#readme)
 - [Awesome CDK](https://github.com/kolomied/awesome-cdk#readme)
 - [Awesome AWS](https://github.com/donnemartin/awesome-aws#readme)
