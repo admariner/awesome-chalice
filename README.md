@@ -1,4 +1,4 @@
-[AWS Chalice](https://aws.github.io/chalice/)<a href="https://aws.github.io/chalice/"><img src="https://aws.github.io/chalice/_static/img/chalice-logo-icon-small.png" height="20"></a> is a library for serverless Python application development using AWS Lambda. Chalice is suited for:
+[AWS Chalice](https://aws.github.io/chalice/) is a library for serverless Python application development using AWS Lambda. Chalice is suited for:
 
 - Writing HTTPS APIs that wrap AWS infrastructure.
 - Building libraries of Ops functions, including ChatOps.
@@ -54,7 +54,7 @@ Only the best.
 
 - [3M Falcano](https://github.com/3mcloud/falcano) - DynamoDB ORM, allowing for single table designs. Successor to PynamoDB.
 - [S3Fs](https://s3fs.readthedocs.io/en/latest/) - Use S3 like a filesystem.
-- [PySide6](https://www.qt.io/blog/qt-for-python-6-released) - Official Qt module for Python.
+- [PySide2](https://wiki.qt.io/Qt_for_Python) - Official Qt module for Python.
 - [Hy: A lisp written in Python](https://docs.hylang.org/en/master/tutorial.html) - A lisp that can you can use in your Python code, for FP.
 - [Toolz: A set of utility functions for iterators, functions, and dictionaries](https://github.com/pytoolz/toolz) - FP primitives.
 - [AWS Limit Checker](https://github.com/jantman/awslimitchecker) - Detect when you are about to run up against AWS limits.
