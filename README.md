@@ -1,3 +1,5 @@
+ <a href="https://join.slack.com/t/chalicedev/shared_invite/zt-naadmddi-MRwgFq40Ge3qfcPJR_RaDQ"><img align="right" height="20px" src="https://img.shields.io/badge/Slack-4A154B?logo=slack&logoColor=white"></a>&nbsp;<img align="right" src="https://end4gy838edhwnq.m.pipedream.net">
+
 [AWS Chalice](https://aws.github.io/chalice/) is a library for serverless Python application development using AWS Lambda. Chalice is suited for:
 
 - Writing HTTPS APIs that wrap AWS infrastructure.
@@ -6,7 +8,7 @@
 - Creating web applications with your favorite front-end toolkit.
 - Providing the web API backend layer for cross-platform desktop and mobile applications written in Qt for Python.
 
-<a href="https://join.slack.com/t/chalicedev/shared_invite/zt-naadmddi-MRwgFq40Ge3qfcPJR_RaDQ">Join us in Slack.</a> <a href="https://join.slack.com/t/chalicedev/shared_invite/zt-naadmddi-MRwgFq40Ge3qfcPJR_RaDQ"><img align="right" height="20px" src="https://img.shields.io/badge/Slack-4A154B?logo=slack&logoColor=white"></a>&nbsp;<img align="right" src="https://end4gy838edhwnq.m.pipedream.net">
+<b><a href="https://join.slack.com/t/chalicedev/shared_invite/zt-naadmddi-MRwgFq40Ge3qfcPJR_RaDQ">Join us in Slack.</a></b>
 
 ## Contents
 - [AWS Projects](#aws-projects)
