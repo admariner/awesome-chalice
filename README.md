@@ -173,3 +173,6 @@ More inspiration from AWS Labs, closer to production-ready. [Complete list of 10
 - [The Open Guide to Amazon Web Services](https://github.com/open-guides/og-aws)
 
 <img src="https://ga-beacon.appspot.com/UA-191636151-1/awesome-chalice?useReferer&pixel">
+
+## Related Projects
+- [Goblet](https://github.com/anovis/goblet) - Like Chalice, but for GCP.
