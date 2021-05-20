@@ -1,4 +1,5 @@
-# Community documentation for AWS Chalice <img align="right" src="https://end4gy838edhwnq.m.pipedream.net"><a href="https://join.slack.com/t/chalicedev/shared_invite/zt-naadmddi-MRwgFq40Ge3qfcPJR_RaDQ"><img align="right" height="20px" src="https://img.shields.io/badge/Slack-4A154B?logo=slack&logoColor=white"></a>
+<a href="http://magnataur.com"><img src="https://magnataur.com/favicon.ico" align="right" height="20"></a><a href="https://github.com/aws/chalice"><img src="chalice.png" height="20" align="right"></a><a href="https://github.com/sindresorhus/awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" align="right" height="20"></a><a href="https://join.slack.com/t/chalicedev/shared_invite/zt-naadmddi-MRwgFq40Ge3qfcPJR_RaDQ"><img align="right" height="20px" src="https://img.shields.io/badge/Slack-4A154B?logo=slack&logoColor=white"></a>
+# Community documentation for AWS Chalice
 
 [AWS Chalice](https://aws.github.io/chalice/) is a library for serverless Python application development using AWS Lambda. Chalice is suited for:
 
