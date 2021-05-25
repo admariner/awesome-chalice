@@ -80,8 +80,7 @@ Create diagrams, write code.
 - [AWS Toolkit for PyCharm](https://aws.amazon.com/pycharm/) - Tightly integrated editor, for repl-driven development.
 - [Anaconda Python Distribution](https://www.anaconda.com/products/individual/download-success) - Consistent Python environment for local dev.
 - [Chalice + LocalStack](https://github.com/localstack/chalice-local) - Dev against local versions of DynamoDB, AWS Lambda, API Gateway, etc.
-- [Cloudviz](https://cloudviz.io/) - Create diagrams in the official style.
-- [CloudMoji™](https://cloudmoji.com/) - Has the 2021 AWS icon pack.
+- [LucidCharts](https://lucid.app) - Create diagrams in the official style.
 
 ## Made with Chalice
 Example GitHub repos.
