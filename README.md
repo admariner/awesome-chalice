@@ -52,10 +52,10 @@ Every SDK in one place.
 - [AWS Step Functions Data Science SDK for Python](https://github.com/aws/aws-step-functions-data-science-sdk-python) - Managed AI/ML infrastructure.
 - [AWS Braket SDK for Python](https://github.com/aws/amazon-braket-sdk-python) - Leverage D-Wave quantum computing devices.
 - [AWS DynamoDB Encryption SDK for Python](https://github.com/aws/aws-dynamodb-encryption-python) - Encrypt data before sending it to DynamoDB.
-- [AWS Transcribe Streaming SDK](https://github.com/awslabs/amazon-transcribe-streaming-sdk) - Convert audio into text.
-- [AWS Data API SDK](https://github.com/awslabs/aws-data-api-python-sdk) - HTTP interface to your non-transactional data lake, made with Chalice.
-- [AWS Config Rules Development Kit](https://github.com/awslabs/aws-config-rdk) - The AWS Config Rules Development Kit helps developers set up, author and test custom Config rules. It contains scripts to enable AWS Config, create a Config rule and test it with sample ConfigurationItems.
-- [AWS Streamer SDK](https://github.com/awslabs/aws-streamer) - A collection of video processing and streaming tools for the AWS platform.
+- [AWS Transcribe Streaming SDK for Python](https://github.com/awslabs/amazon-transcribe-streaming-sdk) - Convert audio into text.
+- [AWS Data API SDK for Python](https://github.com/awslabs/aws-data-api-python-sdk) - HTTP interface to your non-transactional data lake, made with Chalice.
+- [AWS Config Rules Development Kit for Python](https://github.com/awslabs/aws-config-rdk) - The AWS Config Rules Development Kit helps developers set up, author and test custom Config rules. It contains scripts to enable AWS Config, create a Config rule and test it with sample ConfigurationItems.
+- [AWS Streamer SDK for Python](https://github.com/awslabs/aws-streamer) - A collection of video processing and streaming tools for the AWS platform.
 
 
 ## 3rd-party Python
