@@ -61,6 +61,7 @@ Every SDK in one place.
 ## 3rd-party Python
 Only the best.
 
+- [Dask](https://dask.org/) - Disributed DataFrames built on Pandas
 - [3M Falcano](https://github.com/3mcloud/falcano) - DynamoDB ORM, allowing for single table designs. Successor to PynamoDB.
 - [S3Fs](https://s3fs.readthedocs.io/en/latest/) - Use S3 like a filesystem.
 - [PySide2](https://wiki.qt.io/Qt_for_Python) - Official Qt module for Python.
