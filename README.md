@@ -37,7 +37,7 @@ Supercharge your app.
 - [AWS Amplify](https://docs.amplify.aws/) - Front-end toolkit.
 - [Amazon Athena Federated Query](https://docs.aws.amazon.com/athena/latest/ug/connect-to-a-data-source.html) - Author pure lambda functions for ad-hoc datalakes.
 - [AWS SDK for JavaScript](https://aws.amazon.com/sdk-for-javascript/) - Combine with Brython or Pyodide for front-end Python development.
-- [QLDB Python Driver](https://github.com/awslabs/amazon-qldb-driver-python) - A Python implementation of a driver for Amazon Quantum Ledge Database.
+- [QLDB Python Driver](https://github.com/awslabs/amazon-qldb-driver-python) - A Python implementation of a driver for Amazon Quantum Ledger Database.
 - [AWS CloudWatch Embedded Metrics](awslabs/aws-embedded-metrics-python) - Amazon CloudWatch Embedded Metric Format Client Library.
 
 ## AWS Python SDKs
