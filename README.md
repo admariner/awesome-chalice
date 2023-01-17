@@ -102,7 +102,7 @@ Example GitHub repos.
 
 ## Articles
 Critical background reading.
-
+- [Use AWS Lambda with AWS Control Tower Audit account to inspect your multi-account setup](https://aws.amazon.com/blogs/mt/use-aws-lambda-with-aws-control-tower-audit-account-to-inspect-your-multi-account-setup/)
 - [Introducing AWS Lambda Extensions](https://aws.amazon.com/blogs/aws/getting-started-with-using-your-favorite-operational-tools-on-aws-lambda-extensions-are-now-generally-available/)
 - [Python support GA: improving Python code quality using Amazon CodeGuru Reviewer](https://aws.amazon.com/blogs/devops/python-support-ga-improving-python-code-quality-using-amazon-codeguru-reviewer/)
 - [Amplify Flutter is Now Generally Available: Build Beautiful Cross-Platform Apps](https://aws.amazon.com/blogs/aws/amplify-flutter-is-now-generally-available-build-beautiful-cross-platform-apps/)
