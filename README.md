@@ -98,6 +98,7 @@ Example GitHub repos.
 - [chalice-extended-action](https://github.com/jayef0/chalice-extended-action) - Deploy with GitHub Actions.
 - [pytest-chalice](https://github.com/studio3104/pytest-chalice) - Py.test fixtures.
 - [chalice-cognito-auth](https://github.com/stealthycoin/chalice-cognito-auth) - SSO with a Cognito user pool.
+- [Chalice PynamoDB Docker Starter Kit](https://github.com/DevOps-Nirvana/Chalice-PynamoDB-Docker-Starter-Kit) - A starter kit to begin using Chalice and PynamoDB easily
 
 
 ## Articles
