@@ -1,14 +1,6 @@
 <a href="https://join.slack.com/t/chalicedev/shared_invite/zt-naadmddi-MRwgFq40Ge3qfcPJR_RaDQ"><img align="right" height="20px" src="https://img.shields.io/badge/Slack-4A154B?logo=slack&logoColor=white"></a><img align="right" src="https://end4gy838edhwnq.m.pipedream.net"><a href="http://magnataur.com"><img src="https://magnataur.com/favicon.ico" align="right" height="20"></a><a href="https://github.com/aws/chalice"><img src="chalice.png" height="20" align="right"></a><a href="https://github.com/sindresorhus/awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" align="right" height="20"></a><br/><br/>
 
-# Community documentation for AWS Chalice
-
-[AWS Chalice](https://aws.github.io/chalice/) is a library for serverless Python application development using AWS Lambda. Chalice is suited for:
-
-- Writing HTTPS APIs that wrap AWS infrastructure.
-- Building libraries of Ops functions, including ChatOps.
-- Managing AWS accounts programmatically.
-- Creating web applications with your favorite front-end toolkit.
-- Providing the web API backend layer for cross-platform desktop and mobile applications written in Qt for Python.
+AWS Chalice is a Python library for serverless application development on AWS Lambda. It enables developers to easily create and manage HTTPS APIs, build libraries of operational functions, manage AWS accounts programmatically, create web applications with popular front-end toolkits, and serve as the backend for cross-platform desktop and mobile applications written in Qt for Python. This is the community documentation for AWS Chalice.
 
 ## AWS Projects
 Supercharge your app.
