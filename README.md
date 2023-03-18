@@ -35,6 +35,10 @@ Every SDK in one place.
 - [AWS Data API SDK for Python](https://github.com/awslabs/aws-data-api-python-sdk) - HTTP interface to your non-transactional data lake, made with Chalice.
 - [AWS Config Rules Development Kit for Python](https://github.com/awslabs/aws-config-rdk) - The AWS Config Rules Development Kit helps developers set up, author and test custom Config rules. It contains scripts to enable AWS Config, create a Config rule and test it with sample ConfigurationItems.
 - [AWS Streamer SDK for Python](https://github.com/awslabs/aws-streamer) - A collection of video processing and streaming tools for the AWS platform.
+- [AWS Greengrass SDK for Python](https://github.com/aws/aws-greengrass-core-sdk-python) - Develop AWS Lambda functions to run on Greengrass Core devices.
+- [AWS Glue SDK for Python](https://github.com/awslabs/aws-glue-libs) - Build, deploy, and manage ETL jobs using AWS Glue.
+- [AWS Amplify SDK for Python](https://docs.amplify.aws/guides/api-rest/python-api/q/platform/js/) - Build, deploy, and manage serverless applications using Python and AWS Amplify.
+- [AWS AppRunner SDK for Python](https://docs.aws.amazon.com/apprunner/latest/dg/service-source-code-python.html) - Build, deploy, and manage containerized applications with ease.
 
 
 ## 3rd-party Python
