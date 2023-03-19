@@ -18,6 +18,18 @@ Supercharge your app.
 - [AWS SDK for JavaScript](https://aws.amazon.com/sdk-for-javascript/) - Combine with Brython or Pyodide for front-end Python development.
 - [QLDB Python Driver](https://github.com/awslabs/amazon-qldb-driver-python) - A Python implementation of a driver for Amazon Quantum Ledger Database.
 - [AWS CloudWatch Embedded Metrics](awslabs/aws-embedded-metrics-python) - Amazon CloudWatch Embedded Metric Format Client Library.
+- [AWS SAM (Serverless Application Model)](https://github.com/aws/serverless-application-model) - A framework for building serverless applications with AWS Lambda and API Gateway, including support for local development and testing.
+- [AWS Batch](https://aws.amazon.com/batch/) - A service for running large-scale batch computing workloads, with the ability to scale automatically based on the demands of your application.
+- [AWS App Runner](https://aws.amazon.com/apprunner/) - A service that makes it easier for developers to build, deploy, and scale containerized applications quickly, with built-in support for continuous deployment.
+- [AWS Step Functions](https://aws.amazon.com/step-functions/) - A serverless workflow service that lets you coordinate distributed applications and microservices using visual workflows.
+- [AWS Greengrass](https://aws.amazon.com/greengrass/) - An IoT edge runtime and cloud service that helps you build, deploy, and manage device software and securely communicate with AWS IoT services.
+- [AWS Copilot CLI](https://github.com/aws/copilot-cli) - A command-line interface for launching and managing containerized applications on AWS.
+- [AWS CDK Pipelines](https://aws.amazon.com/cdk/pipelines/) - A library for defining multi-stage continuous deployment (CD) pipelines for applications built with the AWS Cloud Development Kit (CDK).
+- [AWS Fargate](https://aws.amazon.com/fargate/) - A serverless compute engine for containers that work with Amazon Elastic Container Service (ECS) and Amazon Elastic Kubernetes Service (EKS).
+- [AWS Glue](https://aws.amazon.com/glue/) - A fully managed extract, transform, and load (ETL) service that automates the discovery, cataloging, and transformation of data.
+- [AWS Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/) - A fully managed service that makes it easy to deploy, manage, and scale applications in multiple languages, including Python, Java, Node.js, and more.
+
+
 
 ## AWS Python SDKs
 Every SDK in one place.
