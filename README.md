@@ -1,4 +1,4 @@
-<img align="right" src="https://end4gy838edhwnq.m.pipedream.net"><a href="https://github.com/aws/chalice"><img src="chalice.png" height="20" align="right"></a><a href="https://github.com/sindresorhus/awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" align="right" height="20"></a><br/><br/>
+<a href="https://github.com/aws/chalice"><img src="chalice.png" height="20" align="right"></a><a href="https://github.com/sindresorhus/awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" align="right" height="20"></a><br/><br/>
 
 Unleash the full potential of serverless development with AWS Chalice - the premier Python library for building incredible applications with ease. With AWS Chalice, you can seamlessly manage your AWS accounts, create web apps with your favorite front-end tools, and serve as the backend for cross-platform desktop and mobile apps written in Qt for Python. Join our community today and discover the ultimate guide to AWS Chalice.
 
