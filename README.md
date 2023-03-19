@@ -24,7 +24,7 @@ Supercharge your app.
 - [AWS Step Functions](https://aws.amazon.com/step-functions/) - A serverless workflow service that lets you coordinate distributed applications and microservices using visual workflows.
 - [AWS Greengrass](https://aws.amazon.com/greengrass/) - An IoT edge runtime and cloud service that helps you build, deploy, and manage device software and securely communicate with AWS IoT services.
 - [AWS Copilot CLI](https://github.com/aws/copilot-cli) - A command-line interface for launching and managing containerized applications on AWS.
-- [AWS CDK Pipelines](https://aws.amazon.com/cdk/pipelines/) - A library for defining multi-stage continuous deployment (CD) pipelines for applications built with the AWS Cloud Development Kit (CDK).
+- [AWS CDK Pipelines](https://docs.aws.amazon.com/cdk/v2/guide/cdk_pipeline.html) - A library for defining multi-stage continuous deployment (CD) pipelines for applications built with the AWS Cloud Development Kit (CDK).
 - [AWS Fargate](https://aws.amazon.com/fargate/) - A serverless compute engine for containers that work with Amazon Elastic Container Service (ECS) and Amazon Elastic Kubernetes Service (EKS).
 - [AWS Glue](https://aws.amazon.com/glue/) - A fully managed extract, transform, and load (ETL) service that automates the discovery, cataloging, and transformation of data.
 - [AWS Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/) - A fully managed service that makes it easy to deploy, manage, and scale applications in multiple languages, including Python, Java, Node.js, and more.
