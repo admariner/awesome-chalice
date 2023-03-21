@@ -6,39 +6,37 @@ Unleash the full potential of serverless development with AWS Chalice - the prem
 
 Enhance your AWS Chalice app with these highly suitable AWS projects:
 
-1. [AWS Lambda Powertools](https://github.com/awslabs/aws-lambda-powertools-python): Utilities for AWS Lambda functions to adopt best practices, perfect for Chalice's serverless nature.
-2. [AWS Cloud Development Kit (CDK)](https://aws.amazon.com/cdk/): Seamlessly deploy Chalice apps with the CDK.
-3. [AWS Serverless Application Repository](https://serverlessrepo.aws.amazon.com/applications): Find and deploy serverless AWS applications, including Chalice apps.
-4. [AWS CloudWatch Embedded Metrics](https://github.com/awslabs/aws-embedded-metrics-python): CloudWatch Embedded Metric Format Client Library for monitoring Chalice applications.
-5. [DynamoDB Global Tables](https://aws.amazon.com/dynamodb/global-tables/): NoSQL database, easy to integrate with Chalice's serverless architecture.
-6. [AWS Step Functions](https://aws.amazon.com/step-functions/): Serverless workflow service for coordinating distributed Chalice applications.
-7. [Aurora Serverless Global Database 2](https://aws.amazon.com/rds/aurora/serverless/): OLTP database that can be leveraged by Chalice's serverless architecture.
-8. [AWS SAM (Serverless Application Model)](https://github.com/aws/serverless-application-model): Framework for building serverless applications, compatible with Chalice.
-9. [AWS Fargate](https://aws.amazon.com/fargate/): Serverless compute engine for containers, can be used in conjunction with Chalice.
-10. [AWS App Runner](https://aws.amazon.com/apprunner/): Build, deploy, and scale containerized applications quickly, including Chalice apps.
-11. [AWS Glue](https://aws.amazon.com/glue/): Fully managed extract, transform, and load (ETL) service that can be used with Chalice's serverless nature.
-12. [AWS SDK for JavaScript](https://aws.amazon.com/sdk-for-javascript/): Combine with Brython or Pyodide for front-end Python development in Chalice apps.
-
+- [AWS Lambda Powertools](https://github.com/awslabs/aws-lambda-powertools-python): Utilities for AWS Lambda functions to adopt best practices, perfect for Chalice's serverless nature.
+- [AWS Cloud Development Kit (CDK)](https://aws.amazon.com/cdk/): Seamlessly deploy Chalice apps with the CDK.
+- [AWS Serverless Application Repository](https://serverlessrepo.aws.amazon.com/applications): Find and deploy serverless AWS applications, including Chalice apps.
+- [AWS CloudWatch Embedded Metrics](https://github.com/awslabs/aws-embedded-metrics-python): CloudWatch Embedded Metric Format Client Library for monitoring Chalice applications.
+- [DynamoDB Global Tables](https://aws.amazon.com/dynamodb/global-tables/): NoSQL database, easy to integrate with Chalice's serverless architecture.
+- [AWS Step Functions](https://aws.amazon.com/step-functions/): Serverless workflow service for coordinating distributed Chalice applications.
+- [Aurora Serverless Global Database 2](https://aws.amazon.com/rds/aurora/serverless/): OLTP database that can be leveraged by Chalice's serverless architecture.
+- [AWS SAM (Serverless Application Model)](https://github.com/aws/serverless-application-model): Framework for building serverless applications, compatible with Chalice.
+- [AWS Fargate](https://aws.amazon.com/fargate/): Serverless compute engine for containers, can be used in conjunction with Chalice.
+- [AWS App Runner](https://aws.amazon.com/apprunner/): Build, deploy, and scale containerized applications quickly, including Chalice apps.
+- [AWS Glue](https://aws.amazon.com/glue/): Fully managed extract, transform, and load (ETL) service that can be used with Chalice's serverless nature.
+- [AWS SDK for JavaScript](https://aws.amazon.com/sdk-for-javascript/): Combine with Brython or Pyodide for front-end Python development in Chalice apps.
 
 ## AWS Python SDKs for Chalice
 
 These AWS Python SDKs can be integrated with AWS Chalice applications:
 
-1. [AWS SDK for Python (boto3)](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html) - See `aioboto3` for the async version.
-2. [AWS X-Ray SDK for Python](https://docs.aws.amazon.com/xray/latest/devguide/xray-sdk-python.html) - Add tracing to Chalice applications using `from aws_xray_sdk.core import patch_all;patch_all();`.
-3. [AWS IoT SDK for Python](https://github.com/aws/aws-iot-device-sdk-python-v2) - Enable Chalice applications to communicate via Kinesis Streams.
-4. [AWS Encryption SDK for Python](https://github.com/aws/aws-encryption-sdk-python/) - Encrypt data within your Chalice application logic.
-5. [AWS SageMaker SDK for Python](https://github.com/aws/sagemaker-python-sdk) - Train and deploy machine learning models from Chalice applications.
-6. [AWS Step Functions Data Science SDK for Python](https://github.com/aws/aws-step-functions-data-science-sdk-python) - Integrate managed AI/ML infrastructure with Chalice applications.
-7. [AWS DynamoDB Encryption SDK for Python](https://github.com/aws/aws-dynamodb-encryption-python) - Secure data before sending it to DynamoDB from Chalice applications.
-8. [AWS Transcribe Streaming SDK for Python](https://github.com/awslabs/amazon-transcribe-streaming-sdk) - Convert audio into text within Chalice applications.
-9. [AWS Data API SDK for Python](https://github.com/awslabs/aws-data-api-python-sdk) - Create an HTTP interface for your non-transactional data lake using Chalice.
-10. [AWS Greengrass SDK for Python](https://github.com/aws/aws-greengrass-core-sdk-python) - Develop AWS Lambda functions for Greengrass Core devices within Chalice applications.
-11. [AWS Glue SDK for Python](https://github.com/awslabs/aws-glue-libs) - Build, deploy, and manage ETL jobs using AWS Glue and Chalice.
-12. [AWS Amplify SDK for Python](https://docs.amplify.aws/guides/api-rest/python-api/q/platform/js/) - Build, deploy, and manage serverless Chalice applications using AWS Amplify.
-13. [AWS AppRunner SDK for Python](https://docs.aws.amazon.com/apprunner/latest/dg/service-source-code-python.html) - Build, deploy, and manage containerized Chalice applications with ease.
-
-
+- [AWS SDK for Python (boto3)](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html) - See `aioboto3` for the async version.
+- [AWS X-Ray SDK for Python](https://docs.aws.amazon.com/xray/latest/devguide/xray-sdk-python.html) - Add tracing to Chalice applications using `from aws_xray_sdk.core import patch_all;patch_all();`.
+- [AWS IoT SDK for Python](https://github.com/aws/aws-iot-device-sdk-python-v2) - Enable Chalice applications to communicate via Kinesis Streams.
+- [AWS Encryption SDK for Python](https://github.com/aws/aws-encryption-sdk-python/) - Encrypt data within your Chalice application logic.
+- [AWS SageMaker SDK for Python](https://github.com/aws/sagemaker-python-sdk) - Train and deploy machine learning models from Chalice applications.
+- [AWS Step Functions Data Science SDK for Python](https://github.com/aws/aws-step-functions-data-science-sdk-python) - Integrate managed AI/ML infrastructure with Chalice applications.
+- [AWS DynamoDB Encryption SDK for Python](https://github.com/aws/aws-dynamodb-encryption-python) - Secure data before sending it to DynamoDB from Chalice applications.
+- [AWS Transcribe Streaming SDK for Python](https://github.com/awslabs/amazon-transcribe-streaming-sdk) - Convert audio into text within Chalice applications.
+- [AWS Transcribe Streaming SDK for Python](https://github.com/awslabs/amazon-transcribe-streaming-sdk) - Convert audio into text within Chalice applications.
+- [AWS Data API SDK for Python](https://github.com/awslabs/aws-data-api-python-sdk) - Create an HTTP interface for your non-transactional data lake using Chalice.
+- [AWS Greengrass SDK for Python](https://github.com/aws/aws-greengrass-core-sdk-python) - Develop AWS Lambda functions for Greengrass Core devices within Chalice applications.
+- [AWS Glue SDK for Python](https://github.com/awslabs/aws-glue-libs) - Build, deploy, and manage ETL jobs using AWS Glue and Chalice.
+- [AWS Amplify SDK for Python](https://docs.amplify.aws/guides/api-rest/python-api/q/platform/js/) - Build, deploy, and manage serverless Chalice applications using AWS Amplify.
+- [AWS AppRunner SDK for Python](https://docs.aws.amazon.com/apprunner/latest/dg/service-source-code-python.html) - Build, deploy, and manage containerized Chalice applications with ease.
 
 ## 3rd-Party Python Libraries for Chalice
 
