@@ -81,7 +81,6 @@ These third-party Python libraries can be integrated with AWS Chalice applicatio
 - [Alembic](https://alembic.sqlalchemy.org/) - A lightweight database migration tool for SQLAlchemy, useful for managing database schema changes in Chalice applications.
 - [Elasticsearch-py](https://github.com/elastic/elasticsearch-py) - The official low-level Elasticsearch client for Python, enabling Chalice applications to interact with Elasticsearch clusters.
 - [Scrapy](https://scrapy.org/) - A powerful web scraping framework for Python, useful for extracting data from websites in Chalice applications.
-- [Pendulum](https://pendulum.eustace.io/) - A modern, easy-to-use date and time library for Python, providing an alternative to Arrow for Chalice applications.
 - [Psycopg2](https://www.psycopg.org/) - A PostgreSQL adapter for Python, allowing Chalice applications to interact with PostgreSQL databases.
 - [HTTPX](https://www.python-httpx.org/) - A fully featured HTTP client for Python, providing an alternative to Requests for making API requests in Chalice applications.
 
