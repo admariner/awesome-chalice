@@ -2,33 +2,22 @@
 
 Unleash the full potential of serverless development with AWS Chalice - the premier Python library for building incredible applications with ease. With AWS Chalice, you can seamlessly manage your AWS accounts, create web apps with your favorite front-end tools, and serve as the backend for cross-platform desktop and mobile apps written in Qt for Python. Join our community today and discover the ultimate guide to AWS Chalice.
 
-## AWS Projects
-Supercharge your app.
+# AWS Projects for Chalice
 
-- [AWS Data Wrangler](https://github.com/awslabs/aws-data-wrangler) - Pandas on AWS - Easy integration with Athena, Glue, Redshift, Timestream, QuickSight, Chime, CloudWatchLogs, DynamoDB, EMR, SecretManager, PostgreSQL, MySQL, SQLServer and S3 (Parquet, CSV, JSON and EXCEL).
-- [AWS AutoGluon](https://github.com/awslabs/autogluon) - Automate machine learning training and deployment.
-- [AWS Lambda Powertools](https://github.com/awslabs/aws-lambda-powertools-python) - A suite of utilities for AWS Lambda functions to ease adopting best practices such as tracing, structured logging, custom metrics async, parameters and secrets management, idempotency, and more.
-- [AWS Cloud Development Kit (CDK)](https://aws.amazon.com/cdk/) - The CDK can deploy Chalice apps, or Chalice can deploy CDK apps.
-- [AWS Solutions Constructs Patterns](https://aws.amazon.com/solutions/constructs/patterns/) - Architectural patterns for the CDK that can be chained together.
-- [AWS Serverless Application Repository](https://serverlessrepo.aws.amazon.com/applications) - Serverless AWS applications. 
-- [DynamoDB Global Tables](https://aws.amazon.com/dynamodb/global-tables/) - NoSQL database.
-- [Aurora Serverless Global Database 2](https://aws.amazon.com/rds/aurora/serverless/) - OLTP database.
-- [AWS Amplify](https://docs.amplify.aws/) - Front-end toolkit.
-- [Amazon Athena Federated Query](https://docs.aws.amazon.com/athena/latest/ug/connect-to-a-data-source.html) - Author pure lambda functions for ad-hoc datalakes.
-- [AWS SDK for JavaScript](https://aws.amazon.com/sdk-for-javascript/) - Combine with Brython or Pyodide for front-end Python development.
-- [QLDB Python Driver](https://github.com/awslabs/amazon-qldb-driver-python) - A Python implementation of a driver for Amazon Quantum Ledger Database.
-- [AWS CloudWatch Embedded Metrics](awslabs/aws-embedded-metrics-python) - Amazon CloudWatch Embedded Metric Format Client Library.
-- [AWS SAM (Serverless Application Model)](https://github.com/aws/serverless-application-model) - A framework for building serverless applications with AWS Lambda and API Gateway, including support for local development and testing.
-- [AWS Batch](https://aws.amazon.com/batch/) - A service for running large-scale batch computing workloads, with the ability to scale automatically based on the demands of your application.
-- [AWS App Runner](https://aws.amazon.com/apprunner/) - A service that makes it easier for developers to build, deploy, and scale containerized applications quickly, with built-in support for continuous deployment.
-- [AWS Step Functions](https://aws.amazon.com/step-functions/) - A serverless workflow service that lets you coordinate distributed applications and microservices using visual workflows.
-- [AWS Greengrass](https://aws.amazon.com/greengrass/) - An IoT edge runtime and cloud service that helps you build, deploy, and manage device software and securely communicate with AWS IoT services.
-- [AWS Copilot CLI](https://github.com/aws/copilot-cli) - A command-line interface for launching and managing containerized applications on AWS.
-- [AWS CDK Pipelines](https://docs.aws.amazon.com/cdk/v2/guide/cdk_pipeline.html) - A library for defining multi-stage continuous deployment (CD) pipelines for applications built with the AWS Cloud Development Kit (CDK).
-- [AWS Fargate](https://aws.amazon.com/fargate/) - A serverless compute engine for containers that work with Amazon Elastic Container Service (ECS) and Amazon Elastic Kubernetes Service (EKS).
-- [AWS Glue](https://aws.amazon.com/glue/) - A fully managed extract, transform, and load (ETL) service that automates the discovery, cataloging, and transformation of data.
-- [AWS Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/) - A fully managed service that makes it easy to deploy, manage, and scale applications in multiple languages, including Python, Java, Node.js, and more.
+Enhance your AWS Chalice app with these highly suitable AWS projects:
 
+1. [AWS Lambda Powertools](https://github.com/awslabs/aws-lambda-powertools-python): Utilities for AWS Lambda functions to adopt best practices, perfect for Chalice's serverless nature.
+2. [AWS Cloud Development Kit (CDK)](https://aws.amazon.com/cdk/): Seamlessly deploy Chalice apps with the CDK.
+3. [AWS Serverless Application Repository](https://serverlessrepo.aws.amazon.com/applications): Find and deploy serverless AWS applications, including Chalice apps.
+4. [AWS CloudWatch Embedded Metrics](https://github.com/awslabs/aws-embedded-metrics-python): CloudWatch Embedded Metric Format Client Library for monitoring Chalice applications.
+5. [DynamoDB Global Tables](https://aws.amazon.com/dynamodb/global-tables/): NoSQL database, easy to integrate with Chalice's serverless architecture.
+6. [AWS Step Functions](https://aws.amazon.com/step-functions/): Serverless workflow service for coordinating distributed Chalice applications.
+7. [Aurora Serverless Global Database 2](https://aws.amazon.com/rds/aurora/serverless/): OLTP database that can be leveraged by Chalice's serverless architecture.
+8. [AWS SAM (Serverless Application Model)](https://github.com/aws/serverless-application-model): Framework for building serverless applications, compatible with Chalice.
+9. [AWS Fargate](https://aws.amazon.com/fargate/): Serverless compute engine for containers, can be used in conjunction with Chalice.
+10. [AWS App Runner](https://aws.amazon.com/apprunner/): Build, deploy, and scale containerized applications quickly, including Chalice apps.
+11. [AWS Glue](https://aws.amazon.com/glue/): Fully managed extract, transform, and load (ETL) service that can be used with Chalice's serverless nature.
+12. [AWS SDK for JavaScript](https://aws.amazon.com/sdk-for-javascript/): Combine with Brython or Pyodide for front-end Python development in Chalice apps.
 
 
 ## AWS Python SDKs
