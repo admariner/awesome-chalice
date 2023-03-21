@@ -20,75 +20,72 @@ Enhance your AWS Chalice app with these highly suitable AWS projects:
 12. [AWS SDK for JavaScript](https://aws.amazon.com/sdk-for-javascript/): Combine with Brython or Pyodide for front-end Python development in Chalice apps.
 
 
-## AWS Python SDKs
-Every SDK in one place.
+## AWS Python SDKs for Chalice
 
-- [AWS SDK for Python (boto3)](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html) - See `aioboto3` for the async version.
-- [AWS X-Ray SDK for Python](https://docs.aws.amazon.com/xray/latest/devguide/xray-sdk-python.html) - Instrument with `from aws_xray_sdk.core import patch_all;patch_all();`.
-- [AWS IoT SDK for Python](https://github.com/aws/aws-iot-device-sdk-python-v2) - Can talk to Chalice via Kinesis Streams. 
-- [AWS C Common Runtime](https://github.com/awslabs/aws-c-common) - Use with the AWS CRT Python module.
-- [AWS Encryption SDK for Python](https://github.com/aws/aws-encryption-sdk-python/) - Hard encryption in your application logic.
-- [AWS SageMaker SDK for Python](https://github.com/aws/sagemaker-python-sdk) - Train and deploy machine learning models. Integrate with your EMR cluster.
-- [AWS Step Functions Data Science SDK for Python](https://github.com/aws/aws-step-functions-data-science-sdk-python) - Managed AI/ML infrastructure.
-- [AWS Braket SDK for Python](https://github.com/aws/amazon-braket-sdk-python) - Leverage D-Wave quantum computing devices.
-- [AWS DynamoDB Encryption SDK for Python](https://github.com/aws/aws-dynamodb-encryption-python) - Encrypt data before sending it to DynamoDB.
-- [AWS Transcribe Streaming SDK for Python](https://github.com/awslabs/amazon-transcribe-streaming-sdk) - Convert audio into text.
-- [AWS Data API SDK for Python](https://github.com/awslabs/aws-data-api-python-sdk) - HTTP interface to your non-transactional data lake, made with Chalice.
-- [AWS Config Rules Development Kit for Python](https://github.com/awslabs/aws-config-rdk) - The AWS Config Rules Development Kit helps developers set up, author and test custom Config rules. It contains scripts to enable AWS Config, create a Config rule and test it with sample ConfigurationItems.
-- [AWS Streamer SDK for Python](https://github.com/awslabs/aws-streamer) - A collection of video processing and streaming tools for the AWS platform.
-- [AWS Greengrass SDK for Python](https://github.com/aws/aws-greengrass-core-sdk-python) - Develop AWS Lambda functions to run on Greengrass Core devices.
-- [AWS Glue SDK for Python](https://github.com/awslabs/aws-glue-libs) - Build, deploy, and manage ETL jobs using AWS Glue.
-- [AWS Amplify SDK for Python](https://docs.amplify.aws/guides/api-rest/python-api/q/platform/js/) - Build, deploy, and manage serverless applications using Python and AWS Amplify.
-- [AWS AppRunner SDK for Python](https://docs.aws.amazon.com/apprunner/latest/dg/service-source-code-python.html) - Build, deploy, and manage containerized applications with ease.
+These AWS Python SDKs can be integrated with AWS Chalice applications:
+
+1. [AWS SDK for Python (boto3)](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html) - See `aioboto3` for the async version.
+2. [AWS X-Ray SDK for Python](https://docs.aws.amazon.com/xray/latest/devguide/xray-sdk-python.html) - Add tracing to Chalice applications using `from aws_xray_sdk.core import patch_all;patch_all();`.
+3. [AWS IoT SDK for Python](https://github.com/aws/aws-iot-device-sdk-python-v2) - Enable Chalice applications to communicate via Kinesis Streams.
+4. [AWS Encryption SDK for Python](https://github.com/aws/aws-encryption-sdk-python/) - Encrypt data within your Chalice application logic.
+5. [AWS SageMaker SDK for Python](https://github.com/aws/sagemaker-python-sdk) - Train and deploy machine learning models from Chalice applications.
+6. [AWS Step Functions Data Science SDK for Python](https://github.com/aws/aws-step-functions-data-science-sdk-python) - Integrate managed AI/ML infrastructure with Chalice applications.
+7. [AWS DynamoDB Encryption SDK for Python](https://github.com/aws/aws-dynamodb-encryption-python) - Secure data before sending it to DynamoDB from Chalice applications.
+8. [AWS Transcribe Streaming SDK for Python](https://github.com/awslabs/amazon-transcribe-streaming-sdk) - Convert audio into text within Chalice applications.
+9. [AWS Data API SDK for Python](https://github.com/awslabs/aws-data-api-python-sdk) - Create an HTTP interface for your non-transactional data lake using Chalice.
+10. [AWS Greengrass SDK for Python](https://github.com/aws/aws-greengrass-core-sdk-python) - Develop AWS Lambda functions for Greengrass Core devices within Chalice applications.
+11. [AWS Glue SDK for Python](https://github.com/awslabs/aws-glue-libs) - Build, deploy, and manage ETL jobs using AWS Glue and Chalice.
+12. [AWS Amplify SDK for Python](https://docs.amplify.aws/guides/api-rest/python-api/q/platform/js/) - Build, deploy, and manage serverless Chalice applications using AWS Amplify.
+13. [AWS AppRunner SDK for Python](https://docs.aws.amazon.com/apprunner/latest/dg/service-source-code-python.html) - Build, deploy, and manage containerized Chalice applications with ease.
 
 
-## 3rd-party Python
 
-- [Dask](https://dask.org/) - Disributed DataFrames built on Pandas
-- [3M Falcano](https://github.com/3mcloud/falcano) - DynamoDB ORM, allowing for single table designs. Successor to PynamoDB.
-- [S3Fs](https://s3fs.readthedocs.io/en/latest/) - Use S3 like a filesystem.
-- [PySide2](https://wiki.qt.io/Qt_for_Python) - Official Qt module for Python.
-- [Hy: A lisp written in Python](https://docs.hylang.org/en/master/tutorial.html) - A lisp that can you can use in your Python code, for FP.
-- [Toolz: A set of utility functions for iterators, functions, and dictionaries](https://github.com/pytoolz/toolz) - FP primitives.
-- [AWS Limit Checker](https://github.com/jantman/awslimitchecker) - Detect when you are about to run up against AWS limits.
-- [Click](https://click.palletsprojects.com/en/7.x/) - Create a CLI.
-- [Netflix Metaflow S3](https://github.com/Netflix/metaflow/blob/master/metaflow/datatools/s3.py) - Achieve 20 gigabit S3 throughput.
-- [Slack Bolt](https://github.com/slackapi/bolt-python) - Enable AWS ChatOps with Slack's built-in Chalice support.
-- [Troposphere](https://github.com/cloudtools/troposphere) - Write CloudFormation using Python.
-- [Scepter](https://github.com/Sceptre/sceptre) - CloudFormation deployment library.
-- [taskcat](https://github.com/aws-quickstart/taskcat) - CloudFormation testing library from AWS.
-- [PyCognito](https://github.com/pvizeli/pycognito) - Manage and use Cognito user pools.
-- [mrjob](https://github.com/Yelp/mrjob) - Run MapReduce jobs on your EMR cluster.
+## 3rd-Party Python Libraries for Chalice
 
-## 3rd-party Python (GPT-4)
+These third-party Python libraries can be integrated with AWS Chalice applications:
 
-- boto3, botocore, requests, jsonschema, pytz, python-dateutil, PyMySQL, psycopg2, SQLAlchemy, flask-sqlalchemy, redis, celery, moto, pytest, pytest-chalice, pytest-mock, pytest-cov, requests-mock, python-jose, cryptography, pyjwt, python-decouple, python-dotenv, marshmallow, attrs, pandas, numpy, openpyxl, xlsxwriter, beautifulsoup4, lxml, requests-html, aiohttp, gunicorn, Pillow, imageio, opencv-python, tensorflow, scikit-learn, nltk, spacy, gensim, pytorch, torchserve, Flask-Cors, flask-restful, flask-apispec, flask-jwt-extended, flask-login, flask-migrate, flask-marshmallow, flask-restplus, flask-socketio, flask-wtf, click, arrow, python-slugify, Werkzeug, urllib3, httplib2, google-auth, google-auth-httplib2, google-auth-oauthlib, google-api-python-client, pyasn1, pyasn1-modules, oauth2client, oauthlib, tornado, twisted, async-timeout, multidict, yarl, websockets, apscheduler, schedule, pika, kombu, elasticsearch, elasticsearch-dsl, loguru, python-json-logger, sentry-sdk, statsd, datadog, rollbar, pydantic, fastapi, starlette, uvicorn, falcon, cherrypy, bottle, alembic, pynamodb, pymongo, cassandra-driver, pygments, markdown, mistune, bleach, jinja2, mako, itsdangerous, wtforms, dominate, pybars3, pyyaml, toml, configparser, appdirs, packaging, setuptools, invoke, fabric, pyinvoke, paramiko, scp, s3transfer, python-magic, filetype, python-multipart, python-mimeparse, djangorestframework, cornice, connexion, raven, zerorpc, grpcio, grpcio-tools, protobuf, msgpack, dill, hjson, orjson, simplejson, pyrsistent, cffi, pyopenssl, xmltodict, defusedxml, suds-jurko, zeep, fire, typer, prompt_toolkit, cmd2, regex, unidecode, phonenumbers, pycountry, iso8601, furl, parsedatetime, tldextract, user-agents, geopy, geohash, polyline, folium, plotly, matplotlib, seaborn, bokeh, dash, dash-bootstrap-components, dash-core-components, dash-html-components, dash-renderer, dash-table, dash-daq, plotly_express, jmespath, aws-xray-sdk, aws-encryption-sdk, awscli, awsebcli, aws-sam-cli, aws-cdk, aws-cdk.core, aws-cdk.aws_lambda, aws-cdk.aws_lambda_event_sources, aws-cdk.aws_apigateway, aws-cdk.aws_dynamodb, aws-cdk.aws_s3, aws-cdk.aws_sqs, aws-cdk.aws_sns, aws-cdk.aws_stepfunctions, aws-cdk.aws_iam, aws-cdk.aws_secretsmanager, aws-cdk.aws_ecr, aws-cdk.aws_ecs, aws-cdk.aws_cloudwatch, aws-cdk.aws_logs, aws-cdk.aws_elasticache, aws-cdk.aws_rds, aws-cdk.aws_route53, aws-cdk.aws_cognito, aws-cdk.aws_appsync, aws-cdk.aws_s3_deployment, aws-cdk.aws_cloudfront, aws-cdk.aws_elasticsearch, aws-cdk.aws_events, aws-cdk.aws_events_targets, aws-cdk.aws_cloudformation, aws-cdk.aws_codepipeline, aws-cdk.aws_codepipeline_actions, aws-cdk.aws_codebuild, aws-cdk.aws_codecommit, aws-cdk.aws_codeguruprofiler, aws-cdk.aws_codestarnotifications, aws-cdk.aws_config, aws-cdk.aws_dms, aws-cdk.aws_docdb, aws-cdk.aws_ec2, aws-cdk.aws_ecr_assets, aws-cdk.aws_efs, aws-cdk.aws_elasticloadbalancing, aws-cdk.aws_elasticloadbalancingv2, aws-cdk.aws_glue, aws-cdk.aws_greengrass, aws-cdk.aws_guardduty, aws-cdk.aws_iam_actions, aws-cdk.aws_inspector, aws-cdk.aws_kinesis, aws-cdk.aws_kinesisfirehose, aws-cdk.aws_kms, aws-cdk.aws_logs_destinations, aws-cdk.aws_organizations, aws-cdk.aws_pinpoint, aws-cdk.aws_ram, aws-cdk.aws_redshift, aws-cdk.aws_route53resolver, aws-cdk.aws_s3_assets, aws-cdk.aws_sagemaker, aws-cdk.aws_servicediscovery, aws-cdk.aws_signer, aws-cdk.aws_sms, aws-cdk.aws_ssm, aws-cdk.aws_sso, aws-cdk.aws_transfer, aws-cdk.aws_waf, aws-cdk.aws_wafregional, aws-cdk.aws_wafv2, aws-cdk.aws_xray, aws-cdk.pipelines
-
-## 3rd-party Python (GPT-3.5)
-
-- [boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html): This is the official AWS SDK for Python, which allows you to interact with AWS services in a programmatic way.
-[requests](https://pypi.org/project/requests/): This is a popular library for making HTTP requests in Python. It can be used to make requests to external APIs, which can be useful when building serverless applications with AWS Chalice.
-- [jsonpickle](https://jsonpickle.github.io/): This library provides an easy way to convert Python objects to and from JSON. This can be useful when working with JSON data in AWS Lambda functions.
-- [PyJWT](https://pyjwt.readthedocs.io/en/stable/): This library allows you to encode and decode JSON Web Tokens (JWT) in Python. This can be useful for authentication and authorization in serverless applications built with AWS Chalice.
-- [Flask-Cors](https://flask-cors.readthedocs.io/en/latest/): This library is an extension for Flask that allows you to easily configure CORS headers for your API. This can be useful when building serverless applications that need to support cross-origin requests.
-- [PyYAML](https://pypi.org/project/PyYAML/): This library allows you to parse and work with YAML files in Python. This can be useful for loading configuration files for your serverless application built with AWS Chalice.
-- [Pandas](https://pandas.pydata.org/): This library provides fast, flexible, and expressive data structures designed to make working with “relational” or “labeled” data both easy and intuitive. It can be useful when working with data in AWS Lambda functions
-- [Loguru](https://github.com/Delgan/loguru): This library provides a simple and lightweight way to log messages in Python. It can be useful for debugging and troubleshooting issues in your serverless application built with AWS Chalice
-- [PyMySQL](https://pypi.org/project/PyMySQL/): This library is a pure-Python MySQL client library, which allows you to interact with a MySQL database from your Python code. This can be useful for connecting to a MySQL database in your serverless application built with AWS Chalice.
-- [Flask-RESTful](https://flask-restful.readthedocs.io/en/latest/): This library is an extension for Flask that makes it easy to build RESTful APIs with Flask. This can be useful when building serverless applications that expose an API.
-- [Pytest](https://pytest.org): This library is a popular testing framework for Python. It can be used to write unit tests for your serverless application built with AWS Chalice.
-- [Flask-SQLAlchemy](https://flask-sqlalchemy.palletsprojects.com/): This library is an extension for Flask that adds support for SQLAlchemy to your application. This can be useful when working with a relational database in your serverless application built with AWS Chalice.
-- [Flask-Uploads](https://pythonhosted.org/Flask-Uploads/): This library is an extension for Flask that provides flexible and efficient upload handling for Flask. This can be useful when building serverless applications that need to handle file uploads.
-- [pytz](https://pypi.org/project/pytz/): This library provides a library for using those timezones, and it's a dependency of many libraries, including dateutil and pytzdata. It can be useful when working with time and date in your serverless application built with AWS Chalice.
-- [PyMySQL](https://pypi.org/project/PyMySQL/): This library is a pure-Python MySQL client library, which allows you to interact with a MySQL database from your Python code. This can be useful for connecting to a MySQL database in your serverless application built with AWS Chalice.
-- [Flask-RESTful](https://flask-restful.readthedocs.io/en/latest/): This library is an extension for Flask that makes it easy to build RESTful APIs with Flask. This can be useful when building serverless applications that expose an API.
-- [Pytest](https://docs.pytest.org/en/7.2.x/): This library is a popular testing framework for Python. It can be used to write unit tests for your serverless application built with AWS Chalice.
-- [Flask-SQLAlchemy](https://flask-sqlalchemy.palletsprojects.com/en/3.0.x/): This library is an extension for Flask that adds support for SQLAlchemy to your application. This can be useful when working with a relational database in your serverless application built with AWS Chalice.
-- [Flask-Uploads](https://pythonhosted.org/Flask-Uploads/): This library is an extension for Flask that provides flexible and efficient upload handling for Flask. This can be useful when building serverless applications that need to handle file uploads.
-- [PyS3](https://pypi.org/project/pys3/): This library is a simple interface to Amazon S3 for Python. This can be useful for working with files and data stored on S3 in your serverless application built with AWS Chalice.
-- [DynamoDB-Geo](https://www.npmjs.com/package/dynamodb-geo): This library is a Python library for working with Amazon DynamoDB and geospatial data. This can be useful for building serverless applications that need to work with geospatial data stored in DynamoDB.
-- [PyVault](https://pypi.org/project/pyvault/): This library is a simple Python library for interacting with HashiCorp Vault. This can be useful for securely storing and accessing sensitive data in your serverless application built with AWS Chalice.
-- [PyAthena](https://pypi.org/project/pyathena/): This library is a simple Python library for interacting with Amazon Athena. This can be useful for running SQL queries on data stored in S3 in your serverless application built with AWS Chalice.
+- [Dask](https://dask.org/) - Distributed DataFrames built on Pandas for parallel processing.
+- [3M Falcano](https://github.com/3mcloud/falcano) - DynamoDB ORM for single table designs; a successor to PynamoDB.
+- [S3Fs](https://s3fs.readthedocs.io/en/latest/) - Use S3 as a filesystem in Chalice applications.
+- [Click](https://click.palletsprojects.com/en/7.x/) - Create CLI tools for Chalice applications.
+- [AWS Limit Checker](https://github.com/jantman/awslimitchecker) - Monitor AWS limits within Chalice applications.
+- [Slack Bolt](https://github.com/slackapi/bolt-python) - Implement ChatOps with Slack and Chalice.
+- [Troposphere](https://github.com/cloudtools/troposphere) - Write CloudFormation templates in Python for Chalice applications.
+- [Scepter](https://github.com/Sceptre/sceptre) - Deploy Chalice applications using CloudFormation.
+- [taskcat](https://github.com/aws-quickstart/taskcat) - Test Chalice applications with CloudFormation.
+- [PyCognito](https://github.com/pvizeli/pycognito) - Manage and use Cognito user pools in Chalice applications.
+- [mrjob](https://github.com/Yelp/mrjob) - Run MapReduce jobs on EMR clusters for Chalice applications.
+- [Locust](https://locust.io/) - Perform load testing on your Chalice applications.
+- [Flask-Migrate](https://github.com/miguelgrinberg/Flask-Migrate) - Handle database migrations in Chalice applications using Alembic.
+- [Sentry](https://sentry.io/for/python/) - Monitor and track errors in Chalice applications.
+- [AIOHTTP](https://docs.aiohttp.org/en/stable/) - Asynchronous HTTP client/server framework for Chalice applications.
+- [PyTest](https://docs.pytest.org/en/latest/) - Write and run tests for Chalice applications.
+- [Moto](https://github.com/spulec/moto) - Mock AWS services for testing Chalice applications.
+- [Marshmallow](https://marshmallow.readthedocs.io/en/stable/) - Serialize/deserialize complex data types for Chalice applications.
+- [APScheduler](https://apscheduler.readthedocs.io/en/stable/) - Schedule tasks in Chalice applications.
+- [Celery](https://docs.celeryproject.org/en/stable/index.html) - Run asynchronous tasks in Chalice applications with distributed message passing.
+- [Python-JOSE](https://github.com/mpdavis/python-jose) - Implement JSON Web Tokens (JWT) authentication in Chalice applications.
+- [HTTPX](https://www.python-httpx.org/) - A fully featured HTTP client for Chalice applications with connection pooling, request and response streaming, and support for async/await.
+- [Gunicorn](https://gunicorn.org/) - A Python WSGI HTTP server to run Chalice applications locally or for testing purposes.
+- [PyMySQL](https://github.com/PyMySQL/PyMySQL) - A MySQL database connector for Chalice applications.
+- [SQLAlchemy](https://www.sqlalchemy.org/) - A powerful and flexible Object Relational Mapper (ORM) to interact with various databases in Chalice applications.
+- [Redis-py](https://github.com/andymccurdy/redis-py) - A Redis client library for Chalice applications to interact with Redis data stores.
+- [Pendulum](https://pendulum.eustace.io/) - An improved datetime library to handle timezones, parsing, and formatting in Chalice applications.
+- [FastAPI](https://fastapi.tiangolo.com/) - A high-performance web framework for building APIs with Python, which can be used alongside Chalice.
+- [Loguru](https://github.com/Delgan/loguru) - A library that simplifies Python logging in Chalice applications with better defaults and an easy-to-use interface.
+- [Pydantic](https://pydantic-docs.helpmanual.io/) - Data validation and parsing library for Chalice applications using Python type annotations.
+- [Faker](https://faker.readthedocs.io/en/master/) - A library for generating fake data in Chalice applications, useful for testing and development.
+- [Django](https://www.djangoproject.com/) - A high-level Python web framework that can be integrated with Chalice for more advanced web application features.
+- [Flask](https://flask.palletsprojects.com/) - Another popular Python web framework that can be used alongside Chalice for building web applications.
+- [Jinja2](https://jinja.palletsprojects.com/) - A powerful templating engine for Python, useful for rendering HTML or other text-based formats in Chalice applications.
+- [Arrow](https://arrow.readthedocs.io/en/latest/) - A better date and time library for Python, simplifying date and time manipulations in Chalice applications.
+- [Requests](https://docs.python-requests.org/en/master/) - A popular HTTP library for making API requests in Chalice applications.
+- [Alembic](https://alembic.sqlalchemy.org/) - A lightweight database migration tool for SQLAlchemy, useful for managing database schema changes in Chalice applications.
+- [Elasticsearch-py](https://github.com/elastic/elasticsearch-py) - The official low-level Elasticsearch client for Python, enabling Chalice applications to interact with Elasticsearch clusters.
+- [Scrapy](https://scrapy.org/) - A powerful web scraping framework for Python, useful for extracting data from websites in Chalice applications.
+- [Pendulum](https://pendulum.eustace.io/) - A modern, easy-to-use date and time library for Python, providing an alternative to Arrow for Chalice applications.
+- [Psycopg2](https://www.psycopg.org/) - A PostgreSQL adapter for Python, allowing Chalice applications to interact with PostgreSQL databases.
+- [HTTPX](https://www.python-httpx.org/) - A fully featured HTTP client for Python, providing an alternative to Requests for making API requests in Chalice applications.
 
 ## Tooling
 Create diagrams, write code.
